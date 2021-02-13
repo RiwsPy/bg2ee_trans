@@ -1,0 +1,828 @@
+/*
+Nom : 6976
+Description : 16264
+*/
+
+// POTN46.ITM
+// @7105 = ~Potion de statue~
+@10091 = ~Quiconque boit cette potion a ensuite l'impression de se transformer en pierre. La couleur de la peau, la raideur, jusqu'à là la sensation du corps sont celles de la pierre.
+
+PARAMÈTRES :
+
+– Classe d'armure : 0
+– Jets de sauvegarde : +3
+– Dextérité : -3
+  Durée : 5 tours
+
+Poids : 1~
+
+// POTN31.ITM
+// @7056 = ~Potion d'isolation~
+@17866 = ~Cette potion confère à celui qui la boit une résistance de 50 % à tous les dégâts d'électricité durant 10 tours ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Résistance à l'électricité : +50 %
+  Durée : 10 tours
+
+Poids : 1~
+
+// ohbrew04.ITM
+// active sort OHBREW04, force +2, dex +2, CA +2
+// @100446 = ~[Faulty]Rivière Sinueuse~
+@100447 = ~Ce petit flacon contient de l'eau puisée dans la rivière qui coule sous le pont de Boreskyr, très loin, le long de la Côte des Épées, sur le site où Bhaal, ancien dieu du meurtre, a péri.
+
+Dennaton prétend que cette eau brûlera comme de l'acide tout disciple de Bhaal qui en serait aspergé.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN04.ITM
+// @6984 = ~Potion de force de géant du froid~
+@17663 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de mêlée ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 21
+  Durée : 10 tours
+
+Poids : 1~
+
+// OHBPTN05.ITM
+// @94811 = ~Poison de Gezzthemin~
+@94812 = ~Vous avez acheté ce poison au magicien elfe noir Gezzthemin pour l'utiliser contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~
+
+// OHBPTN08.ITM
+// @90971 = ~Vinaigre de vin~
+@90972 = ~On utilise ce vinaigre distillé pour élaborer des potions, des médicaments et des poisons.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN26.ITM
+@7051 = ~Potion explosive~
+@20579 = ~Cette potion, c'est de la souffrance en fiole. Elle se brise au moindre impact pour exploser en une boule de feu ardent. Il convient de la garder en sûreté, sous peine de connaître une fin prématurée.
+
+PARAMÈTRES :
+
+– Dégâts : 6d6 (feu)
+  Portée : 12 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Jet de sauvegarde : sorts, 1/2
+  Résistance à la magie : oui
+
+Poids : 1~
+
+// POTN24.ITM
+// @7050 = ~Potion de défense~
+@17863 = ~Cette potion a un effet semblable à celui d'une potion d'invulnérabilité, en ce sens qu'elle améliore la classe d'armure de celui qui l'avale pendant 10 tours.
+
+PARAMÈTRES :
+
+– Classe d'armure : 0
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTNMARE.ITM / POTN47.ITM
+@11835 = ~Antidote de Marek~
+@11834 = ~L'antidote de Marek doit pouvoir servir 10 fois. Plus puissante qu'un antidote normal, cette potion doit neutraliser les poisons les plus mortels.
+
+PARAMÈTRES :
+
+– Soigne du poison
+
+Poids : 1~
+
+// POTN52.ITM
+//@18893 = ~Potion de grands soins~
+@18896 = ~Prise d'une traite, cette potion restitue 27 points de vie. L'effet est instantané et la potion est détruite dans le processus.
+
+PARAMÈTRES :
+
+– Restaure 27 points de vie
+
+Poids : 1~
+
+// POTN55.ITM
+//@64945 = ~Potion de soin majeur~
+@64946 = ~Cette potion redonne 40 points de vie à celui qui la boit. L'effet est instantané et détruit la potion.
+
+PARAMÈTRES :
+
+– Restaure 40 points de vie
+
+Poids : 1~
+
+// POTN27.ITM
+//@7052 = ~Potion d'haleine ardente~
+@17952 = ~La potion d'haleine ardente doit être utilisée sur votre adversaire : elle transforme alors magiquement votre gorge de façon à vous faire cracher du feu, pour 6d10 de dégâts. La cible a droit à un jet de sauvegarde contre les souffles pour réduire les dégâts de moitié.
+
+PARAMÈTRES :
+
+– Dégâts : 6d10 (feu)
+  Portée : contact
+  Zone d'effet : 1 cible
+  Jet de sauvegarde : souffle, 1/2
+  Résistance à la magie : oui
+
+Poids : 1~
+
+// POTN34.ITM
+@7059 = ~Potion de résistance à la magie~
+@17869 = ~Cette potion offre une résistance de 50 % à toute la magie, immunité partielle qui peut opérer aussi bien à l'avantage qu'au détriment de qui la boit. L'effet dure 10 tours ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Résistance à la magie : +50 %
+  Durée : 10 tours
+
+Poids : 1~
+
+// OHBPTN07.ITM
+@92588 = ~Poison de Frère Ellraish~
+@92590 = ~Le Frère Ellraish vous a donné ce poison pour que vous l'utilisiez contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~
+
+// OHBPTN04.ITM
+// Force 19 pendant 40 secondes
+//@91200 = ~Bière de cérémonie~
+@91201 = ~Vous avez acquis cette excellente bière auprès de Molzahn, le petit-homme prêtre de Tymora.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN43.ITM
+//@7102 = ~Potion de perspicacité~
+@17874 = ~Celui qui la boit aura l'impression d'être d'une sagesse infinie et aura toutes sortes d'intuitions. Sa sagesse passera à 18 durant près de 6 heures, ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Sagesse : 18
+  Durée : 30 tours
+
+Poids : 1~
+
+// POTN45.ITM
+//@7104 = ~Potion de liberté~
+@17951 = ~Cette potion, une fois bue, agit de la même façon que le sort d'action libre. Celui qui la boit devient immunisé à tout effet susceptible de gêner sa liberté d'action ou de mouvement, qu'il soit de nature magique ou non. Sa durée est de 10 tours.
+
+PARAMÈTRES :
+
+– Action libre
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN20.ITM
+//@7029 = ~Antidote~
+@17860 = ~Comme son nom l'indique, cette potion neutralise tout poison dont celui qui la boit pourrait subir les effets. La purification est instantanée, et la potion ne sert qu'une seule fois.
+
+PARAMÈTRES :
+
+– Soigne du poison
+
+Poids : 1~
+
+// ohntank.ITM
+//@88869 = ~Chope de <CHARNAME>~
+@88870  = ~Cette belle chope en étain épouse étonnamment bien la forme de votre main - ou peut-être pas si étonnamment, car c'est la vôtre. Le nom « <CHARNAME> » y a été gravé en gros caractères angulaires. Vous ressentez une étrange force vous traverser lorsque vous la tenez, non sans rappeler la brève euphorie qui précède souvent d'un long sommeil agité, un jour d'abattement encore plus long. La chope est un cadeau de Mironda, la magicienne entropiste naine, amatrice de bière.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Restaure 2d8 points de vie, trois fois par jour
+
+Poids : 3~
+
+// POTN11.ITM
+//@6998 = ~Potion d'invulnérabilité~
+@17854 = ~La potion confère une très grande résistance à toutes les attaques et donne un bonus à tous les jets de sauvegarde. Ses effets durent 5 tours, mais elle n'est utilisable que par les combattants.
+
+PARAMÈTRES :
+
+– Classe d'armure : 0
+– Jets de sauvegarde : +5
+  Durée : 5 tours
+
+Poids : 1~
+
+// POTN13.ITM
+//@7006 = ~Huile de feux ardents~
+@17855 = ~Au contact de l'air, cette huile s'enflamme aussitôt, infligeant 5d6 points de dégâts (jet de sauvegarde contre les souffles pour moitié) à tout ce qui se trouve dans la zone d'effet. On peut la jeter à une distance maximale de 12 mètres, sur quoi elle heurte le sol et explose en une boule de feu.
+
+PARAMÈTRES :
+
+– Dégâts : 5d6 (feu)
+  Portée : 12 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Jet de sauvegarde : souffle, 1/2
+  Résistance à la magie : oui
+
+Poids : 1~
+
+// POTN36.ITM
+@7061 = ~Potion du maître voleur~
+@17870 = ~Cette potion transforme celui qui la boit en maître voleur. Les talents affectés sont le vol à la tire et le crochetage de serrures, qui se voient améliorés de manière très significative, et ce, durant 3 heures. Toutefois, seuls les bardes et les voleurs peuvent en bénéficier.
+
+PARAMÈTRES :
+
+– Crochetage : +40 %
+– Vol à la tire : +40 %
+  Durée : 21 tours
+
+Poids : 1~
+
+// POTN23.ITM
+// Débilité mentale pendant 5 tours, sans JS
+//@7008 = ~Huile de rapidité~
+@11270 = ~Cette huile étrangement trouble semble augmenter de 100 % les capacités de déplacement et de combat de celui qui la boit. Ainsi, un déplacement de 9 passe à 18, et une personne qui normalement peut attaquer une fois par round attaque deux fois. Les temps d'incantation n'en sont cependant pas affectés. Cette mixture agit pendant une heure.
+
+PARAMÈTRES :
+
+– Hâte
+  Durée : 5 tours
+
+Poids : 1~
+
+// POTN25.ITM
+// Ébriété +100
+//@6990 = ~Potion de soins~
+@11332 = ~Absorbée en entier, cette potion opaque permet de rendre 9 points de vie à la personne qui la boit. L'effet est instantané, et la potion est à usage unique.
+
+PARAMÈTRES :
+
+– Restaure 9 points de vie
+
+Poids : 1~
+
+// POTN41.ITM
+//@13708 = ~Potion de pouvoir~
+@20361 = ~Ce puissant élixir est similaire à la potion d'héroïsme, dans le sens où il augmente le niveau de celui qui la boit. L'accroissement affecte les points de vie, le TAC0 et les talents de voleur, mais ne modifie pas le multiplicateur des dégâts d'attaque sournoise. Cet effet est appliqué aux caractéristiques de base, avant action de tout modificateur.
+
+PARAMÈTRES :
+
+– TAC0 : passe à 80 % du score de base
+– Points de vie : +20 %
+– Se cacher dans l'ombre : +20 %
+– Vol à la tire : +20 %
+– Crochetage : +20 %
+– Détection des pièges : +20 %
+  Durée : 4 tours
+
+Poids : 1~
+
+// PTION41.ITM
+// @13708 = ~Potion de pouvoir~
+
+// POTN35.ITM
+@7060 = ~Potion de résistance à la magie~
+@17868 = ~Ce puissant élixir donne au buveur une résistance de 50 % à n'importe quel type de dégâts magiques. Ses effets durent 3 tours, ce qui le rend un peu plus utile au combat que dans d'autres situations.
+
+PARAMÈTRES :
+
+– Résistance feu/froid/acide/électricité/dégâts magiques : +50 %
+– Jets de sauvegarde : +20
+  Durée : 3 tours
+
+Poids : 1~
+
+// MISC76.ITM
+// antidote
+//@17300 = ~La potion des rêves~
+//@16265 = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.
+
+//Poids : 0~
+
+// MISC9Y.ITM
+//@50861 = ~Potion salée~
+@873    = ~Une potion contenant de l'eau dans laquelle de jeunes illithids ont grandi. Elle octroie une immunité temporaire aux attaques psioniques.
+
+PARAMÈTRES :
+
+– Immunité aux attaques psioniques
+  Durée  : 1 tour
+
+Poids : 2~
+
+// MISC61.ITM
+//@15597 = ~Bouteille de vin~
+@17268 = ~L'étiquette, qui porte l'inscription "Marsembre Rouge - Cuvée Fine", décrit ce vin comme une "alliance fruitée d'arômes d'épices et de fleurs". Les vignes de Marsembre sont réputées pour leurs raisins bien fermes qui tirent leur saveur de l'air salin de la Mer des Étoiles Déchues.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN10.ITM
+@6993 = ~Potion d'invisibilité~
+@17852 = ~Cette potion confère une invisibilité similaire au sort profane de deuxième niveau. Toute action de combat brise l'enchantement. Tant que l'on ne se bat pas, la potion dure pendant 12 heures.
+
+PARAMÈTRES :
+
+– Invisibilité
+  Durée : 60 tours
+
+Poids : 1~
+
+// POTN02.ITM
+//@6977 = ~Potion de résistance au feu~
+@17660 = ~Cette potion confère à celui qui la boit une résistance de 50 % à tous les dégâts d'électricité durant 10 tours ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Résistance au feu : +50 %
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN06.ITM
+//@6986 = ~Potion de force de géant des nuages~
+@17665 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de contact ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 23
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN05.ITM
+//@6985 = ~Potion de force de géant du feu~
+@17664 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de contact ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 22
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN18.ITM
+//@7015 = ~Potion d'absorption ~
+@17858 = ~Cette potion, une fois bue, a pour effet d'absorber les attaques. Les attaques contondantes sont amorties, et seules les plus puissantes affectent celui qui boit cette potion, qui bénéficie également d'une immunité complète aux attaques à l'électricité durant toute la durée de l'effet, celle-ci étant de 10 tours. 
+
+PARAMÈTRES :
+
+– Classe d'armure : +10 face aux attaques contondantes
+– Résistance à l'électricité : +100 %
+  Durée : 10 tours
+
+Poids : 1~
+
+// OHBPTN03.ITM
+//@90967 = ~Poison du Distillateur~
+//@90968 = ~Cette fiole contient un poison fortement toxique que le Distillateur a créé pour que vous l'utilisiez sur Joker.
+
+//PARAMÈTRES :
+
+//Poids : 0~
+
+// BAZPLO04.ITM
+//@72131 = ~Potion de respiration~
+@72132 = ~Cette potion permet de retenir sa respiration beaucoup plus longtemps que la normale. Il y en a suffisamment pour une seule dose, ce qui devrait vous permettre de traverser le plus long tunnel immergé.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN15.ITM
+//@17983 = ~Potion rouge~
+@17984 = ~Cette potion est l'un des élixirs les plus bizarres qui soient, et certains sorciers en rêvent, à ce qu'il paraît. Celui qui la boit devient la personne la plus faible et la moins sage qui soit, mais aussi la plus intelligente à avoir jamais vécu. Elle octroie également 50 % de résistance aux dégâts magiques. Ses effets durent 24 heures, aussi convient-il de bien réfléchir avant de déboucher la fiole.
+
+PARAMÈTRES :
+
+– Intelligence : 25
+– Sagesse : 3
+– Force : 3
+– Résistance aux dégâts magiques : +50 %
+  Durée : 120 tours
+
+Poids : 1~
+
+// BTEST1.ITM
+// effet non conforme
+//@6998 = ~Potion d'invulnérabilité~
+/*@20729 = ~Cette potion permet de gagner une forte résistance contre toutes les attaques et d'acquérir des bonus à chaque jet de sauvegarde. Les effets de l'élixir durent 5 tours, mais ne peuvent servir qu'aux guerriers. Ce liquide est d'une apparence trouble et ne ressemble en rien aux autres potions.
+
+PARAMÈTRES :
+
+Classe d'Armure : fixée à 0
+Jets de sauvegarde : bonus de +5
+
+Poids : 1~*/
+
+// OHBPTN01.ITM
+@90961 = ~Potion de peau d'écorce~
+@90962 = ~Cette potion produit le même effet que le sort dont elle tire son nom.
+
+PARAMÈTRES :
+
+– Classe d'armure : 3
+– Jet de sauvegarde contre la mort : +1
+– Jet de sauvegarde contre les baguettes : +1
+– Jet de sauvegarde contre la métamorphose : +1
+– Jet de sauvegarde contre le souffle : +1
+  Durée : 16 rounds
+
+Poids : 1~
+
+// OHBPTN10.ITM
+//@101141 = ~Mort aux rats~
+@103048 = ~Ce flacon de liquide brun sale sent les pommes pourries. Seul un rat serait assez stupide pour boire ce truc.
+
+PARAMÈTRES :
+
+Poids : 0~
+
+// POTN32.ITM
+// Lenteur pendant 2 tours
+//@7029 = ~Antidote~
+@11333 = ~Comme son nom l'indique, cette potion neutralise tout poison, dont la personne qui la boit subit les effets. Cette purification est instantanée, et la potion est à usage unique. Elle a pourtant une bien étrange couleur.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN39.ITM
+//@7067 = ~Potion de perception~
+@17872 = ~Cette potion affine les sens de celui qui la boit et lui permet ainsi de mieux effectuer certaines tâches délicates. Elle accroît les chances de succès de certains talents de voleur. Seuls les voleurs peuvent profiter des effets de cette potion.
+
+PARAMÈTRES :
+
+– Détection des pièges : +20 %
+– Vol à la tire : +20 %
+– Crochetage : +20 %
+– Déplacement silencieux : +20 %
+  Durée : 30 tours
+
+Poids : 1~
+
+// POTN56.ITM
+@71145 = ~Potion de force de géant du froid~
+@70296 = ~Cette potion ne peut être utilisée que par les voleurs ou les bardes. Lorsqu'elle est bue, elle confère la force (et les bonus associés) d'un géant du froid pour l'utilisation d'armes de lancer ou de contact. Son effet dure 2 heures.
+
+PARAMÈTRES :
+
+– Force : 21
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN22.ITM
+//@7047 = ~Potion de résistance au froid~
+@17862 = ~Cette potion confère à celui qui la boit une résistance de 50 % à toute attaque au froid tant que dure l'enchantement, soit 2 heures.
+
+PARAMÈTRES :
+
+– Résistance au froid : +50 %
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN33.ITM
+@7058 = ~Potion de blocage de la magie~
+@17867 = ~Ce puissant élixir confère au buveur une immunité totale aux effets des sorts de 5ème niveau et inférieurs. En même temps, tous les effets des sorts de 5ème niveau et moins affectant le buveur sont annulés. Cette immunité ne dure cependant que 5 rounds, aussi faut-il bien choisir son moment.
+
+PARAMÈTRES :
+
+– Dissipation de la magie
+– Protection contre les sorts des niveaux 1 à 5
+  Durée : 5 rounds
+
+Poids : 1~
+
+// TTPOT.ITM
+// Potion de soin
+//@30674 = ~Mais pourquoi les Voleurs de l'Ombre en avaient-ils après l'un des mages ?~
+//@30675 = ~Très bien. Je dois y aller, merci.~
+
+// PROX01.ITM
+// piège à crâne 7d6 magiques
+//@22730 = ~Bombe de proximité~
+//@22738 = ~C'est une bombe de proximité~
+
+// ohbptn11.ITM
+//@101638 = ~Soupe de myconide~
+@101639 = ~(placeholder) Description de la soupe de myconide
+
+PARAMÈTRES :
+
+– Restaure 9 points de vie
+– Dextérité : +1
+  Durée : 15 rounds
+
+Poids : 1~
+
+// POTN07.ITM
+//@6989 = ~Potion de force de géant des tempêtes~
+@17666 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de contact ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 24
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN40.ITM
+// Mort par pétrification
+//@6998 = ~Potion d'invulnérabilité~
+@20729 = ~Cette potion permet de gagner une forte résistance contre toutes les attaques et d'acquérir des bonus à chaque jet de sauvegarde. Les effets de l'élixir durent 5 tours, mais ne peuvent servir qu'aux guerriers. Ce liquide est d'une apparence trouble et ne ressemble en rien aux autres potions.
+
+PARAMÈTRES :
+
+– Classe d'armure : 0
+– Jets de sauvegarde : +5
+  Durée : 5 tours
+
+Poids : 1~
+
+// POTN21.ITM
+//@7046 = ~Potion de clarté~
+@17861 = ~Cette potion redonne à celui qui la boit la santé mentale dont le chaos et la folie avaient pu le priver. Dès qu'elle est bue, le porteur se sent empli de calme et sérénité, ce qui le met à l'abri de l'influence de sorts de débilité mentale, de confusion, de terreur et de charme. Cette sensation dure jusqu'à la fin de l'action de la potion ou dissipation.
+
+PARAMÈTRES :
+
+– Dissipe et protège contre les effets de débilité mentale, confusion, terreur et charme
+  Durée : 5 tours
+
+Poids : 1~
+
+// MISC97.ITM
+//@22236 = ~Bière Baalor de De'Tranion~
+/*@22234  = ~Bière Baalor de De'Tranion, brassée avec des piments pour lui donner un peu plus de piquant.
+
+Poids : 8~*/
+
+// POTN12.ITM
+@7005 = ~Potion de force de géant des pierres~
+@17853 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de contact ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 20
+  Durée : 10 tours
+
+Poids : 1~
+
+// PTION2N.ITM
+//@7100 = ~Potion de pouvoir, guerrier~
+
+// MISC1A.ITM
+//@15597 = ~Bouteille de vin~
+@20901 = ~On a fait ce vin en plaçant dans le pressoir ces raisins étrangement brillants, puis en déclenchant la machine. En le respirant profondément, des souvenirs d'amours perdus vous reviennent et vos yeux s'emplissent de larmes.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+// POTN14.ITM
+@7008 = ~Huile de rapidité~
+@17856 = ~Cette huile double les capacités de déplacement et de combat de celui qui la boit. Un déplacement de 9 passe à 18, et un personnage qui peut normalement porter une attaque par round en porte deux. Cependant, ceci ne réduit en rien le temps d'incantation des sorts. Cet effet dure 5 tours.
+
+PARAMÈTRES :
+
+– Hâte
+  Durée : 5 tours
+
+Poids : 1~
+
+// POTN37.ITM
+@7062 = ~Potion de focalisation mentale~
+@17871 = ~Cette potion confère à celui qui la boit une concentration infaillible pendant 12 heures.
+
+PARAMÈTRES :
+
+– Intelligence : +3
+– Dextérité : +3
+  Durée : 60 tours
+
+Poids : 1~
+
+// OHBPTN06.ITM
+//@92448 = ~Poison de Feldrak~
+/*@92449 = ~Feldrak « Le Démon » Feldraki a créé ce poison pour l'utiliser contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~*/
+
+// POTN19.ITM
+//@7016 = ~Potion d'agilité~
+@17859 = ~Cette potion porte la dextérité de celui qui la boit à 18. Les ajustements de classe d'armure et d'attaque par armes à projectiles s'appliquent tant que dure cet effet, soit 15 tours.
+
+PARAMÈTRES :
+
+– Dextérité : 18
+  Durée : 15 tours
+
+Poids : 1~
+
+// PTION2M.ITM
+//@7099 = ~Potion de pouvoir, roublard~
+
+// POTN03.ITM
+//@6981 = ~Potion de force de géant des collines~
+@17661 = ~Cette potion n'est utilisable que par les combattants. Quiconque boit une potion de force de géant acquiert une force surhumaine et des bonus de toucher et de dégâts quand il utilise une arme de contact ou de jet. L'effet de la potion dure 10 tours.
+
+PARAMÈTRES :
+
+– Force : 19
+  Durée : 10 tours
+
+Poids : 1~
+
+// POTN30.ITM
+//@7055 = ~Potion d'infravision~
+@17865 = ~Cette potion donne à celui qui la boit la capacité de voir dans l'infrarouge jusqu'à 36 mètres (capacité baptisée infravision) durant 20 tours ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Infravision
+  Durée : 20 tours
+
+Poids : 1~
+
+// POTN08.ITM / IPOTN08.ITM
+//@6990 = ~Potion de soins~
+@17667 = ~Entièrement bue, cette potion restaure 9 points de vie. L'effet est instantané et la potion est détruite dans le processus.
+
+PARAMÈTRES :
+
+– Restaure 9 points de vie
+
+Poids : 1~
+
+// POTN42.ITM
+//@7101 = ~Potion de régénération~
+@17873 = ~C'est un puissant élixir qui accorde à celui qui le prend une régénération similaire à celle d'un troll, refermant ses blessures sous ses yeux. L'effet, qui dure 3 tours, permet de régénérer 2 points de vie par round.
+
+PARAMÈTRES :
+
+– Régénération : 1 point de vie / 3 secondes
+  Durée : 3 tours
+
+Poids : 1~
+
+// POTN38.ITM
+@7063 = ~Potion de rétrovision~
+@17977 = ~Cette potion protège celui qui la boit de toutes les formes de pétrification, y compris celles qui résultent d'une attaque de regard, pendant 10 rounds ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Immunité contre la pétrification
+  Durée : 1 tour
+
+Poids : 1~
+
+// PTION2K.ITM
+//@7097 = ~Potion de pouvoir, magicien~
+
+// POTN28.ITM
+@7053 = ~Potion de résistance mentale~
+@17953 = ~L'énergie de cette potion envahit littéralement le corps de celui qui la boit et porte sa constitution à 18 durant 15 tours. Cet accroissement octroie tous les bonus afférents à la caractéristique, notamment en points de vie.
+
+PARAMÈTRES :
+
+– Constitution : 18
+  Durée : 15 tours
+
+Poids : 1~
+
+// POTN48.ITM
+// constitution -1, empoisonnement 1 pv/round pendant 1 tour
+//@16630 = ~Fiole de liquide mystérieux~
+@17662 = ~Cette potion contient une étrange substance verte similaire au résidu que vous avez vu dans certains des wagonnets de mine. Le liquide paraît légèrement décolorer le fer lorsqu'il entre en contact avec celui-ci, et sans doute joue-t-il un rôle dans le mystérieux "fléau" qui rend friables les armes et les outils forgés. Les kobolds que vous avez tués ont dû souiller tout le minerai qui quittait la mine, même s'il est peu probable qu'ils aient eux-mêmes échafaudé un tel plan.
+
+PARAMÈTRES :
+
+Poids : 0~
+
+// POTN29.ITM
+//@7054 = ~Potion de génie~
+@17864 = ~Comme son nom l'indique, cette potion accroît l'intelligence de celui qui la boit de 4 points jusqu'à un score maximum de 25. L'effet dure 15 tours, s'il n'est pas dissipé avant.
+
+PARAMÈTRES :
+
+– Intelligence : +4
+  Durée : 15 tours
+
+Poids : 1~
+
+// POTN17.ITM
+//@7011 = ~Élixir de santé~
+@17857 = ~L'Élixir de santé est une puissante mixture faite pour purifier le corps de toute impureté. Elle soigne de tous les poisons, puis quand le corps est purgé, le bénéficiaire est soigné de 10 points de vie pour récupérer plus vite.
+
+PARAMÈTRES :
+
+– Soigne du poison, de la maladie, de la débilité mentale et de l'ébriété
+– Restaure 10 points de vie
+
+Poids : 1~
+
+// POTN44.ITM
+//@7103 = ~Potion de force~
+@17875 = ~Cette potion confère à celui qui la boit un tel surcroît d'énergie que ses muscles semblent gonfler par magie. L'effet porte la force de l'individu affecté à 18 durant 20 tours ou jusqu'à dissipation.
+
+PARAMÈTRES :
+
+– Force : 18
+  Durée : 20 tours
+
+Poids : 1~
+
+// POTN09.ITM
+//@6994 = ~Potion d'héroïsme~
+@17845 = ~Cette potion, puissamment enchantée, simule une augmentation temporaire du niveau. L'effet dure 2 heures, ce qui fait d'elle un atout considérable lors d'un combat à mort. Elle n'est utilisable que par les combattants.
+
+PARAMÈTRES :
+
+– Points de vie : +10 %
+– TAC0 : passe à 90 % du score de base
+Durée : 10 tours
+
+Poids : 1~
+
+// MISC98.ITM
+//@21994 = ~Sang de l'ami de Quallo~
+@22011 = ~Les mots suivants sont gravés sur ce gobelet maudit : "Goûtez ma peur". On dit que le sang noir qui s'y trouve permet de recouvrer la santé, mais au prix d'effets secondaires : celui qui boit ce sang portera en lui la peur qu'il renferme. Cet effet disparaît au bout de 12 heures ou lorsque le sort est dissipé.
+
+PARAMÈTRES :
+
+– Restaure toute la santé
+– Fuit au premier signe de danger
+  Durée : 60 tours
+
+Poids : 2~
+
+// WAND16.ITM
+@60885 = ~Potion de poussière de glace~
+@60886 = ~Une pluie de fines épingles de glace entoure le buveur de cette potion, recouvrant le sol d'un manteau de givre qui protège toute la zone contre le feu. Cette potion a été créée pour contrer les effets de la Boule de feu et autres sorts similaires.
+
+PARAMÈTRES :
+ 
+– Toutes les créatures dans la zone sont immunisées au feu
+  Portée : 30 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Jet de sauvegarde : aucun
+  Résistance à la magie : oui
+  Durée : 1 round
+
+Poids : 1~
+
+// OHBPTN09.ITM
+//@91257 = ~Alcool distillé~
+/*@91258 = ~On utilise de l'alcool pur lors de cérémonies religieuses, de beuveries de fin de soirée, et pour fabriquer des poisons. Et parfois, ces trois occasions ne font qu'une...
+
+PARAMÈTRES :
+
+Poids : 1~*/
+
+// ohdpotn1.ITM
+@94468 = ~Potion de clairvoyance~
+@94469 = ~Une fois bue, cette potion confère la capacité de voir l'invisible similaire au sort de magicien de niveau 2 Détection de l'invisibilité, mais ses effets durent 10 minutes.
+
+PARAMÈTRES :
+
+– Dissipation de l'invisibilité
+– Vision véritable
+  Durée : 1 tour
+
+Poids : 1~
+
+// POTN16.ITM
+//@17986 = ~Potion violette~
+@17991 = ~L'une des potions les plus curieuses des Royaumes. Celui qui la boit voit ses muscles prendre des proportions inhumaines, ou, pour être précis, titanesques, et sa dextérité comme sa constitution se réduire à celles d'une limace... voire moins. Cet effet dure 24 heures, aussi faut-il réfléchir avant de consommer un tel élixir.
+
+PARAMÈTRES :
+
+– Force : 25
+– Dextérité : 3
+– Constitution : 3
+  Durée : 120 tours
+
+Poids : 1~
+
+// ohnpotn1.ITM
+//@93614 = ~Potion de dragon vert~
+@93615 = ~Cet étrange breuvage a été concocté par Zaviak, un magicien entropiste et un alchimiste, qui a, peut-être, un peu trop expérimenté son produit. Zaviak a expliqué que la potion rendrait son buveur « vraiment fort », mais a négligé de mentionner un certain nombre d'effets secondaires, au mieux amusants, au pire carrément atroces, comme la conscience totale et inéluctable de son existence en tant que grain de poussière insignifiant dans l'immensité du multivers. Zaviak a de vrais problèmes, mec.
+
+PARAMÈTRES :
+
+– Force : 25
+– Intelligence : 3
+– Constitution : 3
+– Lenteur
+  Durée : 120 tours
+
+Poids : 1~
