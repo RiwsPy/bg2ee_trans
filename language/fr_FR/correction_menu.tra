@@ -6,8 +6,8 @@
 @12001 = ~Ceinture~
 
 @12135 = ~Sexe~
-@12136 = ~Race~
-@15982  = ~Ennemi juré~
+@12136 = ~Classe~
+@15982 = ~Ennemi juré~
 @19721 = ~Multiclassé~
 @19722 = ~Classes jumelées~
 
@@ -15,7 +15,12 @@
 @17407  = ~Résistance au feu~
 @17415  = ~Résistance à l'acide~
 @17416  = ~Résistance au froid~
+@17417  = ~Résistance au feu/froid~
 @17418  = ~Résistance à l'électricité~
 @17419  = ~Protection contre la magie~
 @17420  = ~Protection contre les morts-vivants~
 @17421  = ~Résistance au poison~
+@9462   = ~Détection des pièges~
+
+@16308  = ~Journal~
+@16309  = ~Livre de mage~

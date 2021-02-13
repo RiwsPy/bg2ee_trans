@@ -176,7 +176,7 @@ CAPACITÉS :
 COUP ÉTOURDISSANT :
 Toutes les attaques réussies au cours du round suivant obligent la victime à réussir un jet de sauvegarde contre les sorts sous peine d'être assommée. Remarque : ce talent spécial modifie automatiquement l'attaque normale d'un moine, sans avoir besoin de viser une cible.
 
-– Niveau 5 : Immunité à la maladie, la hâte et le ralentissement
+– Niveau 5 : Immunité à la maladie, la hâte et au ralentissement
 – Niveau 7 : Accès à la capacité 'Imposition des mains' pour se guérir de 2 points de vie par niveau
 – Niveau 8 : Bonus de -1 au facteur de vitesse
 – Niveau 9 : Bonus de 1 aux jets de sauvegarde et immunité au charme
@@ -525,24 +525,6 @@ Inconvénients :
 
 Caractéristiques requises pour le jumelage : Force, Dextérité, Charisme.~
 
-@74304 = ~DISCIPLE DU DRAGON :
-Les Disciples du dragon sont de puissants ensorceleurs qui possèdent un ancêtre dragon parmi leur ascendance. Leur affinité naturelle avec la magie fait ressortir cet héritage draconique, et leur permet de lancer de puissants sortilèges tout en développant des capacités similaires à celles des dragons.
-
-Avantages :
-– Dés de vie : d6
-– Bonus de 1 à la classe d'armure
-– Niveau 3 : Accès à la capacité 'Attaque de souffle' une fois par jour
-
-ATTAQUE DE SOUFFLE :
-Le personnage crache une flamme qui mesure 7,5 mètres de longueur. Le souffle inflige 3d8 points de dégâts de feu à toutes les créatures prises dans un cône de 140 degrés. La flamme inflige 1d8 points de dégâts de feu supplémentaires au niveau 6 et tous les 3 niveaux par la suite, jusqu'à un maximum de 8d8 au niveau 18.
-
-– Niveaux 4, 8, 12 et 16 : 25 % de résistance au feu
-– Niveaux 5 et 15 : Bonus de 1 à la classe d'armure et à la Constitution
-– Niveaux 10 et 20 : Bonus de 1 à la classe d'armure
-
-Inconvénients :
-– Lance un sort de moins par niveau et par jour que l'ensorceleur.~
-
 @9559  = ~CLERC :
 Le clerc est un prêtre générique (de toutes les mythologies) qui guide les besoins spirituels d'une communauté. Il est à la fois un protecteur et un guérisseur. Cependant, il n'est pas purement défensif. Lorsqu'une créature maléfique se fait menaçante, le clerc est parfaitement armé pour la rechercher sur son propre terrain et la détruire. Il en va de même pour un clerc maléfique.
 
@@ -708,9 +690,9 @@ CAPACITÉS :
 – Ne peut être que compétent (*) dans le maniement des armes
 – Ne peut être que compétent (*) dans les styles de combat
 – Peut lancer des sorts divins
-– Au niveau 7, il peut changer de forme en loup, en ours noir ou en ours brun une fois par jour
-– Au niveau 15, il devient immunisé au poison
-– Au niveau 18, 21 et 24, il gagne 10 % de résistance au feu, au froid, à l'électricité et à l'acide
+– Niveau 7 : Métamorphose en loup, en ours noir ou en ours brun une fois par jour
+– Niveau 15 : Immunité au poison
+– Niveau 18, 21 et 24 : Bonus de 10 % de résistance au feu, au froid, à l'électricité et à l'acide
 – Doit être d'alignement neutre-strict
 – Dés de vie : d8 jusqu'au niveau 9, puis 2 / niveau
 – Score de connaissance : +1 / niveau
@@ -789,6 +771,134 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 – Dés de vie : d8
 – Score de connaissance : +1 / niveau
 – Score de TAC0 : +2 / 3 niveaux~
+
+@45866  = ~ENSORCELEUR :
+Les ensorceleurs pratiquent la magie et sont nés avec le don de lancer des sorts. On pense que le sang d'une puissante créature coule dans leurs veines. Ils sont peut-être des rejetons des dieux eux-mêmes, voire des dragons ayant pris forme humaine. Néanmoins, la magie des ensorceleurs est plus intuitive que logique. Ils connaissent moins de sorts que les magiciens et les apprennent plus lentement, mais ils peuvent en lancer plus souvent et n'ont pas besoin de sélectionner et de préparer des sorts à l'avance. Les ensorceleurs ne peuvent pas se spécialiser comme les magiciens. En dehors de ces différences, un ensorceleur est très proche d'un magicien.
+
+CAPACITÉS :
+
+– Ne peut porter d'armure plus lourde que la robe
+– Ne peut utiliser que les armes suivantes : dague, bâton, fléchette et fronde
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut placer de point de compétence dans les styles de combat
+– Peut lancer des sorts profanes
+– Les ensorceleurs ne retranscrivent pas leurs sorts dans un grimoire comme le font les magiciens. À la place, ils apprennent un petit nombre de sorts à chaque niveau qu'ils peuvent lancer sans avoir besoin de les mémoriser
+– Dés de vie : d4
+– Score de connaissance : +3 / niveau
+– Score de TAC0 : +1 / 3 niveaux~
+
+@74304 = ~DISCIPLE DU DRAGON :
+Les Disciples du dragon sont de puissants ensorceleurs qui possèdent un ancêtre dragon parmi leur ascendance. Leur affinité naturelle avec la magie fait ressortir cet héritage draconique, et leur permet de lancer de puissants sortilèges tout en développant des capacités similaires à celles des dragons.
+
+Avantages :
+– Dés de vie : d6
+– Bonus de 1 à la classe d'armure
+– Niveau 3 : Accès à la capacité 'Attaque de souffle' une fois par jour
+
+ATTAQUE DE SOUFFLE :
+Le personnage crache une flamme qui mesure 7,5 mètres de longueur. Le souffle inflige 3d8 points de dégâts de feu à toutes les créatures prises dans un cône de 140 degrés. La flamme inflige 1d8 points de dégâts de feu supplémentaires au niveau 6 et tous les 3 niveaux par la suite, jusqu'à un maximum de 8d8 au niveau 18.
+
+– Niveaux 4, 8, 12 et 16 : Bonus de 25 % de résistance au feu
+– Niveaux 5 et 15 : Bonus de 1 à la classe d'armure et à la Constitution
+– Niveaux 10 et 20 : Bonus de 1 à la classe d'armure
+
+Inconvénient :
+– Lance un sort de moins par niveau et par jour que l'ensorceleur.~
+
+@9563   = ~MAGE :
+Le magicien s'efforce de maîtriser les énergies magiques en leur donnant forme et en lançant les sorts qu'il a ainsi créés. Pour y parvenir, il étudie des langues étranges, ainsi que des faits obscurs, et consacre une grande partie de son temps à des recherches dans le domaine de la magie. Pour survivre, les magiciens doivent faire appel à leurs connaissances et à leur intelligence. On les voit rarement s'aventurer sans une escorte de guerriers et d'hommes en armes. De même qu'il existe plusieurs types (ou écoles) de magie, il existe différents types de magiciens. Le mage étudie tous les types de magie et apprend une grande variété de sorts. Grâce à l'étendue de son savoir, il répond parfaitement aux exigences de l'aventure.
+
+CAPACITÉS :
+
+– Ne peut porter d'armure plus lourde que la robe
+– Ne peut utiliser que les armes suivantes : dague, bâton, fléchette et fronde
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut placer de point de compétence dans les styles de combat
+– Peut lancer des sorts profanes
+– Dés de vie : d4
+– Score de connaissance : +3 / niveau
+– Score de TAC0 : +1 / 3 niveaux
+
+Caractéristique requise pour le jumelage : Intelligence.~
+@9564   = ~ABJURATEUR :
+Mage spécialisé dans la magie protectrice.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de la Transmutation~
+@9565   = ~CONJURATEUR :
+Mage spécialisé dans la création de créatures et d'objets qui lui sont utiles.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de la Divination~
+@9566   = ~DEVIN :
+Mage spécialisé dans la magie de détection et de divination.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de la Conjuration~
+@9567   = ~ENCHANTEUR :
+Mage spécialisé dans la manipulation de l'esprit des êtres sensibles.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de l'Invocation~
+@9568   = ~ILLUSIONISTE :
+Mage spécialisé dans la création d'illusions pour embrouiller et induire en erreur les autres.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de la Nécromancie~
+@9569   = ~INVOCATEUR :
+Mage spécialisé dans la manipulation des énergies brutes et élémentaires.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts des écoles de l'Enchantement~
+@9570   = ~NÉCROMANCIEN :
+Mage spécialisé dans la magie liée à la mort.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de l'Illusion~
+@9571   = ~TRANSMUTATEUR :
+Mage spécialisé dans la magie qui altère la réalité physique.
+
+Avantage :
+– Un sort supplémentaire par niveau
+
+Inconvénient :
+– Ne peut apprendre les sorts de l'école de l'Abjuration~
+@54892  = ~ENTROPISTE :
+La magie entropique est un nouveau type de magie caractérisée par de puissants et dangereux sursauts de magie imprévisible. Généralement considérée comme une conséquence malheureuse du Temps des Troubles, la magie entropique a récemment commencé à attirer l'attention de nombreux curieux ou mages érudits.
+Les entropistes sont des mages qui se spécialisent dans l'étude de l'entropie. Ils ont accès à des sorts leur permettent de se protéger de la magie entropique et de la façonner selon leur volonté. La magie entropique est très imprévisible et devrait être utilisée avec prudence.
+
+Avantages :
+– Peut mémoriser un sort supplémentaire par niveau
+– Accès au sort de niveau 1 : 'Rupture hasardeuse de Nahal' (doit être sélectionné parmi les sorts connus au niveau 1)
+– Accès au sort de niveau 2 : 'Bouclier du chaos' (déjà inscrit dans le grimoire)
+– Accès au sort de niveau 7 : 'Bouclier majeur du chaos' (déjà inscrit dans le grimoire)
+– Lorsqu'il lance un sort, le niveau de lanceur de sorts de l'entropiste varie entre +5 et -5 niveaux par rapport à son niveau effectif
+– Chaque fois qu'il lance un sort, il y a 5 % de chances d'engendrer un hiatus entropique
+
+HIATUS ENTROPIQUE :
+Un hiatus entropique génère un effet complètement aléatoire à la place des effets du sort initialement lancé. Cet effet peut tout aussi bien être au détriment de l'entropiste que lui être bénéfique.~
+
 
 
 

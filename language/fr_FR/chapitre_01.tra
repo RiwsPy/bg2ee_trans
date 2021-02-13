@@ -265,8 +265,8 @@ Il s'agit de l'arme de Sarevok, frère de <CHARNAME>, qui fut utilisée dans la 
 PARAMÈTRES :
 
 Capacités de combat :
- Dégâts : +1 (tranchant)
- Soigne le porteur de 1 point de vie
+– Dégâts : +1 (tranchant)
+– Soigne le porteur de 1 point de vie
 
 Dégâts : 1d10 +2 (tranchant)
 TAC0 : +2
@@ -280,3 +280,5 @@ Nécessite :
 
 @2854   = ~Ainsi, enfant divin, tu t'en es sorti. Tu as plus de ressources que je ne le pensais.~ [DPJON133]
 @2857   = ~Tortures ? Pauvre idiote, tu n'as pas vraiment compris ce que je faisais, n'est-ce pas ?~ [DPJON134]
+@4379   = ~Ce mage est extrêmement puissant, nous devons le maîtriser rapidement.~ [CSCO703A]
+@59774  = ~Tu m'ennuies mage insignifiant ! Tu me prendras peut-être, mais la fille viendra avec moi !~ [DPJON131]
