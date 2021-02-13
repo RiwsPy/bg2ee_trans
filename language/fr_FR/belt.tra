@@ -1,0 +1,138 @@
+// ceinturons nom 6465, description 6466
+
+@7588   = ~Ceinturon de force de géant des collines~
+@39637  = ~Ceinturon de force de géant des collines
+Cette ceinture d'aspect ordinaire rend son porteur aussi fort qu'un géant des collines, sans modifier sa taille. Nombreux sont les guerriers arrogants qui ont été surpris par un adversaire bien plus petit doué d'une force surprenante. Le plus souvent, la raison en est un ceinturon de ce type.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : 19
+
+Poids : 2~
+
+@7589   = ~Ceinturon de force de géant des pierres~
+@39638  = ~Ceinturon de force de géant des pierres
+Alors qu'il était encore enfant, Stewart Elttil fut emporté par un groupe de kobolds qui avait massacré les siens. Cependant, les kobolds sur le chemin du retour tombèrent sur une famille de géants des pierres. Ces géants sauvèrent Stewart et l'élevèrent comme un de leurs enfants. Il devint bientôt clair que le garçon, malgré tous ses efforts, ne pourrait pas prendre part aux concours familiaux de lancer de rochers. Son père d'adoption marchanda alors avec un sorcier local pour obtenir ce ceinturon, qui rendit Stewart aussi fort que ses frères et soeurs. Après la mort prématurée de Stewart, le ceinturon fut dérobé.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : 20
+
+Poids : 2~
+
+@7590   = ~Ceinturon de force de géant du froid~
+@39639  = ~Ceinturon de force de géant du froid
+Cette ceinture est en fait une tresse réalisée avec des poils de barbe d'un géant du froid. Quand elle est portée, elle augmente considérablement la force de son porteur, le rendant aussi fort qu'un géant du froid.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : 21
+
+Poids : 2~
+
+@65053  = ~Ceinturon de force de géant du feu~
+@66454  = ~Ceinturon de force de géant du feu
+Cette ceinture est faite des poils de barbe tressés d'un géant du feu. Celui qui la porte voit sa force augmenter.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : 22
+
+Poids : 2~
+
+@7591   = ~Ceinturon de résistance~
+@39640  = ~Ceinturon de résistance
+Ce ceinturon augmente considérablement la Constitution de son porteur. Le roi Violos s'en servit pour mener une expédition contre des trolls des marais. Il avait été gravement malade l'hiver précédent et n'avait pas retrouvé sa santé passée. La ceinture lui permit de prolonger sa vie de plusieurs années et rendit à ses hommes leur confiance en leur roi.
+
+PARAMÈTRES :
+
+Capacité spéciale (une fois par jour) :
+– Constitution : 18 (40 tours)
+
+Poids : 2~
+
+@7592   = ~Ceinturon de barrière inertielle~
+@39641  = ~Ceinturon de barrière inertielle
+Quand on la porte, cette ceinture crée un rideau d'air solidifié autour de son porteur. Ce rideau, ou cette barrière, offre une protection très efficace contre les souffles et la magie. D'après les traces de brûlures sur le cuir usé de la ceinture, il paraît certain qu'elle a servi au moins une fois contre un dragon.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Jet de sauvegarde contre le souffle : +5
+– Résistance aux dégâts de projectiles : +25 %
+– Résistance aux dégâts magiques : +50 %
+
+Poids : 2~
+
+@6786   = ~Ceinturon doré~
+@7391  = ~Le ceinturon doré d'Urnst
+Créé pour protéger un puissant magicien contre des guerriers malveillants, ce vêtement magique est fait de soie rouge parsemée de paillettes dorées. Enchanté, il assure la protection contre les épées de tous types. Il n'est cependant pas efficace contre les autres armes.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Classe d'armure : +3 contre les armes tranchantes
+
+Poids : 2~
+
+@7393  = ~Le ceinturon perceur : Le fléau des elfes
+Bandit de grands chemins à ses heures, Pandar de Valbalafre se fit une réputation en importunant les elfes de la forêt de Cormanthor. À leur grand mécontentement, il s'enfuyait dans les bois pour échapper à la loi, son ceinturon le protégeant également contre leurs flèches. Malheureusement, les pièges et la faim se révélèrent plus lents, mais plus efficaces que les flèches.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Classe d'armure : +3 contre les armes perforantes et projectiles
+
+Poids : 2~
+
+@7394  = ~Le ceinturon de franchise : Destructeur des collines
+Après avoir perdu ses amis et ceux qu'il chérissait dans une série de raids lancés par les géants des collines, Garrar le Puissant entreprit de libérer son pays natal de leur présence. On ignore où il se procura cet objet, mais il lui permit de tuer des dizaines de ces créatures, protégé en permanence de leurs gourdins. Les géants qui survécurent s'enfuirent dans les pays voisins... ces pays ne possédaient aucun champion de cette classe et ne s'en tirèrent pas aussi bien.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Classe d'armure : +4 contre les armes contondantes
+
+Poids : 2~
+
+@17230 = ~Le ceinturon d'hermaphrodite
+Cette ceinture, un objet maudit des plus rares, mais un fréquent sujet de discussion, contient une magie puissante. Quiconque a le malheur de s'en ceindre change aussitôt de sexe. On raconte qu'il y a cinquante ans, un bouffon anonyme fut décapité pour en avoir offert une à la maîtresse du duc Lobelahn.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Change le sexe du porteur
+– Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Poids : 2~
+
+@82031  = ~Ceinture de queue de bœuf
+Cette ceinture effilochée a été tressée avec une queue de bœuf empaillé. Si vous ne parviendrez jamais à comprendre pourquoi quelqu'un s'est amusé à créer un objet aussi laid, vous vous doutez qu'elle pourrait bénéficier de quelques enchantements magiques. En dépit de la risée qu'elle suscite lorsqu'on la porte, elle semble réduire considérablement les chances d'être touché par des projectiles.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +4 contre les projectiles
+– Charisme : -2
+
+Poids : 2~
+
+@81764  = ~Ceinture d'invulnérabilité mineure~
+@82032  = ~Ceinture d'invulnérabilité mineure
+Portée, cette ceinture provoque de la nervosité, des tremblements et une transpiration abondante. Ces effets sont temporaires et disparaissent lorsqu'on la retire. Les origines de cet objet ont été perdues au fil des siècles, et l'on ne peut que supposer qu'il était destiné à faire une méchante blague.
+
+PARAMÈTRES :
+
+Capacité de combat :
+– Chaque fois que le porteur est touché, il a 6 % de chances de bénéficier d'un Globe mineur d'invulnérabilité pendant 7 rounds
+
+Capacité de charge :
+– Globe mineur d'invulnérabilité une fois par jour
+  Spécial : l'utilisateur est invulnérable aux sorts de niveau 1 à 3
+  Durée : 2 tours
+
+Poids : 2~

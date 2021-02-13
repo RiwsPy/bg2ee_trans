@@ -1,0 +1,271 @@
+// WAND03
+@6689   = ~Baguette de projectile magique~
+@17652  = ~Baguette de projectile magique
+Une fois activée, la baguette crache un projectile d'énergie magique qui file toucher automatiquement sa cible, y compris un ennemi engagé dans un combat au corps à corps. La créature doit être vue, ou au moins détectable, si bien qu'une couverture presque totale, telle celle qu'offre une archère, peut rendre le projectile inopérant. Celui-ci inflige 1d4+1 points de dégâts à la créature qu'il frappe.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Projectile magique
+  Dégâts : 1d4 +1 (magique)
+  Portée : 30 mètres
+  Zone d'effet : 1 cible
+  Jet de sauvegarde : aucun
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND05
+@17654  = ~Baguette de feu
+La baguette émet une boule de feu qui file jusqu'à un point prédéterminé et explose (la portée maximale est de 14 mètres). L'effet est celui du sort boule de feu. Elle inflige 6d5 +6 points de dégâts. La réussite d'un jet de sauvegarde contre les baguettes réduit de moitié les dégâts subis par la ou les victime(s). Le second pouvoir de cet objet est similaire au sort "Incinérateur d'Agannazar", en ce sens qu'une colonne de feu tombe sur la victime et lui inflige 6d6+6 points de dégâts, réduits de moitié par la réussite d'un jet de sauvegarde contre les baguettes. 
+
+PARAMÈTRES :
+
+Capacités de charge :
+– Boule de feu
+  Dégâts : 6d5 +6 (feu)
+  Portée : 14 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Jet de sauvegarde : Baguettes, 1/2
+  Résistance à la magie : oui
+
+– Incinérateur d'Agannazar
+  Dégâts : 6d6 +6 (feu)
+  Portée : 12 mètres
+  Zone d'effet : 1 cible
+  Jet de sauvegarde : baguettes, 1/2
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND06
+@17655  = ~Baguette de givre
+Une colonne de paillettes d'un blanc cristallin est envoyée avec une force fulgurante vers la victime, l'atteignant de plein fouet à la poitrine. Il fait à l'intérieur de la colonne une température mortelle qui inflige 8d6 points de dégâts, réduits de moitié par un jet de sauvegarde réussi contre les baguettes.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Cône de froid
+  Dégâts : 8d6 (froid)
+  Portée : 30 mètres
+  Zone d'effet : cône de 90° sur 5,5 mètres
+  Jet de sauvegarde : baguettes, 1/2
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND07
+@17656  = ~Baguette de foudre
+Quiconque porte cette baguette peut lancer un éclair. Si celui-ci traverse une créature, il inflige à celle-ci 3d6 points de dégâts, réduits de moitié par un jet de sauvegarde réussi contre les baguettes. L'éclair poursuit sa course et "rebondit" jusqu'à ce qu'il atteigne sa longueur maximale.
+
+PARAMETRES :
+
+Capacité de charge :
+– Éclair :
+  Dégâts : 3d6 (électrique)
+  Portée : 14 mètres
+  Zone d'effet : spéciale
+  Jet de sauvegarde : baguettes, 1/2
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND10
+@19034  = ~Baguette de convocation de monstres
+Cette baguette convoque 12 DV de monstres qui apparaissent dans la zone d'effet et attaquent les ennemis de l'utilisateur. Ces monstres restent là jusqu'à l'expiration du sort ou jusqu'à ce qu'ils soient tués. Ils ne tirent pas de test de moral, et disparaissent quand ils sont tués. S'ils n'ont pas d'adversaire à combattre et que l'utilisateur peut communiquer avec eux, ils peuvent lui rendre d'autres services.
+
+PARAMETRES :
+
+Capacité de charge :
+– Convocation de monstres :
+  Portée : 4,5 mètres
+  Durée : 2 tours
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+@17708  = ~Baguette de nuage mortel~
+
+// WAND13
+@17709  = ~Baguette de nuage mortel
+Cette baguette émet une bulle de vapeur qui file vers sa cible et explose en un nuage de gaz mortel qui remplit une zone de 4 mètres de rayon environ. Ce nuage tue instantanément toute créature de 4 DV ou moins sans JS. Toute créature de 5 ou 6 DV a droit à un JS pour ne pas mourir. Les créatures de plus de 6 DV prennent 1-10 de dégâts à chaque round dans le nuage. Il se dissipe au bout d'environ un tour.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Nuage mortel
+  Dégâts : 1d10 (poison) par round
+  Spécial : Tue les créatures avec 1-4 DV ; toute créature avec 5-6 DV doit réussir un JS contre la mort (à -4) ou mourir
+  Portée : 18 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Durée : 1 tour
+  Jet de sauvegarde : partiel
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND01
+@17287  = ~Baguette d'effroi
+Une baguette d'effroi instille la terreur en toute créature se trouvant dans sa zone d'effet. Le résultat n'est pas garanti cependant, les plus courageux y résistant. A l'instar de toutes ses pareilles, elle ne sert qu'un certain nombre de fois avant d'être détruite.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Horreur
+  Portée : 18 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Durée : 100 secondes
+  Jet de sauvegarde : sorts (+2), annule
+  Résistance à la magie : oui
+
+Nécessite : 
+  9 en Intelligence
+
+Poids : 1~
+
+@6690   = ~Baguette d'étourdissement~
+
+// WAND04
+@17653  = ~Baguette d'étourdissement
+Une fois activée, la baguette émet un fin rayon bleuté long de 30 mètres au maximum. La créature frappée par ce rayon doit réussir un jet de sauvegarde contre les baguettes, sous peine d'être étourdie pendant 10 rounds.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Étourdissement
+  Portée : 30 mètres
+  Zone d'effet : 1 cible
+  Durée : 1 tour
+  Jet de sauvegarde : baguettes (-4), annule
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+//@6692   = ~Baguette de sommeil~ ?
+
+// WAND08
+@17657  = ~Baguette de sommeil
+La baguette émet un rayon doré qui porte au maximum à 25 mètres. Les créatures visées doivent réussir un jet de sauvegarde contre les baguettes sous peine de sombrer dans un sommeil comateux durant 2 tours. 
+
+PARAMETRES :
+
+Capacité de charge :
+– Inconscience
+  Portée : 25 mètres
+  Zone d'effet : rayon de 4,5 mètres (ennemis seulement)
+  Durée : 2 tours
+  Jet de sauvegarde : baguettes, annule
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND09
+@17658  = ~Baguette de métamorphose
+La baguette émet un fin rayon vert qui se dirige vers sa cible. Toute créature touchée par ce rayon doit réussir un jet de sauvegarde contre les baguettes, sous peine d'être métamorphosée en écureuil.
+
+PARAMETRES :
+
+Capacité de charge :
+– Métamorphose en écureuil
+  Portée : 1,5 mètres
+  Zone d'effet : 1 cible
+  Durée : jusqu'à dissipation
+  Jet de sauvegarde : baguettes, annule
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+// WAND11
+@19043  = ~Baguette des cieux
+Lorsque l'utilisateur active la baguette, une colonne de feu s'abat du ciel sur la cible choisie, qui subit 8d5 +8 points de dégâts, réduits de moitié par un jet de sauvegarde contre les baguettes réussi. L'objet n'a qu'un nombre de charges limité. Il se détruit automatiquement lorsque celles-ci sont épuisées.
+
+PARAMETRES :
+
+Capacité de charge :
+– Colonne de feu
+  Dégâts : 8d5 +8 (feu)
+  Portée : 30 mètres
+  Zone d'effet : 1 cible
+  Jet de sauvegarde : baguettes, 1/2
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+@39616  = ~Bâtonnet merveilleux
+Seuls ceux qui ont le démon du jeu osent utiliser cet objet au combat ; parmi ceux-ci figurent des aventuriers de légende tels que Layusmal, Amilton, Edgar ou encore Elvin, le magicien Elfe noir... Son activation est au mieux imprévisible, au pire suicidaire. Le fantaisiste mage Malimak avait créé ce bâtonnet pour l'offrir à un rival, plus comme un canular que dans l'intention de lui faire du mal. On ne connaît pas la réaction du destinataire, mais peu après, Malimak partit s'installer dans une autre ville. Cette objet est à utiliser avec précaution, ou pas du tout.
+
+PARAMETRES :
+
+Capacité de charge :
+– Effet aléatoire
+  Portée : 30 mètres
+  Zone d'effet : 1 cible
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+@37830  = ~Baguette de l'apprenti~
+
+@3023   = ~Baguette de l'apprenti
+Cette baguette a été créée pour <CHARNAME> par ses apprentis. Elle peut lancer au hasard trois sortilèges, chacune d'une source élémentaire différente. Elle semble disposer de 50 charges.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Effet aléatoire entre Boule de feu, Cône de froid, et Éclair
+  Portée : 13 mètres
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~
+
+@1000001 = ~Baguette de toile~
+@1000002 = ~Baguette de toile
+Cette baguette recouvre la zone ciblée de toile d'araignée pendant 1 tour. A chaque round toutes les créatures présentes dans la zone doivent réussir leur jet de sauvegarde ou être immobilisée pendant celui-ci.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Toile d'araignée
+  Durée : 1 tour
+  Portée : 18 mètres
+  Zone d'effet : rayon de 4,5 mètres
+  Jet de sauvegarde : sorts (-5), annule
+  Résistance à la magie : oui
+
+Nécessite :
+ 9 en Intelligence
+
+Poids : 1~

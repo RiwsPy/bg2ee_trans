@@ -1,0 +1,84 @@
+
+
+@34727  = ~Un ogre avec une voix de femme a demandé à avoir cette épée, en affirmant que cela briserait l'illusion qui l'accable.
+
+PARAMÈTRES :
+
+Dégâts : 2d4 (tranchant)
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 
+  3 en Force~
+@20187  = ~Épée de l'ogre~
+@20190  = ~Épée de l'ogre~
+
+// Kalah
+@2272 = ~Ah, ma bête, tu les as menés ici comme il faut...~[KALAH02] 
+@2275 = ~Tu n'es pas quoi ? Tu n'es pas ma bête ? Oh, mais tu l'es, vous l'êtes tous, ne vois-tu pas ?~[KALAH08] 
+
+@18761 = ~Bravo, mon ami ! En vérité, je doutais que tu survives pour me rencontrer. Bienvenue dans mon domaine, mais, à mon grand regret, mon hospitalité se terminera par votre mort à tous. À l'attaque, mes ombres ! Si ce sont des idiots, mes autres bêtes en viendront à bout. Sinon, la tâche en incombera à vous, mes ombres. Maintenant, le cirque commence vraiment !~[KALAH03]  ~Bravo, mon amie ! En vérité, je doutais que tu survives pour me rencontrer. Bienvenue dans mon domaine, mais, à mon grand regret, mon hospitalité se terminera par votre mort à tous. À l'attaque, mes ombres ! Si ce sont des idiots, mes autres bêtes en viendront à bout. Sinon, la tâche en incombera à vous, mes ombres. Maintenant, le cirque commence vraiment !~[KALAH03] 
+
+@18762  = ~Non ! (kof kof) Ceci n'était pas censé arriver ! Ce n'est pas ce qui m'avait été promis !~ [KALAH11]
+@18868 = ~Tu ne sais pas... reçu aucun respect de toute ma vie. Un clown, un bouffon... ça ne fait rien... Je meurs comme j'ai... comme j'ai...~ 
+@37772  = ~J'ai... préparé ceci pendant... trop longtemps pour le voir réduit en poussière par des aventuriers nordiques consanguins ! Je... je voulais seulement être respecté...~ [KALAH12] ~J'ai... préparé ceci pendant... trop longtemps pour le voir réduit en poussière par des aventurières nordiques fin de race ! Je... je voulais seulement être respecté...~ [KALAH12]
+
+
+// Garde de l'entrée
+@14634 = ~Un instant ! Cette tente a été condamnée pour votre sécurité, citoyen ! Le cirque est fermé jusqu'à nouvel ordre !~ ~Un instant ! Cette tente a été condamnée pour votre sécurité, citoyenne ! Le cirque est fermé jusqu'à nouvel ordre !~ 
+@38780 = ~Nous devons rester prudents, <CHARNAME>... si les gardes ne sont pas en mesure de gérer le problème, il peut se passer beaucoup de choses là-dedans. Il faut s'attendre à tout, c'est ce que je dis toujours.~
+
+// Quayle
+@2587 = ~Oh, ma petite Aerie, chacune de tes visites est un don. Tu es allée si loin et t'es entourée d'amis si merveilleux... ou serait-il plus qu'un ami ?~ ~Oh, ma petite Aerie, chacune de tes visites est un don. Tu es allée si loin et t'es entourée d'amis si merveilleux... ou serait-elle plus qu'une amie ?~
+@20324 = ~Ça n'a pas toujours été la cas, ma chérie. Tu as changé tout ça. Mais je ne peux pas te retenir ici pour te garder toujours avec moi.~
+@2250 = ~Ça n'a pas toujours été la cas, ma chérie. Tu as changé tout ça. Mais je ne peux pas te retenir ici. <CHARNAME>... vous pourrez vous occuper d'elle mieux que moi. Peut-être accepteriez-vous de la prendre avec vous ?~ 
+@45483 = ~Que savez-vous des Voleurs de l'Ombre à Athkatla ?~
+@38907 = ~Ah. Alors vous devez venir de Rashéménie, je suppose. Plutôt grand, non ?~ 
+@49556 = ~La Rashéménie est ma patrie, mais je ne l'ai pas vue depuis bien des lunes. Je fais mon Dajemma. J'ai... failli à ma dernière sorcière... mais il n'arrivera rien à Aerie ! Rien !~
+@45480 = ~J'ai entendu dire des sottises, comme quoi quelqu'un les aurait défiés, mais je n'y attache pas beaucoup de crédit. Vous savez, les Voleurs de l'Ombre sont à peu près aussi puissants que les Mages cagoulés.~ 
+@59012 = ~Aerie ! C'est toujours un plaisir de te voir ! Et, oui... c'est moi qui t'ai demandé de venir. Avec <CHARNAME> et ses compagnons, je pense que vous pouvez m'aidez. Ou plutôt aider l'une de mes amies.~ 
+@59015 = ~Je ne t'en ai jamais parlé. C'est une jeune fille que j'ai rencontré dans ma jeunesse, quand je me suis retrouvé dans les Plans Extérieurs. C'est une histoire trop longue à raconter.~ 
+
+// Génie
+@15499 = ~Tu n'iras nulle part, mon ami, si tu ne fais pas une tentative. Ayant la bonté du puissant Kalah, cependant, je vais t'accorder une autre chance.~ ~Tu n'iras nulle part, mon amie, si tu ne fais pas une tentative. Ayant la bonté du puissant Kalah, cependant, je vais t'accorder une autre chance.~
+
+// Esclave de plaisir
+@24818 = ~Femme de Joie~
+@24819 = ~Femme de Joie~
+@19539 = ~N'ayez crainte <PRO_LADYLORD> : car Kalah, lui, vous a déjà trouvé.~ ~N'ayez crainte ma <PRO_LADYLORD> : car Kalah, lui, vous a déjà trouvée.~ 
+@19492 = ~La bénédiction de Kalah est sur votre tête, Seigneur.~ ~La bénédiction de Kalah est sur votre tête, ma Dame.~
+@19543 = ~Bienvenue, mais prenez garde ! Avez-vous d'autres exigences à me soumettre, <PRO_LADYLORD> ?~ ~Bienvenue, mais prenez garde ! Avez-vous d'autres exigences à me soumettre, ma <PRO_LADYLORD> ?~
+@19802 = ~Bienvenue, <PRO_LADYLORD>, dans le royaume de Kalah. Que votre esprit soit pur, ou sans nul doute, Kalah vous réduira en poussière.~ ~Bienvenue, ma <PRO_LADYLORD>, dans le royaume de Kalah. Que votre esprit soit pur, ou sans nul doute, Kalah vous réduira en poussière.~
+
+// Giran
+@38765 = ~Nous pourrions très bien chercher la mère de cet enfant... si c'est sur notre route, bien sûr. C'est toi qui décide, <CHARNAME>.~
+
+// Hannah
+@23271 = ~Un gnome est arrivé sur la scène et il a commencé à exécuter une sorte de tour de magie.~ 
+@20144 = ~Et soudain, tout a commencé à changer ! Les gens ont commencés à se transformer en créatures puis à redevenir eux-mêmes. Le monde a basculé d'une façon ou d'une autre. J'étais horrifiée et je me sentais mal.~ 
+@24997 = ~Des jambes... des mains... mes mains sont revenues ! Je suis libérée de cet horrible endroit ! Merci ! Je dois... Giran ! J'espère que mon fils n'est pas loin. Momma arrive.~
+
+// Aerie
+@37224  = ~Si... si vous ne fuyez pas, vous pourrez peut-être m'aider à me libérer de ces chaînes qui me confinent dans cette forme... Alors je pourrai peut-être vous aider !~ [AERIED1] ~Si... si vous ne fuyez pas, vous pourrez peut-être m'aider à me libérer de ces chaînes qui me confinent dans cette forme... Alors je pourrai peut-être vous aider !~ [AERIED1]
+@37231 = ~N'imagine pas que je vais avaler tes boniments aussi facilement ! La seule réalité, ici, c'est que tu vas mourir !~
+@37207 = ~Vous devez avoir raison, je vais partir...~
+@37189 = ~Vous avez peut-être raison... je ferais mieux de partir.~
+@37184 = ~Je... je ne suis pas un monstre ! Je suis une elfe, une elfe ailée... enfin... j'étais...~ 
+@37186 = ~Je n'ai jamais entendu parler d'elfes ailés, qu'est-ce que c'est encore que cette histoire ?~
+@37179 = ~Mais qui êtes-vous ? Comment un monstre peut-il avoir la voix d'une jeune femme ?~
+@37178 = ~Oh, vous n'y comprenez probablement rien, n'est-ce pas ? Je... je ne sais pas ce qu'il a fait au chapiteau, ni à tous ceux qui y sont entrés, mais leur mort était bien réelle ! Vous devez fuir !~ 
+@37183 = ~Vous avez peut-être raison, mieux vaut que je parte...~
+@37174 = ~Comment un monstre tel que vous peut-il avoir une voix si douce ?~
+@37173 = ~De qui parlez-vous ? Qui a tué tout le monde ?~
+@37195 = ~Des chaînes ? Je ne vois aucune chaîne.~
+@37182 = ~Vous avez peut-être raison, je ferais mieux de partir...~
+
+
+
+// autre
+@58881 = ~Je vous aurais bien proposé de jouer à un jeu ou deux, mon <PRO_LADYLORD>, mais Quayle m'a interdit de vous rouler... Pourtant il faut bien gagner sa vie, vous comprenez...~  ~Je vous aurais bien proposé de jouer à un jeu ou deux, ma <PRO_LADYLORD>, mais Quayle m'a interdit de vous rouler... Pourtant il faut bien gagner sa vie, vous comprenez...~
+
+@47528  = ~Enquêter sur le chapiteau.
+
+Le gnome illusionniste qui avait transformé le cirque pour en faire son propre domaine a été tué, et le chapiteau est redevenu normal.~

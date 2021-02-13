@@ -1,0 +1,2591 @@
+// Nom du sort non identifié (nom habituel), nom identifié (rarement utilisé)
+// Description du sort non identifié (desc. habituelle), desc. identifiée (rarement utilisé)
+// Order of text for each spell
+// @unidentified_name_number = ~unidentified name~ (typically used)
+// @identified name_number = ~identified name~ (rarely used)
+// @unidentified description_number = ~unidentified description~ (typically used)
+// @identified description_number = ~identified description~ (rarely used)
+
+// Interrogations :
+// SPIN106 : Absorption mineure de Larloch n'absorbe plus de pv, changement de nom ?
+// SPIN102 : Ralentissement du poison : ne ralenti pas mais guéri, changement de nom ?
+
+
+@1000000 = ~Un parchemin de niveau /1, seuls les personnages dotés d'une intelligence supérieure à /2 peuvent le déchiffrer.
+
+~
+
+@103206 = ~Dissipation de la confusion~ // BDBRD03 unidentified name
+
+// Identique BGEE 32730
+@103187 = ~Chance augmentée de coup critique~ // BDDRAGBL effect
+
+// OHBBCLT3 : Freddy : utilisé par un demi-ogre pour se transformer en Ravageur.
+@102491 = ~Changement en Ravageur~ // OHBBCLT3 unidentified name
+
+// Identique IWDEE 21413
+@101781 = ~Contamination~ // OHBCDIS unidentified name
+
+// Freddy : utilisé par un dragon pour se protéger, ce sort augmente la résistance magique à 100 % (idem pour le feu et le froid). Du coup, j'ai préféré broder un peu avec la VO : Energy Containment. Mais cette proposition de traduction reste ouverte.
+@101791 = ~Renforcement de la résistance~ // OHBCONTE unidentified name
+
+@102518 = ~Blessure maudite~ // OHBCWOUN unidentified name
+@102519 = ~Impossible à soigner~ // OHBCWOUN effect
+
+@94014 = ~Malédiction~ // OHBDEMI unidentified name
+
+@101736 = ~Détection du bien~ // OHBDETG unidentified name - Note de Freddy : dans le correct pack, nous avons décidé de supprimer les majuscules dans les sorts, comme Protection contre le mal.
+
+// Identique IWDEE 40259
+@101762 = ~Aura de peur~ // OHBDFA1 unidentified name
+//@74165 = ~How did you come to be here, elf?~ // OHBDFA1 identified name
+
+// Freddy : @toto uniformisation de la casse (Dragon ou dragon) pour tous les sorts concernés)
+@94013 = ~Souffle de Dragon topaze~ // OHBDRAG1 unidentified name
+
+// Freddy : compatible avec aTweaks
+@101739 = ~Noie~ // OHBDROWN unidentified name
+//@74287 = ~Flaming Long Sword +1~ // OHBDROWN identified name
+
+// Freddy : compatible avec aTweaks
+@101738 = ~Enveloppe~ // OHBENVLP unidentified name
+//@74286 = ~Yoshimo's Katana +1~ // OHBENVLP identified name
+
+// Identique IWDEE 25041
+@102867 = ~Vengeance~ // OHBGLOV1 unidentified name
+
+@101767 = ~Mur de glace~ // OHBICEW unidentified name
+
+@101735 = ~Protection contre le bien~ // OHBPROG unidentified name - Note de Freddy : dans le correct pack, nous avons décidé de supprimer les majuscules dans les sorts, comme Protection contre le mal.
+
+@94857 = ~Protection contre le bien, 3 m~ // OHBPROG1, OHPRGD10 unidentified name - id.
+
+@101764 = ~Baiser~ // OHBSKISS unidentified name
+//@74161 = ~Oh, don't be such a preposterously petulant persnicket. I'll tell you what—because you've been so gracious about all this kidnapping and forced to fight to the death business, I'll give you a reward!~ // OHBSKISS identified name
+
+@101763 = ~Regard terrifiant~ // OHBTGAZE unidentified name
+
+@101792 = ~Mur de brouillard~ // OHBWFOG unidentified name
+//@74202 = ~I need rings, wands, and amulets. What do you have for sale?~ // OHBWFOG identified name
+
+//@82782 = ~The clanhold is under attack. Alorgoth sent me to gather his things.~ // OHDCUT01 unidentified name
+
+@90249 = ~Châtiment divin~ // OHDDIVRT unidentified name
+
+@95639 = ~Souffle acide~ // OHDMASK unidentified name, identified name
+
+// BGEE 24505 + 31793 (! au lieu de ?)
+@91760 = ~Hiatus entropique : Une explosion !~ // OHNRDKIL effect
+
+// BGEE 24505 + 31758
+@100249 = ~Hiatus entropique : Oups, mauvaise cible~ // OHNRDTEL effect
+
+// BGEE 24505 + 31760
+@99819 = ~Hiatus entropique : Monstres invoqués~ // OHNVRD1 effect
+
+// BGEE 24505 + 14022 ou 25810
+@99820 = ~Hiatus entropique : Guéri(e)~ // OHNVRD2 effect
+
+// BGEE 24505 + 31763
+@99818 = ~Hiatus entropique : Oups une porte... un Diantrefosse !?~ // OHNVRD3 effect - Note de Freddy : harmonisation avec le correct pack.
+
+@99992 = ~Ténèbres sur 5 mètres~ // OHRDARK unidentified name
+
+// Freddy : convoque des Démombres/ Peut-être faut-il remplacer Demi-ombres par Démombres ?
+@99991 = ~Demi-ombres~ // OHRDEMI unidentified name nom repris d'IWD:EE
+
+@99990 = ~Réceptacle magique~ // OHRMJAR unidentified name
+
+@97321 = ~Rituel de l'Ombre~ // OHRSHAD unidentified name
+
+// Quasi identique BGEE 32888, différences sur les dégâts, l'exemple, les familiers
+@103008 = ~Familier
+(Conjuration)
+
+Niveau : 1
+Sphère : Convocation
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort permet au Belluaire de tenter la convocation d'un familier qui deviendra son aide et son compagnon. Les familiers sont de petites créatures. Une créature agissant en tant que familier peut aider son maître en lui envoyant ses pouvoirs sensoriels, en lui parlant ou en lui servant de garde, d'éclaireur ou d'espion. Un Belluaire ne peut avoir qu'un seul familier à la fois, et il ne contrôle pas le type de créature qui sera convoquée par le sort, s'il réussit.
+
+Remarque : Ce sort ne peut être lancé que par le protagoniste.
+
+La créature est toujours plus intelligente que les autres de même type (généralement de 2 ou 3 points d'intelligence), et ses liens avec le Belluaire lui confèrent une vie particulièrement longue. Le Belluaire garde un lien empathique avec le familier et peut lui transmettre des ordres mentalement. Le Belluaire reçoit un bonus de points de vie valant la moitié des points de vie du familier. Mais il doit veiller à bien traiter son familier, car si le familier meurt, il perd les points de vie de bonus et subit des dégâts équivalents à la moitié des points de vie du familier. De plus, lorsqu'un familier meurt, le Belluaire perd 1 point de constitution de manière PERMANENTE.
+
+Exemple : Un Belluaire a 10 points de vie et lance le sort Familier. Le dragon fée convoqué a 24 points de vie, le Belluaire obtient donc un bonus de 12 points de vie. Il dispose maintenant de 22 points de vie. Si le familier meurt, le Belluaire perd ces 12 points de vie (il revient à 10), 1 point de constitution de manière permanente (ce qui peut entraîner la perte d'autres points de vie), et subit 12 points de dégâts.
+
+Voici une liste des familiers que le Belluaire peut convoquer en fonction de son alignement :
+
+LOYAL-BON, NEUTRE-BON : Pseudo-dragon
+- Points de vie : 24
+- Classe d'armure : -2
+- Résistance à la magie : 50 %
+- Combat : 2 attaques par round, 13 en TAC0, 1d3 dégâts, sauvegarde contre la mort sous peine de tomber inconscient pendant 2 tours
+- Capacités spéciales : peut lancer Flou une fois par jour ; régénère un point de vie par round ; immunisé au drain de niveau, au sommeil et à la pétrification.
+
+CHAOTIQUE-BON : Dragon fée
+- Points de vie : 24
+- Classe d'armure : 4
+- Résistance à la magie : 32 %
+- Combat : 2 attaques par round, 13 en TAC0, 1d2 dégâts
+- Capacités spéciales : peut lancer Image-miroir et Invisibilité sur 3 mètres une fois par jour ; immunisé au drain de niveau, au sommeil et à la pétrification.~ // SPCL342 unidentified description
+
+// Identique BGEE 32366
+@103066 = ~Protection de l'Élu des esprits épuisée~ // SPCL941B effect
+
+// @16023 = ~Druid Polymorph~ // SPIN001 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32255
+@100383 = ~Métamorphose druidique
+
+Cette capacité permet au personnage de se métamorphoser en ours ou en loup.~ // SPIN001 unidentified description
+
+// @11826 = ~Shapeshift: Natural Form~ // SPIN122 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32259
+@100387 = ~Métamorphose en forme naturelle
+
+Cette capacité permet au personnage de mettre fin à la métamorphose et de reprendre sa forme originale.~ // SPIN122 
+
+// @63921 = ~Pocket Plane~ // SPIN649 unidentified name (SoA+ToB reuse)
+@100397 = ~Antichambre
+
+Cette capacité renvoie la totalité du groupe de <CHARNAME> dans l'Antichambre.~ // SPIN649 unidentified description
+
+// Identique BGEE 32402
+@103120 = ~Aucun esprit ne répond à votre appel.~ // SPSH004 effect
+// Identique BGEE 32401
+@103121 = ~Un esprit animal mineur répond à votre appel.~ // SPSH004 effect
+// Identique BGEE 32403
+@103122 = ~Un esprit animal majeur répond à votre appel.~ // SPSH004 effect
+// Identique BGEE 32404
+@103123 = ~Un esprit de la nature mineur répond à votre appel.~ // SPSH004 effect
+// Identique BGEE 32405
+@103124 = ~Un esprit de la nature majeur répond à votre appel.~ // SPSH004 effect
+
+
+
+// SPPR107.spl
+// version clerc
+// est-ce que les sorts ont été modifiés dans la version 2.5 ou est-ce que cette description reflète des différences qui sont antérieures ?
+@103230 = ~Protection contre le mal
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : contact
+Durée : 3 rounds / niveau
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de 2 à ses jets d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+
+// SPCL213.spl
+// version paladin
+@103229 = ~Protection contre le mal
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : contact
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de 2 à ses jets d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+
+// Identique BGEE 32348
+@103062 = ~Protection de l'esprit~ // SPPR150 unidentified name
+// Identique BGEE 32349
+@103063 = ~Protection de l'esprit
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : contact
+Durée : 3 rounds / niveau
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Ce sort entoure le bénéficiaire d'une barrière magique à une distance d'un pied. Les esprits, les fées, les élémentaires, et les morts-vivants spectraux subissent une pénalité de 2 au toucher lorsqu'ils attaquent une créature protégée. En outre, le bénéficiaire gagne un bonus de 3 à ses jets de sauvegarde contre tous les sorts qui appartiennent à l'école d'Enchantement. Ce sort ne peut être lancé sur les esprits, les fées, les élémentaires, et les morts-vivants spectraux.~ // SPPR150 unidentified description
+
+// Identique BGEE 32350
+@103067 = ~Brouillard putride~ // SPPR250 unidentified name
+// Identique BGEE 32351, modif zone effet V2.5
+@103068 = ~Brouillard putride
+(Conjuration)
+
+Niveau : 2
+Sphère : Invocation
+Portée : 9 mètres
+Durée : 1 tour
+Temps d'incantation : 2
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : mort, partiel
+Résistance à la magie : oui
+
+Ce sort invoque un nuage de brouillard putride qui glace et entrave toutes les personnes dans sa zone d'effet, sauf le lanceur de sort. Les créatures dans le brouillard subissent 1d3 points de dégâts de froid par round. En outre, il y a 20 % de chance qu'elles aient à réussir un jet de sauvegarde contre la mort, sans quoi elles sont ralenties pendant 1 round. Les créatures immunisées aux dégâts de froid ne souffrent d'aucun effet néfaste de ce sort.~ // SPPR250 unidentified description
+
+// Identique BGEE 32352
+@103069 = ~Lucidité spirituelle~ // SPPR350 unidentified name
+// Identique BGEE 32353
+@103070 = ~Lucidité spirituelle
+(Abjuration)
+
+Niveau : 3
+Sphère : Protection
+Portée : 12 mètres
+Durée : 1 tour
+Temps d'incantation : 9
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Avec ce sort, le shaman renforce la détermination spirituelle d'une créature et purge l'esprit de cette créature des influences négatives. Le sort supprime pour une seule créature les effets de la peur, du charme, de la confusion et de la débilité mentale.~ // SPPR350 unidentified description
+
+// Identique BGEE 32354
+@103071 = ~Feu spirituel~ // SPPR450 unidentified name
+// Identique BGEE 32355n, modif zone effet V2.5
+@103072 = ~Feu spirituel
+(Conjuration)
+
+Niveau : 4
+Sphère : Invocation
+Portée : 12 mètres
+Durée : permanente
+Temps d'incantation : 4
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts, partiel
+Résistance à la magie : partielle
+
+Lorsque le shaman lance ce sort, les énergies du monde des esprits se rassemblent et forment une sphère bleu pâle. Le shaman peut projeter la sphère afin qu'elle explose dans un éclat de flammes bleues fantomatiques, qui infligent 1d4 points de dégâts magiques par niveau du shaman (jusqu'à un maximum de 10d4). Il y a aussi 33 % de chance que tous les ennemis dans la zone d'effet soient atteints par le sort Fatalité (malus de 2 à leurs jets de sauvegarde et à leurs jets d'attaque pendant 1 tour). Un jet de sauvegarde réussi réduit les dégâts de moitié et annule l'effet de Fatalité. Les esprits, les fées, les élémentaires et les morts-vivants spectraux subissent le double de dégâts.~ // SPPR450 unidentified description
+
+// Identique BGEE 32356
+@103073 = ~Rappel de l'esprit~ // SPPR550 unidentified name
+// Identique BGEE 32357
+@103074 = ~Rappel de l'esprit
+(Nécromancie)
+
+Niveau : 5
+Sphère : Invocation
+Portée : cosmos
+Durée : permanente
+Temps d'incantation : 9
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Le shaman rappelle l'esprit d'une personne décédée s'il s'attarde à proximité de son corps. En lançant ce sort, le shaman reconnecte l'esprit à son corps et ramène la personne à la vie avec 1 point de vie. La guérison naturelle ou la magie curative peuvent restaurer le reste de la vitalité de la cible.~ // SPPR550 unidentified description
+
+// Identique BGEE 32358
+@103075 = ~Verrou spirituel~ // SPPR650 unidentified name
+// Identique BGEE 32359
+// rivvers : temps d'incantation incorrect, manque un espace
+@103076 = ~Verrou spirituel
+(Enchantement)
+
+Niveau : 6
+Sphère : Protection
+Portée : 12 mètres
+Durée : 1 tour + 1 round / niveau
+Temps d'incantation : 5
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts (variable), annule
+Résistance à la magie : oui
+
+La cible du verrou spirituel doit réussir son jet de sauvegarde contre les sorts avec une pénalité de 2 sous peine d'avoir son esprit temporairement scellé dans le monde des esprits. Pendant ce temps, la victime est incapable d'exécuter des actions nécessitant une pensée consciente, comme attaquer, utiliser des objets ou lancer des sorts. Les esprits, les fées, les élémentaires, et les morts-vivants spectraux doivent effectuer un jet de sauvegarde contre les sorts avec une pénalité de 4 au lieu de 2. Le Verrou spirituel est inopérant contre les sorts et les capacités qui protègent des effets de la Débilité mentale.~ // SPPR650 unidentified description
+// Identique BGEE 32367
+@103077 = ~Esprit enfermé~ // SPPR650 effect
+
+// Identique BGEE 32360
+@103078 = ~Portail éthéré~ // SPPR750 unidentified name
+// Identique BGEE 32361
+@103079 = ~Portail éthéré
+(Transmutation)
+
+Niveau : 7
+Sphère : Voyage
+Portée : contact
+Durée : 5 rounds
+Temps d'incantation : 3
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : partielle
+
+Ce sort transporte une créature, choisie par le lanceur de sort, sur le Plan Éthéré. La créature disparaît pendant la durée du sort, puis elle retourne dans le monde physique à l'endroit précis où elle était avant. Tant qu'elle est dans le Plan Éthéré, la victime ne peut pas interagir avec quiconque ou quoi que ce soit résidant sur le Plan Primaire. Il n'y a pas de jet de sauvegarde contre ce sort, mais il est soumis à la résistance à la magie. Les créatures amicales peuvent réduire leur résistance à la magie afin que le shaman puisse les cibler avec ce sort. En outre, Le Portail éthéré est inopérant contre les sorts et les capacités qui protègent contre les effets du labyrinthe.~ // SPPR750 unidentified description
+
+// Identique BGEE 32362
+@103080 = ~Châtiment éthéré~ // SPPR751 unidentified name
+// Identique BGEE 32363, modif zone effet V2.5
+// rivvers : durée réelle : 20 secondes
+@103081 = ~Châtiment éthéré
+(Conjuration)
+
+Niveau : Quête
+Sphère : Invocation
+Portée : 12 mètres
+Durée : 3 rounds
+Temps d'incantation : 8
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts, partiel
+Résistance à la magie : oui
+
+Les silhouettes fantomatiques appelées par le shaman tourbillonnent autour du champ de bataille, et tourmentent les adversaires du shaman. Tous les ennemis dans la zone d'effet subissent 3d8 points de dégâts magiques par round pendant les 3 prochains rounds (pas de sauvegarde). En outre, tous les ennemis vivants (les morts-vivants et les créatures artificielles ne sont pas affectés) doivent réussir leur jet de sauvegarde contre les sorts sous peine de perdre 2 points de Force à chaque round pendant 5 rounds. La perte de force est cumulative, mais ce sort ne peut pas réduire la force d'une créature au-dessous de 1.~ // SPPR751 unidentified description
+
+
+
+// @34278 = ~Mimic Acid~ // SPIN913 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32280 - Note de Freddy valable pour toutes les références suivantes. La VO utilise la formule "This ability... ". Comme ses capacités sont propres à des monstres, j'ai beaucoup de mal avec la formulation utilisée ("Le personnage"). Je l'ai donc remplacée par "La créature", comme dans @100405.
+@100414 = ~Acide de mimique
+(Universelle)
+
+Niveau : 1
+Portée : 1 mètre
+Durée : permanente
+Temps d'incantation : 9
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+La créature lance un globe d'acide corrosif sur la cible, qui subit 3d12 points de dégâts d'acide sans jet de sauvegarde.~ // SPIN913 unidentified description
+
+// @34270 = ~Mimic Glue~ // SPIN914 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32281
+@100415 = ~Colle de mimique
+(Universelle)
+
+Niveau : 1
+Portée : 2 mètres
+Durée : 5 rounds
+Temps d'incantation : 0
+Zone d'effet : 1 cible
+Jet de sauvegarde : souffle, annule
+Résistance à la magie : non
+
+La créature lance une boule de vase poisseuse et collante qui paralyse la cible pendant 5 rounds, à moins qu'elle ne réussisse un jet de sauvegarde contre les souffles.~ // SPIN914 unidentified description
+
+// @25497 = ~Water Jet~ // SPIN926 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32269
+@100403 = ~Jet d'eau
+(Universelle)
+
+Niveau : 2
+Portée : 4 mètres
+Durée : 1 round
+Temps d'incantation : 1
+Zone d'effet : cône de 90° sur 5,5 mètres
+Jet de sauvegarde : souffle, partiel
+Résistance à la magie : partielle
+
+La créature lance une boule de vapeur brûlante sur une cible, lui infligeant 1d3 points de dégâts de feu. La victime doit également réussir un jet de sauvegarde contre les souffles sous peine d'être étourdie pendant un round.~ // SPIN926 unidentified description
+
+// @25498 = ~Boiling Rain Storm~ // SPIN927 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32270
+@100404 = ~Orage de pluie bouillonnante
+(Universelle)
+
+Niveau : 2
+Portée : 6 mètres
+Durée : 1 round
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : souffle, partiel
+Résistance à la magie : partielle
+
+La créature invoque une tempête de pluie bouillonnante et nocive. Les adversaires dans la zone d'effet subissent 2d6 points de dégâts de poison, et doivent réussir un jet de sauvegarde contre les souffles sous peine d'être étourdis pendant un round.~ // SPIN927 unidentified description
+
+@25499 = ~Boule de fumée~ // SPIN929 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32271, précision "magiques" conservée de BGEE
+// rivvers : correction dégâts et durée
+@100405 = ~Boule de fumée
+(Universelle)
+
+Niveau : 2
+Portée : 15 mètres
+Durée : 10 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : souffle, partiel
+Résistance à la magie : oui
+
+La créature projette une boule de fumée irritante pour aveugler la cible. Cette dernière subit 1d4 +1 points de dégâts magiques, à moins de réussir un jet de sauvegarde contre les souffles. Elle est également aveuglée pendant 10 secondes (pas de jet de sauvegarde).~ // SPIN929 unidentified description
+
+// @25500 = ~Magma Ball~ // SPIN930 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32272
+@100406 = ~Boule de magma
+(Évocation)
+
+Niveau : 2
+Portée : 4 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+La créature lance une balle de lave en fusion pour brûler la cible, qui subit 1d6 points de dégâts de feu.~ // SPIN930 unidentified description
+
+// @25494 = ~Sooty Ball~ // SPIN931 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32273
+// rivvers : correction durée
+@100407 = ~Boule de suif
+(Universelle)
+
+Niveau : 2
+Portée : 15 mètres
+Durée : 10 secondes
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : oui
+
+La créature lance une boule de suie solidifiée qui inflige 1d4 points de dégâts contondants et aveugle la cible pendant 10 secondes.~ // SPIN931 unidentified description
+
+// @25496 = ~Salt Crystals~ // SPIN934 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32275
+// rivvers : ajout durée
+@100409 = ~Cristaux de sel
+(Universelle)
+
+Niveau : 2
+Portée : 4 mètres
+Durée : 2 rounds
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : souffle, partiel
+Résistance à la magie : partielle
+
+La créature lance un projectile composé de cristaux de sel agglomérés. À l'impact, les cristaux éclatent et infligent 1d4 points de dégâts contondants et étourdissent la cible pendant 2 rounds, à moins qu'elle ne réussisse un jet de sauvegarde contre les souffles.~ // SPIN934 unidentified description
+
+// @20852 = ~Glass Dust~ // SPIN935 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32276
+@100410 = ~Poussière de verre
+(Évocation)
+
+Niveau : 1
+Portée : 4 mètres
+Durée : 5 rounds
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : souffle, annule
+Résistance à la magie : oui
+
+La créature pulvérise de la poudre de verre pilé, obligeant sa cible à réussir un jet de sauvegarde contre les souffles sous peine de souffrir une pénalité de 4 à la Classe d'armure et de 2 au TAC0 pendant que les petits morceaux de verre pénètrent sous sa peau.~ // SPIN935 unidentified description
+
+// @25427 = ~Ice Shard~ // SPIN936 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32277
+@100411 = ~Éclat de glace
+(Universelle)
+
+Niveau : 2
+Portée : 4 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : souffle, 1/2
+Résistance à la magie : oui
+
+La créature lance un projectile de glace qui inflige 2d3 points de dégâts de froid, réduit de moitié si un jet de sauvegarde contre les souffles est réussi.~ // SPIN936 unidentified description
+
+// @2956 = ~Flame Fan~ // SPIN938 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32278
+@100412 = ~Éventail de flammes
+(Universelle)
+
+Niveau : 2
+Portée : 1 mètre
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : oui
+
+La créature fait flamber la cible, qui subit 4 points de dégâts de feu sans jet de sauvegarde.~ // SPIN938 unidentified description
+
+// @25501 = ~Flame Jet~ // SPIN939 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32279
+// rivvers : correction dégâts
+@100413 = ~Jet de flammes
+(Évocation)
+
+Niveau : 2
+Portée : 4 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : souffle, 1/2
+Résistance à la magie : oui
+
+La créature fait brûler la cible, qui subit 2d4 +1 points de dégâts de feu, réduits de moitié si un jet de sauvegarde contre les souffles est réussi.~ // SPIN939 unidentified description
+
+@25495 = ~Crachat de pierre~ // SPIN941 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32274
+@100408 = ~Crachat de pierre
+(Universelle)
+
+Niveau : 2
+Portée : 15 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+La créature crache une pierre de la taille d'une bille de fronde sur sa cible, qui subit 1d6 points de dégâts contondants.~ // SPIN941 unidentified description
+
+// Freddy : ajout de SPIN774 non traduit.
+@102815 = ~Labyrinthe psionique~ // SPIN774 unidentified name
+
+// rivvers : durée du labyrinthe modifiée sous EE pour les intelligences les plus faibles
+@1000034 = ~Labyrinthe psionique
+(Conjuration)
+
+Niveau : 1
+Sphère : Convocation
+Portée : 21 mètres
+Durée : variable
+Temps d'incantation : 3
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts (-4), annule
+Résistance à la magie : non
+
+Un espace extradimensionnel apparaît lors de l'incantation de ce sort. La créature ciblée est alors transportée dans un labyrinthe qui change en permanence. La durée de ce sort dépend de l'intelligence de la victime. 
+
+Intelligence de la cible - Temps passé dans le labyrinthe
+  moins de 3 - 20d4 tours
+  3 à 5 - 10d4 tours
+  6 à 8 - 5d4 rounds
+  9 à 11 - 4d4 rounds 
+  12 à 14 - 3d4 rounds 
+  15 à 17 - 2d4 rounds 
+  18 et plus - 1d4 rounds 
+
+Notez que si le sort de liberté du 9ème niveau est lancé à l'endroit où la créature a été capturée par le labyrinthe, cette dernière revient immédiatement, mettant fin prématurément au sort. Une créature ainsi capturée ne peut être libérée par une dissipation magique.~
+
+@18628 = ~Métamorphose en golem de fer~ // SPIN153 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32263
+// rivvers : ajout touche comme une arme +4
+// rivvers : pas du tout immunisé, le personnage ne s'équipe pas des objets de la nouvelle forme !
+@100391 = ~Métamorphose en golem de fer
+(Universelle)
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 24
+- Dextérité : 9
+- Classe d'armure : 3
+- Attaques par round : 1
+- Dégâts : 4d10 (contondant), touche comme une arme +4
+
+Capacités spéciales : 
+- résistance au feu : 125 %
+- résistance au froid : 100 %
+- résistance à l'électricité : 100 %
+- résistance à l'acide : 100 %
+- résistance à la magie : 100 %
+- résistance au feu magique : 125 %
+- résistance au froid magique : 100 %
+- résistance aux dégâts tranchants : 20 %
+- résistance aux dégâts contondants : 20 %
+- résistance aux dégâts perforants : 20 %
+- résistance aux dégâts projectiles : 20 %
+- immunité aux attaques sournoises~ // SPIN153 unidentified description
+
+@18630 = ~Métamorphose en troll géant~ // SPIN154 unidentified name (SoA+ToB reuse)
+
+// Identique BGEE 32264, complément paralysie
+// rivvers : ajout touche comme une arme +2
+@100392 = ~Métamorphose en troll géant
+(Universelle)
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 18
+- Dextérité : 20
+- Classe d'armure : 4
+- Attaques par round : 3
+- Dégâts : 2d6 (perforant), touche comme une arme +2
+
+Capacités spéciales :
+- immunité à l'étourdissement, au sommeil, à l'immobilisation, à la paralysie
+- régénération d'un point de vie par seconde~ // SPIN154 unidentified description
+
+@18650 = ~Métamorphose en Seigneur loup-garou~ // SPIN155 unidentified name (SoA+ToB reuse)
+
+// Identique BGEE 32265 V2.5
+// rivvers : ajout touche comme une arme +1
+@100393 = ~Métamorphose en Seigneur loup-garou
+(Universelle)
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 19
+- Dextérité : 19
+- Classe d'armure : 2
+- Attaques par round : 3
+- Dégâts : 1d12 (tranchant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance au feu magique : 50 %
+- résistance au froid magique : 50 %
+- immunité aux armes d'enchantement 1 ou moins
+- régénération de 8 points de vie par seconde~ // SPIN155 unidentified description
+
+@18651 = ~Métamorphose en élémentaire de feu~ // SPIN156 unidentified name (SoA+ToB reuse)
+
+// Identique BGEE 32266
+// rivvers : ajout touche comme une arme +4
+@100394 = ~Métamorphose en élémentaire de feu
+(Universelle)
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 9
+- Dextérité : 9
+- Classe d'armure : 2
+- Attaques par round : 1
+- Dégâts : 3d8 (contondant), +1d6 de feu, touche comme une arme +4
+
+Capacités spéciales :
+- résistance au feu : 100 %
+- résistance au feu magique : 100 %
+- immunité aux armes +2 ou moins~ // SPIN156 unidentified description
+
+@18652 = ~Métamorphose en élémentaire de terre~ // SPIN157 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32267
+// rivvers : ajout touche comme une arme +4
+@100395 = ~Métamorphose en élémentaire de terre
+(Universelle)
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 19
+- Dextérité : 9
+- Classe d'armure : 2 
+- Attaques par round : 1
+- Dégâts : 4d8 (contondant), touche comme une arme +4
+
+Capacité spéciale :
+- immunité aux armes +2 ou moins~ // SPIN157 unidentified description
+
+
+// SPIN101.spl
+@1000001  = ~Soins des blessures légères
+(Universelle)
+
+Niveau : 1
+Sphère : Guérison
+Portée : contact
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+
+Lorsque <CHARNAME> jette ce sort et pose sa main sur une créature, <PRO_HESHE> soigne 1d8 points de blessures ou autres dégâts infligés au corps de la créature touchée. Cette guérison ne concerne pas les créatures dépourvues d'enveloppe corporelle, ni les blessures des créatures non-vivantes ou originaires d'outreplan. 
+La guérison n'est définitive que dans la mesure où la créature ne subit pas d'autres dégâts ; les blessures provoquées se cicatriseront (ou peuvent être soignées) comme n'importe quelle blessure normale.~
+
+// SPIN102.spl
+@1000002 = ~Ralentissement du poison
+(Universelle)
+
+Niveau : 1
+Sphère : Guérison
+Portée : contact
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Lorsque ce sort est jeté sur un individu empoisonné, il ralentit beaucoup l'effet du venin, ce qui peut le neutraliser dans un grand nombre de cas.~
+
+// SPIN103.spl
+@1000003 = ~Puiser dans la puissance divine
+(Évocation)
+
+Niveau : 1
+Sphère : Combat
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 2
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+<CHARNAME> se connecte à son essence divine pour qu'elle lui accorde du pouvoir pendant une courte durée. Sa force, sa constitution et sa dextérité gagnent alors 1 point par groupe de 3 niveaux. Au 3ème niveau <PRO_HESHE> verra ainsi ses pouvoirs gagner +1 point, alors qu'au 12ème niveau <PRO_HESHE> les verra augmenter de +4.~
+
+// SPIN104.spl
+// A renommer / changer : aucune absorption de pv
+@1000004 = ~Absorption mineure de Larloch
+(Universelle) 
+
+Niveau : 1
+Portée : 27 mètres
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Grâce à ce sort, <CHARNAME> absorbe la force vitale d'une cible pour l'ajouter à la sienne. La créature visée subit 4 points de dégâts magiques.~
+
+// SPIN105.spl
+@1000005 = ~Horreur
+(Nécromancie)
+
+Niveau : 1
+Portée : 9 mètres
+Durée : 3 rounds
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : oui
+Composante verbale : non
+
+Au moment du lancement de ce sort, toutes les créatures ennemies situées dans la zone d'effet doivent lancer des jets de sauvegarde contre les sorts ou prennent la fuite dans un état de panique. Certaines créatures sont immunisées contre les effets de la peur, notamment tous les morts-vivants.~
+
+// SPIN106.spl
+@1000006 = ~Toucher vampirique
+(Nécromancie)
+
+Niveau : 1
+Portée : contact
+Durée : instantanée
+Temps d'incantation : 3
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Toute cible touchée par <CHARNAME> perd 1d6 points de vie tous les deux niveaux (maximum 6d6 au 12ème niveau). Ces points de dégâts sont ajoutés à ses propres points de vie. Tout point de vie au-delà du maximum de points de vie est temporaire et disparaît au bout de 5 tours.~
+
+// SPRA301.spl
+@1000007 = ~Hâte
+(Transmutation)
+
+Niveau : 3
+Portée : 4 mètres
+Durée : 3 rounds + 1 round / niveau
+Temps d'incantation : 3
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+
+Au lancement de ce sort, toutes les créatures affectées voient leur vitesse de mouvements doublés, gagnent un bonus d'initiative de -2, et peuvent porter une attaque supplémentaire par round. Ainsi, une créature se déplaçant normalement à 6 et portant une attaque par round se déplacera à 12 et attaquera deux fois par round. Par contre, les incantations et les effets de sort ne peuvent pas être accélérés. Ce sort affectera toutes les créatures se trouvant dans la zone d'effet désignée au moment du lancement du sort (ainsi, une créature quittant la zone sera toujours accélérée, tandis qu'une créature entrant dans la zone après le lancement du sort ne sera pas affectée). Ce sort n'est pas cumulatif avec lui-même ou avec tout autre effet magique similaire. Notez que ce sort annule les effets du sort de lenteur.~
+
+// SPRA302.spl
+@1000008 = ~Déviation de sorts mineure
+(Abjuration)
+
+Niveau : 3
+Sphère : Protection
+Portée : personnelle
+Durée : 3 rounds / niveau
+Temps d'incantation : 3
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Ce sort est similaire au sort de 6ème niveau, Déviation des Sorts qui absorbe les sorts lancés contre le rôdeur. Cette version amoindrie affecte jusqu'à un total de 4 niveaux de sorts, y compris ceux provenant de parchemins ou de compétences semblables aux sorts. Les sorts de zone stationnaires ou non-centrés sur le rôdeur protégé, comme le Nuage puant ou le Nuage mortel par exemple, ne sont pas absorbés. Le sort doit être lancé spécifiquement sur le rôdeur pour qu'il soit absorbé. Cette déviation mineure n'affecte que les sorts inférieurs au 7ème niveau. Si on essaye d'absorber un sort au-delà de sa limite, le sort échouera et la déviation sera annulée. Par exemple si un sort de troisième niveau frappe le rôdeur alors qu'il ne lui reste qu'un niveau de déviation, le sort sera absorbé et les effets de la déviation annulés.~
+
+// SPRA303.spl
+@1000009 = ~Protection contre les projectiles non-magiques
+(Abjuration)
+
+Niveau : 3
+Sphère : Protection
+Portée : contact
+Durée : 5 tours
+Temps d'incantation : 3
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+
+Ce sort confère à la cible une invulnérabilité totale aux projectiles propulsés mécaniquement ou manuellement (flèches, haches, carreaux, javelots, petites pierres et épieux). Notez toutefois que ce sort n'apporte aucune protection contre les attaques magiques telles que les boules de feu, les éclairs ou les projectiles magiques comme les flèches +1.~
+
+// SPRA304.spl
+@1000010 = ~Convocation d'animaux I
+(Conjuration)
+
+Niveau : 1
+Sphère : Convocation
+Portée : 9 mètres
+Durée : 3 tours
+Temps d'incantation : 7
+Zone d'effet : 1 position
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le rôdeur peut appeler jusqu'à huit animaux du type de son choix et possédant chacun 4 dés de vie ou moins. Le type d'animaux disponibles dépend de l'environnement dans lequel se trouve le rôdeur au moment de la Convocation.~
+
+// SPRA305.spl
+@1000011 = ~Convocation d'animaux II
+(Conjuration)
+
+Niveau : 2
+Sphère : Convocation
+Portée : 9 mètres
+Durée : 3 tours
+Temps d'incantation : 8
+Zone d'effet : 1 position
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, l'invocateur peut appeler jusqu'à six animaux dotés chacun de 8 dés de vie ou moins. Seuls viennent les animaux à la portée du rôdeur. Les animaux convoqués aident l'invocateur en fonction de leurs caractéristiques et restent jusqu'à la fin du sort. Seuls les animaux normaux ou géants peuvent être convoqués ; les animaux fantastiques ou les monstres ne peuvent pas être convoqués par l'intermédiaire de ce sort (pas de chimères, dragons, gorgones, manticores, etc.).~
+
+// SPRA306.spl
+@1000012 = ~Convocation d'animaux III
+(Conjuration)
+
+Niveau : 3
+Sphère : Convocation
+Portée : 36 mètres
+Durée : 4 tours
+Temps d'incantation : 9
+Zone d'effet : 1 position
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le rôdeur appelle à son aide deux ou trois animaux ayant moins de 12 dés de vie. Seuls les animaux étant à portée du sort au moment où il est lancé répondent à cet appel. Ils aident alors l'invocateur du mieux de leurs capacités et lui obéissent jusqu'à leur mort ou la fin du sort. Seuls les animaux normaux ou géants peuvent être ainsi convoqués.~
+
+// SPDM101.spl
+// modification des effets de l'aveuglement, version EE
+@1000013 = ~Cécité
+(Illusion)
+
+Niveau : 1
+Sphère : Fantasme
+Portée : 9 mètres
+Durée : 10 tours
+Temps d'incantation : 2
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : oui
+
+Ce sort de premier niveau aveugle temporairement la cible. Un jet de sauvegarde est permis. S'il réussit, aucun effet nuisible ne se produit. Une victime aveuglée reçoit un malus de -4 à ses jets d'attaque et à sa classe d'armure, de plus sa vision devient considérablement diminuée.~
+
+// SPDM102.spl
+@1000014 = ~Flou
+(Illusion)
+
+Niveau : 2
+Sphère : Fantasme
+Portée : personnelle
+Durée : 4 rounds + 2 rounds / niveau
+Temps d'incantation : 2
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Lorsqu'un sort de flou est jeté, la silhouette du personnage devient floue, se transforme et vacille. Les attaques de projectiles et de mêlée contre l'invocateur écopent alors d'un malus de -3. Le personnage reçoit également un bonus de + 1 à ses jets de sauvegarde.~
+
+// SPDM103.spl
+@1000015 = ~Toucher de la goule
+(Nécromancie)
+
+Niveau : 2
+Sphère : Combinaison
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : oui
+
+Grâce à ce sort, une lueur verte entoure la main du jeteur de sorts. Lorsque le personnage réussit une attaque de mêlée contre une créature (touche comme une arme +6), cette dernière se paralyse du fait de l'énergie négative. La créature touchée doit lancer un jet de sauvegarde contre les sorts ou être paralysée pendant 5 rounds.~
+
+// Identique BGEE 12067
+@102865 = ~Poing de glace~ // SPDM105 unidentified name
+
+// Identique BGEE 32327, modif durée 1 tour
+// SPDM105.spl @102866
+@102866= ~Poing de glace
+(Nécromancie)
+
+Niveau : 1
+Sphère : Froid
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Lorsque cette capacité est activée, les poings du personnage se nimbent d'une coquille de glace. Pendant un tour, les attaques à mains nues infligent 2 dégâts du froid supplémentaires à chaque touche.~
+
+// SPDM106.spl
+@1000017 = ~Image miroir
+(Illusion)
+
+Niveau : 2
+Sphère : Fantasme
+Portée : personnelle
+Durée : 3 rounds + 1 round / niveau
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Lorsqu'il invoque une image miroir, le personnage fait apparaître 2 à 8 répliques de lui-même. Ces images agissent exactement de la même façon que le personnage. Comme le sort provoque une légère distorsion visuelle, les ennemis du jeteur de sorts ne peuvent identifier le vrai personnage parmi toutes les silhouettes. Lorsqu'un sosie est touché dans un combat de mêlée ou de projectiles (magiques ou non), il disparaît, mais les autres restent jusqu'à ce qu'ils soient frappés à leur tour. Mais il est important de noter que le lanceur du sort n'est pas protégé de toutes les attaques, l'ennemi pouvant très bien le viser parmi ses multiples images.~
+
+// SPDM108.spl
+@1000018 = ~Toucher vampirique
+(Nécromancie)
+
+Niveau : 1
+Portée : contact
+Durée : instantanée
+Temps d'incantation : 3
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+
+Toute cible touchée par le personnage perd 1d6 points de vie par deux niveaux du lanceur de sorts (maximum 6d6 au 12ème niveau). Ces points de dégâts sont ajoutés aux points de vie du personnage. Tout point de vie au-delà du maximum de points de vie du jeteur de sorts est temporaire et disparaît au bout de 5 tours.~
+
+// SPDR101.spl
+@1000019 = ~Orbe chromatique
+(Évocation)
+
+Niveau : 1
+Sphère : Combat
+Portée : 27 mètres
+Durée : 1 round
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts (+6), partiel
+Résistance à la magie : partielle
+
+Ce sort crée une sphère de 60 cm de diamètre dans la main du justicier. Une fois le sort lancé, la sphère se dirige vers sa cible, qu'elle atteint inévitablement. L'effet de l'orbe sur la cible varie en fonction du niveau du lanceur de sort. Chaque orbe inflige des dégâts et un autre effet (qui peut être annulé par un jet de sauvegarde contre les sorts à +6). Une sphère de 1er niveau inflige 1d4 points de dégâts et aveugle la cible pendant un round. Une sphère de 2ème niveau inflige 1d4 points de dégâts et fait souffrir la victime. Une sphère de 3ème niveau inflige 1d6 points de dégâts et brûle la victime. Une sphère de 4ème niveau inflige 1d6 points de dégâts et aveugle la cible pendant 10 rounds. Une sphère de 5ème niveau inflige 1d8 points de dégâts et étourdit la cible pendant 3 rounds. Une sphère de 6ème niveau inflige 1d8 points de dégâts et affaiblit la victime. Une sphère de 7ème niveau inflige 1d10 points de dégâts et paralyse la victime pendant 2 tours. Au 10ème niveau, la sphère inflige 1d12 points de dégâts et transforme la victime en pierre. Au 12ème niveau, la sphère inflige 2d8 points de dégâts d'acide et tue instantanément la victime.
+Remarque : la victime effectue ses jets de sauvegarde contres les effets autres que les dégâts à +6.~
+
+// SPDR201.spl
+@1000020 = ~Toile d'araignée
+(Évocation)
+
+Niveau : 2
+Sphère : Création
+Portée : 12 mètres
+Durée : 50 secondes (10 déclenchements)
+Temps d'incantation : 2
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts (-2), annule
+Résistance à la magie : oui
+
+Le sort de toile d'araignée crée une masse à plusieurs couches de fils épais et gluants semblables à ceux d'une toile d'araignée, mais beaucoup plus gros et résistants. La toile couvre un diamètre maximum de 9 mètres (la même zone environ qu'une boule de feu). Les créatures prises dans ces toiles d'araignées ou qui les frôlent simplement restent collées aux fibres gluantes. 
+Toute créature située dans la zone d'effet quand le sort est lancé doit réussir un jet de sauvegarde contre les sorts avec une pénalité de -2. Si elle y parvient, la créature peut sortir de la zone. Dans le cas contraire, elle ne peut pas bouger et reste collée à la toile. A chaque round, la créature doit essayer de réussir un jet de sauvegarde, sans quoi elle ne peut pas bouger.~
+
+// SPDR301.spl
+@1000021 = ~Éclair
+(Évocation)
+
+Niveau : 3
+Sphère : Électricité
+Portée : 15 mètres
+Durée : permanente
+Temps d'incantation : 3
+Zone d'effet : rayon de 1 mètre
+Jet de sauvegarde : sorts, 1/2
+Résistance à la magie : oui
+
+En lançant ce sort, le justicier libère une décharge électrique puissante qui inflige 1d6 points de dégâts par niveau du jeteur de sorts (dégâts maximum de 10d6) à chaque créature située dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi permet de n'encaisser que la moitié des dégâts (arrondis à la fraction inférieure). L'éclair prend naissance à une portée et une hauteur déterminées par le justicier et s'étend sur une ligne directe partant du lanceur de sort. Par exemple, si un éclair de 12 m est lancé à 54 m du justicier, son extrémité la plus éloignée est à 66 mètres (54 +12). Si l'éclair rencontre un mur, il rebondit jusqu'à ce qu'il atteigne sa longueur complète.~
+
+// SPDR401.spl
+@1000022 = ~Invisibilité majeure
+(Illusion)
+
+Niveau : 4
+Sphère : Fantasme
+Portée : contact
+Durée : 3 rounds + 1 round / niveau
+Temps d'incantation : 4
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+
+Ce sort est semblable à celui d'invisibilité, sauf que le destinataire peut attaquer en lançant un projectile, en utilisant une arme de mêlée ou en jetant un sort, tout en restant invisible. Notez qu'il y a parfois des indices révélateurs, une espèce de lueur, qui permet à un assaillant observateur d'attaquer le personnage invisible. Ces traces ne se remarquent que si on les cherche activement (une fois que le personnage invisible a manifesté sa présence). Les attaques contre le personnage invisible sont sanctionnées d'une pénalité de -4 aux jets d'attaque, tandis que les jets de sauvegarde du personnage invisible bénéficient d'un bonus de + 4.
+
+Remarque : après une attaque, la cible n'est plus totalement invisible. L'ennemi peut alors la viser.~
+
+// SPDR501.spl
+@1000023 = ~Chaos
+(Enchantement)
+
+Niveau : 5
+Sphère : Charme
+Portée : 10 mètres
+Durée : 5 rounds + 1 round / 6 niveaux
+Temps d'incantation : 4
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts (-4), partiel
+Résistance à la magie : oui
+
+Les effets de ce sort sont similaires à celui du sort de 4ème niveau Confusion. La victime erre sans but réel, confuse, attaquant quelquefois indifféremment amis comme ennemis. Si la victime est du niveau 4 ou inférieur, elle ne peut pas faire de Jet de sauvegarde contre les effets du sort. A partir du niveau 5, elle peut tenter un Jet de sauvegarde contre les sorts à -4. Le sort reste actif jusqu'à expiration ou Dissipation.~
+
+// SPDR601.spl
+@1000024 = ~Chaîne d'éclairs
+(Évocation)
+
+Niveau : 6
+Sphère : Électricité
+Portée : 12 mètres
+Durée : permanente
+Temps d'incantation : 5
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts, 1/2
+Résistance à la magie : non
+
+Des éclairs jaillissent des doigts du justicier, sautant vers ses ennemis et les brûlant avec de l'électricité. L'éclair cause 1d6 de dégâts par deux niveaux du lanceur. Un Jet de sauvegarde réussi permet de diviser par 2 les dégâts subis. Ainsi, un justicier du 12ème niveau infligera 6d6 (3d6 si jet réussi) à chaque ennemi.~
+
+// Identique BGEE 31985
+@74311 = ~Position défensive~ // SPDWD02 unidentified name
+
+// Identique BGEE 32254, complément dernière phrase
+// SPDWD02.spl @100382
+@100382 = ~Position défensive
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Le personnage gagne un bonus de 2 à ses jets de sauvegarde, 50 % de résistance à toute forme de dégâts physiques, et une pénalité de 50 % à sa vitesse de mouvement pendant un tour.
+Position défensive ne peut pas être employée en conjonction avec Résistance d'acier.~
+
+// Identique BGEE 31986 (compétence du Disciple du Dragon)
+// rivvers : même nom que la compétence
+@74312 = ~Attaque de souffle~ // SPDD03 unidentified name
+
+// Quasi identique BGEE 32253, formulation différente
+// SPDD03.spl @100381
+@100381 = ~Attaque de souffle
+(Universelle) 
+
+Niveau : 2
+Sphère : Feu
+Portée : 9 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : cône de 140° sur 7,5 mètres
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Le personnage crache une flamme qui mesure 7,5 mètres de longueur. Le souffle inflige 3d8 points de dégâts de feu à toutes les créatures prises dans un cône de 140 degrés. La flamme inflige 1d8 points de dégâts de feu supplémentaires au niveau 6 et tous les 3 niveaux par la suite, jusqu'à un maximum de 8d8 au niveau 18.~
+
+// Identique BGEE 31992
+@74316 = ~Pas de l'ombre~ // SPSD02 unidentified name
+
+// Identique BGEE 32233
+// SPSD02.spl @100361
+@100361 = ~Pas de l'ombre
+(Universelle) 
+
+Niveau : 1
+Sphère : Illusion
+Portée : personnelle
+Durée : 7 secondes
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Permet d'entrer dans le Plan de l'Ombre et de s'y déplacer pendant 7 secondes, tandis que le temps est figé pour tout le reste du monde. Dans cet état, le Maître des ombres ne peut ni attaquer, ni lancer de sorts.~
+
+// OHTMPS1.spl
+@6088  = ~Puissance sacrée
+(Évocation)
+
+Niveau : 1
+Portée : personnelle
+Durée : 1 round / niveau
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le prêtre de Tempus acquiert la force et les talents d'un guerrier de même niveau. La force du prêtre passe à 18/00, même si elle est d'habitude plus élevée, son TAC0 devient celui d'un guerrier de même niveau et il obtient 1 point de vie temporaire supplémentaire par niveau. Ces effets se prolongent pendant toute la durée du sort ou jusqu'à ce qu'il soit dissipé magiquement.~
+
+// BGEE 32764
+@103224 = ~Chaos de la bataille~ // OHTMPS2 unidentified name
+// BGEE 32765
+
+// OHTMPS2.spl
+@103225= ~Chaos de la bataille
+(Conjuration)
+
+Niveau : 1
+Portée : personnelle
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : rayon de 7,5 mètres
+Jet de sauvegarde : aucun
+
+Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires du personnage dans une zone de 7,5 mètres de rayon centrée sur lui. Chaos de la bataille dure 1 tour et affecte au hasard la classe d'armure, les points de vie, le TAC0, les jets de sauvegarde ou la chance des cibles. L'amplitude de l'effet débute à 1 (5 en ce qui concerne les points de vie), et augmente d'1 point (5 points en ce qui concerne les points de vie) tous les 6 niveaux du lanceur.~
+
+// Conservation du terme Exaltation de BGEE (en 32368) : voir explication en 93786
+@93788 = ~Exaltation~ // OHTYR1 unidentified name, identified name
+
+// Quasi identique BGEE 32369, traduction Exaltation conservée de BGEE plutôt qu'Acclamation (cf 93786)
+// OHTYR1.spl @103014
+@103014 = ~Exaltation
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : contact
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+
+Ce sort permet au prêtre de porter secours à une personne autre que lui-même. Par contact, il la guérit de tout effet de peur, de sommeil, de débilité mentale, d'inconscience et d'ébriété, ainsi que des états de rage et de confusion. En outre, le bénéficiaire est protégé pendant un tour contre les sorts et attaques qui provoquent ces effets.~
+
+// Identique BGEE 32370
+@93787 = ~Faveur divine~ // OHTYR2 unidentified name, identified name
+
+// Identique BGEE 32371
+// OHTYR2.spl @103015
+@103015 = ~Faveur divine
+(Conjuration)
+
+Niveau : 1
+Sphère : Combinaison
+Portée : personnelle
+Durée : 2 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Ce sort fait bénéficier le lanceur d'un bonus de 1 à ses jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.~
+
+// Identique BGEE 31989
+@74313 = ~Rayon de la Conscience Solaire~ // SPCL236 unidentified name
+
+// Identique BGEE 32222
+// SPCL236.spl @100350
+@100350 = ~Rayon de la Conscience Solaire
+(Universelle) 
+
+Niveau : 1
+Sphère : Feu
+Portée : 15 mètres
+Durée : permanente
+Temps d'incantation : 0
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : partielle
+Composante verbale : non
+
+Le personnage projette un rayon de lumière de sa paume, infligeant à une cible unique 1d8 points de dégâts du feu tous les 2 niveaux, jusqu'à un maximum de 5d8 au niveau 10. Les morts-vivants subissent 6 points de dégâts supplémentaires. Il n'y a pas de jet de sauvegarde contre cette capacité.~
+
+// Identique BGEE 31991
+@74315 = ~Soleil ascendant~ // SPCL237 unidentified name
+
+// Identique BGEE 32223
+// SPCL237.spl @100351
+@100351 = ~Soleil ascendant
+(Universelle) 
+
+Niveau : 4
+Sphère : Protection
+Portée : personnelle
+Durée : 3 rounds + 1 round / niveau
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Le personnage se nimbe de flammes qui agissent comme un Bouclier de feu (rouge), lui conférant 50 % de résistance au feu et le protégeant des attaques à moins de 1,5 mètres : un adversaire qui frappe le personnage avec une arme ou un sort subit 1d8 +2 points de dégâts de feu.~
+
+// Identique BGEE 31990
+@74314 = ~Poings enflammés~ // SPCL238 unidentified name
+// Identique BGEE 32227
+
+// SPCL238.spl @100355
+@100355 = ~Poings enflammés
+(Universelle) 
+
+Niveau : 1
+Sphère : Feu
+Portée : personnelle
+Durée : variable
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Le personnage concentre sa lumière intérieure dans ses attaques à mains nues, transformant ses poings en armes enflammées qui infligent 2d6 points de dégâts de feu supplémentaires pendant un round. La durée de cette capacité augmente jusqu'à 2 rounds au niveau 9, 3 rounds au niveau 12, 4 rounds au niveau 15 et 5 rounds au niveau 25. Cette capacité spéciale modifie automatiquement les attaques de base ; il n'y a pas besoin de changer d'arme.~
+
+// Identique BGEE 32138
+@74317 = ~Faisceau de la Conscience Solaire~ // SPCL239 unidentified name
+
+// Quasi identique BGEE 32224, écart non significatif, modif zone d'effet V2.5
+// SPCL239.spl @74317
+@100352 = ~Faisceau de la Conscience Solaire
+(Universelle) 
+
+Niveau : 1
+Sphère : Lumière
+Portée : personnelle
+Durée : 10 tours
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts, variable
+Résistance à la magie : oui
+Composante verbale : non
+
+Le personnage provoque une explosion de lumière intense qui touche toutes les créatures à moins de 4,5 mètres à la ronde. Le Faisceau de la Conscience Solaire ne frappe pas automatiquement toutes les cibles, mais consiste en une attaque de corps-à-corps basée sur le TAC0 du personnage, et qui bénéficie d'un bonus de 3 contre les morts-vivants. Les victimes subissent 9d6 points de dégâts de feu, avec un bonus de +3 contre les morts-vivants, mais peuvent diviser les dommages par deux grâce à un jet de sauvegarde contre les sorts. En outre, toutes les créatures (excepté le personnage) doivent réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglées pendant 10 tours.~
+
+@81609 = ~Sucer le sang~ // OHDEVIL, OHDGOOD, OHDHEAL2, OHHDRAIN identified name
+
+// OHHDRAIN.spl
+// Hexxat @81611
+// 3 effets sur 3 rounds (mais techniquement dure 2 rounds...), le bonus de js augmente à chaque round
+@81611 = ~Sucer le sang
+(Universelle) 
+
+Niveau : 1
+Sphère : Combat
+Portée : contact
+Durée : 3 rounds
+Temps d'incantation : 0
+Zone d'effet : 1 cible
+Jet de sauvegarde : poison/mort (variable), annule
+Résistance à la magie : non
+Composante verbale : non
+
+Pour survivre, un vampire a besoin de se nourrir. A chaque round la cible doit réussir un jet de sauvegarde contre la mort ou perdre 1d4 points de Constitution et sombrer dans l'inconscience pendant 5 rounds.~
+
+// Freddy : compatible avec stratagems
+@81612 = ~Enfants de la nuit~ // OHHSUMM unidentified name, identified name
+
+// OHHSUMM.spl
+// Hexxat @81613
+// nombre d'invocation incorrect, la probabilité d'apparition du 4ème loup/ombre augmente avec les niveaux
+@81613 = ~Enfants de la nuit
+(Conjuration)
+
+Niveau : 1
+Sphère : Convocation
+Portée : 4 mètres
+Durée : 1 round / niveau
+Temps d'incantation : 5
+Zone d'effet : 1 position
+Jet de sauvegarde : aucun
+
+Cette faculté permet au vampire de convoquer plusieurs créatures des ombres. Selon son niveau, ces créatures sont de plus en plus puissantes et nombreuses.
+
+- niveaux 1 à 10  : Convoque 1d4+1 rats
+- niveaux 11 à 20 : Convoque 3 voire 4 loups
+- niveaux 21 à 30 : Convoque 3 voire 4 ombres~
+
+// @22614 = ~Domination~ // SPIN883 unidentified name (SoA+ToB reuse)
+// Proche de BGEE / BG II 22615 mais traduction revue
+// SPIN883.spl
+// Hexxat @102780
+@102780 = ~Domination
+(Enchantement)
+
+Niveau : 5
+Sphère : Coercition
+Portée : 12 mètres
+Durée : 8 rounds
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts (-2), annule
+Résistance à la magie : oui
+
+Les capacités mentales d'un vampire sont vraiment des outils puissants. Domination permet au vampire de contrôler les agissements de n'importe quelle créature tant que cette capacité fait effet. Le contrôle se maintient grâce à un lien télépathique entre le jeteur de sort et la victime. Contrairement au sort de clerc du 4ème niveau Domination mentale, la cible n'a pas la capacité de se libérer de l'emprise, même si elle est contrainte d'agir contrairement à ses principes moraux. Seule une Dissipation de la magie peut annuler cet effet. La cible a droit à un jet de sauvegarde contre les sorts avec une pénalité de 2 afin d'éviter cet effet.~
+
+// Identique IWDEE 21402
+@102860 = ~Rage animale~ // OHRRAGE unidentified name
+
+// OHRRAGE.spl
+// Wilson @102861
+@102861 = ~Rage animale
+(Universelle) 
+
+Niveau : 1
+Sphère : Coercition
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Pendant un tour, la rage confère à l'animal un bonus de 2 au toucher, aux dégâts et à la Classe d'armure, et l'immunise aux charmes, à la confusion, à la terreur, à la débilité mentale, à l'immobilisation, à l'étourdissement et au sommeil.~
+
+// Identique BGEE 28304
+@77510 = ~Absorption de vie~ // SPCL102 unidentified name
+
+// Identique BGEE 32229
+// SPCL102.spl
+// Chevalier noir @100357
+@100357 = ~Absorption de vie
+(Nécromancie)
+
+Niveau : 1
+Portée : 9 mètres
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Inflige 2 points de dégâts par niveau à une cible, et soigne le lanceur d'autant de points de vie.~
+
+// Identique BGEE 28306
+@77511 = ~Aura de désespoir~ // SPCL103 unidentified name
+
+// Quasi identique BGEE 32230, simple reformulation, texte de BGEE conservé, correction portée V2.5
+// SPCL103.spl
+// Chevalier noir @100358
+@100358 = ~Aura de désespoir
+(Conjuration)
+
+Niveau : 2
+Sphère : Coercition
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 0
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+Résistance à la magie : oui
+Composante verbale : non
+
+Cette capacité affecte tous les adversaires à moins de 4,5 mètres, n'autorise pas de jet de sauvegarde, et s'améliore avec les niveaux :
+- Niveau 3 : pénalités de 1 aux jets de toucher et de dégâts et de 2 à la Classe d’armure
+- Niveau 6 : pénalités de 2 aux jets de toucher et de dégâts et de 2 à la Classe d’armure
+- Niveau 15 : tous les ennemis subissent des pénalités de 4 aux jets de toucher et de dégâts et de 4 à la Classe d’armure ; les ennemis ayant 8 dés de vie ou moins sont également pris de panique.
+- Niveau 20 : tous les ennemis subissent des pénalités de 4 aux jets de toucher et de dégâts et de 4 à la Classe d’armure ; les ennemis ayant 18 dés de vie ou moins sont également pris de panique.~
+
+@51964 = ~Tir ajusté~
+
+// @51964 = ~Called Shot~ // SPCL121 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32231
+// SPCL121.spl @100359
+// rivvers : ajout de la durée des effets
+@100359 = ~Tir ajusté
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 10 secondes
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Toute attaque à distance effectuée dans les 10 secondes qui suivent a les effets suivants (en sus des dégâts normaux) :
+- Niveau 4 : La cible subit un malus de 1 au TAC0 pendant 20 secondes
+- Niveau 8 : La cible subit un malus de 1 aux jets de sauvegarde contre les sorts pendant 15 secondes
+- Niveau 12 : La cible subit un malus de 1 à la Force pendant 10 secondes
+- Niveau 16 : +2 aux dégâts du tir~
+
+// @51848 = ~Kai~ // SPCL144 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32232
+// SPCL144.spl @100360
+@100360 = ~Kaï
+(Universelle) 
+
+Niveau : 0
+Portée : personnelle
+Durée : 10 secondes
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Toutes les attaques infligent le maximum de dégâts pendant 10 secondes.~
+
+// @42870 = ~Barbarian Rage~ // SPCL152 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32234
+// SPCL152.spl @100362
+@100362 = ~Rage du barbare
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Pendant 5 rounds, la rage confère un bonus de 4 en Constitution et en Force, une pénalité de 2 à la Classe d'armure et un bonus de 2 aux jets de sauvegarde contre les sorts. La rage immunise aussi contre les effets de charme, d'immobilisation, de peur, de labyrinthe, d'étourdissement, de sommeil, de confusion et d'absorption de niveau.~
+
+// @12032 = ~Lay On Hands~ // SPCL211 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32226
+// SPCL211.spl @100354
+// version paladin
+@100354 = ~Imposition des mains
+(Nécromancie)
+
+Niveau : 1
+Sphère : Guérison
+Portée : contact
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Le personnage puise dans l'énergie positive pour soigner une cible qu'il touche à hauteur de 2 points de vie par niveau.~
+
+// @20678 = ~Charm Animal~ // SPIN108 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32228, écart non significatif
+// c'est un chame neutre, non un charme hostile
+// SPIN108.spl @100356
+@100356 = ~Charme-animal
+(Universelle) 
+
+Niveau : 1
+Sphère : Charme
+Portée : contact
+Durée : 2 tours
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : oui
+Composante verbale : non
+
+Ce sort affecte n'importe quel animal touché. Ce dernier a tout de même droit à un jet de sauvegarde contre les sorts pour y échapper.
+
+En cas d'échec, il considère le lanceur comme un véritable ami et allié méritant son attention et sa protection. Ce dernier peut donner des ordres à l'animal charmé qui les exécute le plus vite possible.
+
+Si le lanceur de sorts nuit ou essaie de nuire à l'animal sous le charme par une action non déguisée, ou si un sort de Dissipation de la magie est jeté avec succès, le charme est rompu. Si plusieurs effets de charmes affectent simultanément un animal, le charme le plus récent prend le dessus. Notez que vous ne pouvez faire quitter à la créature la zone dans laquelle elle a été charmée.~
+
+// @34654 = ~Enrage~ // SPCL321 unidentified name (SoA+ToB reuse) // Nota : traduction de ce terme à reprendre de BGEE, celle de BG II est incorrecte ("Exaspération")
+// Identique BGEE 32235, remise des immunités dans l'ordre de la VO
+// SPCL321.spl @100363
+// rivvers : les points de vie retirés ne tuent pas le personnage
+@100363 = ~Furie
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Cet état dure un tour. Sous Furie, le personnage obtient un bonus de 2 au toucher, aux dégâts et à la Classe d'armure, et devient immunisé aux charmes, à la confusion, à la terreur, à la débilité mentale, aux immobilisations, à l'emprisonnement, à l'absorption de niveaux, au Labyrinthe, à l'étourdissement et au sommeil. Il gagne également 15 points de vie temporaires, qui sont retirés à la fin de la Furie, pouvant rendre le personnage inconscient.
+
+À la fin de la Furie, le personnage est essoufflé, et écope d'un malus de 2 au toucher, aux dégâts et à la Classe d'armure pendant 5 rounds.~
+
+// @36351 = ~Set Snare~ // SPCL412 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32220
+// SPCL412.spl @100348
+@100348 = ~Pose de piège
+(Universelle) 
+
+Niveau : 4
+Portée : contact
+Durée : variable
+Temps d'incantation : 0
+Zone d'effet : 1 position
+Jet de sauvegarde : mort (+4), partiel
+Résistance à la magie : non
+Composante verbale : non
+
+Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le voleur augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis.
+- Niveau 1 : le piège inflige 2d8 +5 points de dégâts (projectile).
+- Niveau 11 : le piège inflige 2d8 +5 points de dégâts (projectile), plus 2d6 points de dégâts de poison par round pendant 3 rounds.
+- Niveau 16 : le piège inflige 3d8 +5 points de dégâts (projectile), plus 4d8 +2 points de dégâts de feu.
+- Niveau 21 : le piège inflige 3d8 +5 points de dégâts (projectile), plus 20 points de dégâts de poison sans jet de sauvegarde ; la cible meurt instantanément si elle rate un jet de sauvegarde contre la mort à +4.~
+
+// @52927 = ~Set Special Snare~ // SPCL414 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32221
+// SPCL414.spl @100349
+// rivvers : la RM annule la sphère et l'immobilisation
+@100349 = ~Pose de piège spécial
+(Universelle) 
+
+Niveau : 4
+Portée : contact
+Durée : variable
+Temps d'incantation : 0
+Zone d'effet : 1 position
+Jet de sauvegarde : sorts (variable), partiel
+Résistance à la magie : partielle
+Composante verbale : non
+
+Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le chasseur de primes augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis.
+- Niveau 1 : le piège inflige 3d8 +5 points de dégâts (projectile) et ralentit la victime pendant 5 rounds si elle rate un jet de sauvegarde contre les sorts à -4.
+- Niveau 11 : le piège inflige 4d8 +5 points de dégâts (projectile) et immobilise la victime pendant 5 rounds si elle rate un jet de sauvegarde contre les sorts à -1.
+- Niveau 16 : le piège déclenche le sort Sphère d'Otiluke sur la victime pendant 7 rounds si elle rate un jet de sauvegarde contre les sorts.
+- Niveau 21 : le piège déclenche le sort Labyrinthe sur la victime.~
+
+// @52056 = ~Poison Weapon~ // SPCL423 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32236
+// SPCL423.spl @100364
+// rivvers : JS poison, non mort; conversion du temps en round
+@100364 = ~Arme empoisonnée
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : poison (variable), partiel
+Résistance à la magie : non
+Composante verbale : non
+
+Chaque coup réussi au cours des 5 prochains rounds empoisonnera la cible. Chaque cible ne peut être affectée qu'une fois par round. Le montant des dégâts de poison dépend du niveau du personnage :
+
+- Niveau 1 : la cible subit 1 point de dégât de poison par seconde pendant 1 round (annulé par un jet de sauvegarde contre le poison à +1)
+- Niveau 5 : la cible subit 1 point de dégât de poison par seconde pendant 2 rounds (annulé par un jet de sauvegarde contre le poison) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
+- Niveau 9 : la cible subit 1 point de dégât de poison par seconde pendant 3 rounds (annulé par un jet de sauvegarde contre le poison à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
+- Niveau 13 : la cible subit 1 point de dégât de poison par seconde pendant 4 rounds (annulé par un jet de sauvegarde contre le poison à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)~
+
+// @34655 = ~Offensive Spin~ // SPCL521 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32237
+// SPCL521.spl @100365
+@100365 = ~Spirale offensive
+(Universelle)
+
+Niveau : 1
+Sphère : Combat
+Portée : personnelle
+Durée : 4 rounds
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Durant les 4 prochains rounds, la vitesse de mouvement du personnage est doublée et il obtient un bonus de 2 au toucher et aux dégâts, ainsi qu'une attaque supplémentaire par round, et toutes ses attaques font le maximum de dégâts. Ne peut être utilisée en conjonction avec les sorts profanes Hâte ou Hâte améliorée.~
+
+// @34656 = ~Defensive Spin~ // SPCL522 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32238
+@100366 = ~Spirale défensive
+(Universelle) 
+
+Niveau : 1
+Sphère : Protection
+Portée : personnelle
+Durée : 4 rounds
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Durant les 4 prochains rounds, le personnage ne peut se déplacer, et il obtient un bonus de 1 à sa Classe d'armure par niveau d'expérience, jusqu'à un maximum de 10.~
+
+// @34768 = ~Storm Shield~ // SPCL721 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32248
+@100376 = ~Bouclier tempête
+(Abjuration)
+
+Niveau : 3
+Sphère : Protection
+Portée : personnelle
+Durée : 1 round / niveau
+Temps d'incantation : 3
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Ce sort dure 1 round par niveau du lanceur de sorts. Il le protège contre l'électricité, le feu, le froid et les projectiles non-magiques.~
+
+// rivvers : nom du sort, +ajout dans 34789 et 34790 (noms de l'objet)
+@34791 = ~Épée animée~
+
+// @34791 = ~Seeking Sword~ // SPCL731 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32249, personnage au lieu de prêtre, modif bonus
+@100377 = ~Épée animée
+(Évocation)
+
+Niveau : 4
+Portée : personnelle
+Durée : 1 round / niveau
+Temps d'incantation : 5
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Ce sort fait apparaître une épée dans la main du personnage (ne peut être lâchée, volontairement ou non). Cette arme est enchantée comme une arme +4 et fournit un bonus de 4 au TAC0, mais aucun bonus aux dégâts. Elle inflige 2d4 points de dégâts tranchants à toute cible qu'elle touche. L'arme fixe le nombre d'attaques par round du personnage à 3 et dure 1 round par niveau. Tant que le personnage l'a en main, il ne peut pas lancer le moindre sort.~
+
+// @34800 = ~Boon of Lathander~ // SPCL741 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32250
+@100378 = ~Don de Lathandre
+(Conjuration)
+
+Niveau : 4
+Portée : personnelle
+Durée : 1 round / niveau
+Temps d'incantation : 3
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Ce sort dure 1 round par niveau et confère +1 aux jets d'attaque, de dégâts et de sauvegarde, ainsi qu'une attaque supplémentaire par round. Il protège également contre l'absorption de niveau.~
+
+// @42865 = ~Stunning Blow~ // SPCL811 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32251
+@100379 = ~Coup étourdissant
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 9 secondes
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : non
+Composante verbale : non
+
+Toutes les attaques réussies au cours du round suivant obligent la victime à réussir un jet de sauvegarde contre les sorts sous peine d'être assommée. Ce talent spécial modifie automatiquement l'attaque normale du personnage, sans avoir besoin de viser une cible.~
+
+// @12032 = ~Lay On Hands~ // SPCL815 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32225
+@100353 = ~Imposition des mains
+(Nécromancie)
+
+Niveau : 1
+Sphère : Guérison
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Le personnage puise dans l'énergie positive pour se soigner à hauteur de 2 points de vie par niveau.~
+
+@42857 = ~Paume vibratoire~ // SPCL820 unidentified name (SoA+ToB reuse)
+
+// Identique BGEE 32252
+// SPCL820.spl @100380
+@100380 = ~Paume vibratoire
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 secondes
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : sort, annule
+Résistance à la magie : non
+Composante verbale : non
+
+La prochaine attaque réussie force la victime à réussir un jet de sauvegarde contre les sorts ou mourir. Ce talent spécial modifie automatiquement l'attaque normale du personnage, sans avoir besoin de viser une cible.~
+
+
+// Identique IWDEE 36124
+@101640 = ~Double d'ombre~ // SPCL936 unidentified name
+
+// Identique IWDEE 36125
+// SPCL936.spl @
+// rivvers : durée erronée
+@101641 = ~Double d'ombre
+(Universelle) 
+
+Niveau : 1
+Sphère : Illusion
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Cette capacité permet de créer un double du Maître des ombres qui dure 1 tour. La copie créée possède 60 % des niveaux du personnage, et toutes les capacités que le Maître des ombres posséderait à ce niveau. Il possède également 60 % de ses points de vie. Le double d'ombre est contrôlé par le personnage.~
+
+// Identique IWDEE 36126
+@101644 = ~Labyrinthe d'ombre~ // SPCL937 unidentified name
+
+// Identique IWDEE 36127, ajustement portée
+// SPCL937.spl @101645
+@101645 = ~Labyrinthe d'ombre
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : variable
+Temps d'incantation : 1
+Zone d'effet : rayon de 2 mètres
+Jet de sauvegarde : sorts (-4), annule
+Résistance à la magie : oui
+Composante verbale : non
+
+Cette capacité permet d'ouvrir un portail temporaire qui mène à un espace contenu dans le Plan de l'Ombre. Tous les adversaires à moins de 2 mètres du Maître des ombres doivent réussir un jet de sauvegarde contre les sorts à -4 sous peine d'être piégés dans un dédale fait d'ombre, un peu comme le sort de Labyrinthe.~
+
+// Identique IWDEE 36128
+@101642 = ~Forme d'ombre~ // SPCL938 unidentified name
+
+// Identique IWDEE 36129
+// SPCL938.spl @101643
+@101643 = ~Forme d'ombre
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Cette capacité permet au personnage de se transformer partiellement en ombre, se rendant en partie désincarné. L'effet dure 5 rounds, durant lesquels toutes les attaques physiques dirigées contre le Maître des ombres n'infligent que la moitié de leurs dégâts normaux. Dans le même temps, le personnage est sous l'effet d'Invisibilité majeure, et ne peut donc être ciblé directement par des sorts.~
+
+@103138 = ~Forme spirituelle~ // SPCL940 unidentified name
+// @todo Trancher entre Invisibilité améliorée et Invisiblité majeure dans tous les textes
+// rivvers : Invisibilité majeure est le nom d'origine, j'opte pour celui-ci
+
+// SPCL940.spl @103139
+@103139 = ~Forme spirituelle
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Le shaman se faufile dans un espace entre le monde des esprits et le plan matériel, ce qui le rend partiellement désincarné. Pendant les 5 rounds suivants, toutes les attaques physiques dirigées contre lui ne causent que 50 % des dégâts normaux. Pendant cette période, le shaman bénéficie aussi des effets d'Invisibilité majeure et ne peut pas être directement ciblé par des sorts.~
+
+// Identique BGEE 32364
+@103064 = ~Élu des esprits~ // SPCL941 unidentified name
+
+// Quasi identique BGEE 32365, correction durée 1 h au lieu de 5 ou 10 tours (défaut dans BGEE)
+// SPCL941.spl @103065
+@103065 = ~Élu des esprits
+(Universelle) 
+
+Niveau : 1
+Sphère : Protection
+Portée : personnelle
+Durée : 5 tours
+Temps d'incantation : 9
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Pré-requis : Forme spirituelle
+
+Ce puissant rite protège le shaman de la mort pendant 1 heure ou jusqu'à ce qu'il soit déchargé. Tant qu'il est sous la protection de ce rite, le shaman est immunisé contre toutes les formes de magie de mort. En outre, si le shaman voit ses points de vie descendre sous les 10 % et que le rite est actif, le shaman reçoit instantanément un sort de Guérison. La protection du rite (y compris l'immunité à la mort) est complètement déchargé dès que le sort de Guérison est déclenché.~
+
+// @10381 = ~Berserk~ // SPIN117 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32330 (1 saut de ligne près)
+// @SPIN117.spl @103010
+// rivvers : les dégâts de fin ne sont pas létaux (dans le pire des cas, il sera assommé)
+@103010 = ~Berserk
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 2 tours
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Minsc entre dans un état berserk pendant 2 tours, durant lesquels il obtient un bonus de 2 à la Force et à la Dextérité, ainsi que l'immunité aux charmes, à la confusion, à la terreur, à la débilité mentale, à l'immobilisation, à l'étourdissement, à l'absorption de niveau, au sommeil et au sort Labyrinthe. En outre, il gagne 15 points de vie temporaires, qui lui sont retirés sous forme non-létale lorsque l'état berserk prend fin.~
+
+// @44913
+@44913 = ~Souffle de feu~
+
+// @44913 = ~Breathe Fireball~ // SPIN160 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32268 V2.5
+// SPIN160 @100396
+@100396 = ~Souffle de feu
+(Universelle) 
+
+Niveau : 1
+Sphère : Feu
+Portée : 4 mètres
+Durée : permanente
+Temps d'incantation : 0
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+La créature lance un projectile enflammé sur une cible, lui infligeant 2d6 points de dégâts de feu sur une attaque à distance.~
+
+// @55410 = ~Invoke Courage~ // SPIN676 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 25929
+// SPIN676.spl @100398
+// rivvers : C'est un sort de zone... et le bonus de TAC0 ne concerne que les armes de mêlée
+@100398 = ~Inspirer le courage
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : 5 tours
+Temps d'incantation : 2
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+
+Quand Mazzy fait appel à cette capacité, elle et tous ses alliés présents dans la zone d'effet deviennent immunisés à la peur et obtiennent un bonus de 1 au TAC0 en mêlée ainsi qu'à tous leurs jets de sauvegarde. L'effet dure 5 tours.~
+
+@2960 = ~Œil du Chien de la Lune~ // SPIN696 unidentified name (SoA+ToB reuse)
+
+// Nom de capacité repris de BGEE 25958, proche de @100399 (plus utilisé) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
+// SPIN696.spl @103003
+// rivvers : la détection du mal est sujet à la résistance à la magie
+@103003 = ~Œil du Chien de la Lune
+(Universelle) 
+
+Niveau : 3
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 3
+Zone d'effet : champ visuel
+Jet de sauvegarde : aucun
+Résistance à la magie : partielle
+
+Le Chien de la Lune peut transpercer (et par conséquent dissiper) toute forme d'illusion et d'invisibilité, détecter les pièges et le mal à proximité.~
+
+// Adapté de BGEE 12142
+// SPIN697.spl
+// rivvers : durée erronée
+@103001 = ~Image miroir
+(Illusion)
+
+Niveau : 2
+Sphère : Fantasme
+Portée : personnelle
+Durée : variable
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+La durée de l'effet varie en fonction du niveau de Cérébus :
+ Niveau 1 : 6 rounds
+ Niveau 12 : 15 rounds
+
+Cérébus fait apparaître 6 répliques de lui-même autour de lui. Ces images agissent exactement de la même façon que lui. Comme le sort provoque une légère distorsion visuelle, les ennemis ne peuvent identifier le vrai Cérébus parmi toutes les silhouettes. Lorsqu'un sosie est touché par une arme de mêlée ou un projectile, magique ou non, il disparaît ; mais les autres restent jusqu'à ce qu'ils soient frappés à leur tour. Cependant il est important de noter que cela ne protège pas Cérébus de toutes les attaques, car il est possible qu'un ennemi choisisse le véritable chien parmi toutes les répliques.~ // SPIN697 unidentified description
+
+// renommé pour éviter la confusion avec l'invisibilité majeure (la vraie)
+@1000033 = ~Invisibilité supérieure~
+
+// @12021 = ~Improved Invisibility~ // SPIN698 unidentified name (SoA+ToB reuse)
+// Adapté de BGEE 4736 ou BG II 4736
+// SPIN698.spl @103002
+// rivvers : problème : la non-détection dure 90 secondes au niveau 1
+@103002 = ~Invisibilité supérieure
+(Illusion)
+
+Niveau : 4
+Sphère : Fantasme
+Portée : personnelle
+Durée : variable
+Temps d'incantation : 4
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+La durée de l'effet varie en fonction du niveau de Cérébus :
+ Niveau 1 : 10 rounds
+ Niveau 12 : 15 rounds
+
+Cette capacité procure tous les avantages d'une Invisibilité majeure à Cérébus. Cependant, s'il attaque pendant ce laps de temps, un indice révélateur, une espèce de lueur, trahira sa position approximative, ce qui permet à un assaillant observateur de le cibler. Les attaques contre Cérébus sont sanctionnées d'une pénalité de 4 aux jets d'attaque, tandis que ses jets de sauvegarde bénéficient d'un bonus de 4 pendant ce temps.
+
+En plus de cela, la capacité procure à Cérébus la non-détection, ce qui le rend indétectable par des sorts de divination tel que Dissipation de l'invisibilité.~
+
+// @2961 = ~Healing Lick~ // SPIN699 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 25961, proche de 100400 (plus utilisé)
+// SPIN699.spl @103004
+// rivvers : ajout de la débilité mentale
+@103004 = ~Langue soignante
+(Nécromancie)
+
+Niveau : 1
+Sphère : Guérison
+Portée : contact
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+
+Soigne 20 points de vie et guérit les effets de la maladie, la débilité mentale, la surdité, la cécité et du poison.~
+
+// @12077 = ~Strength~ // SPIN826 unidentified name (SoA+ToB reuse)
+// SPIN826.spl @103103
+// rivvers : Niveau 1-6 : 18/50 de force, non ajouté car elle est niveau 7+ dans BG2EE mais à compléter si cela devait changer
+@103103 = ~Force
+(Transmutation)
+
+Niveau : 1
+Portée : personnelle
+Durée : 3 tours
+Temps d'incantation : 2
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+En cas de besoin, Mazzy peut faire appel à une grande source de force pendant de brèves périodes. L'emploi de cette capacité fixe sa force à 18/75. À partir du niveau 13, sa force atteint 18/00 et elle bénéficie d'un bonus supplémentaire de 4 au TAC0 pour tous les types d'attaques. Une telle puissance ne peut pas être maintenue indéfiniment, hélas. Au bout de 3 tours, l'énergie parcourant son corps s'épuise et la force de Mazzy revient à la normale.~
+
+// @12032 = ~Lay On Hands~ // SPIN827 unidentified name (SoA+ToB reuse)
+// SPIN827.spl @103105
+@103105 = ~Imposition des mains
+(Universelle) 
+
+Niveau : 1
+Sphère : Guérison
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Mazzy canalise l'énergie positive afin de se soigner de 2 points de vie par niveau.~
+
+// @12080 = ~Haste~ // SPIN828 unidentified name (SoA+ToB reuse)
+// SPIN828.spl @103104
+@103104 = ~Hâte
+(Transmutation)
+
+Niveau : 1
+Portée : personnelle
+Durée : 3 rounds + 1 round / niveau
+Temps d'incantation : 3
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Lorsque les circonstances l'exigent, Mazzy peut se déplacer à une vitesse incroyable pendant de brèves périodes. En utilisant cette capacité, elle ne ressemble à rien d'autre qu'à un corps imprégné du sort profane Hâte ; elle peut courir deux fois sa distance habituelle dans la même durée, et elle bénéficie d'une attaque supplémentaire à chaque round de combat. Un tel rythme ne peut pas être maintenu indéfiniment, cependant. L'effet ne dure que 3 rounds + 1 round par niveau avant qu'elle ne retrouve sa vitesse normale ~
+
+// rivvers : modification du nom : pas de verbe à l'infinitif
+// @51958
+@51958 = ~Fabrication Fiancées du Flasher~
+
+// @51958 = ~Create Bruiser Mates~ // SPIN829 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de ToB 51958
+// SPIN829.spl @100401
+@100401 = ~Fabrication Fiancées du Flasher
+(Évocation)
+
+Niveau : 1
+Sphère : Création
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 9
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Cette capacité fabrique 5 des Fiancées du Flasher Méga-Tapeur brevetées par Jan, et les place dans l'inventaire du personnage. À manipuler avec précaution !~
+
+// @2962 = ~Moon Dog Howl~ // SPIN891 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 26039, proche de 100402 (plus utilisé)
+// SPIN891.spl @103005
+// rivvers : ajout de la durée des effets, ne touche pas que les ennemis mauvais mais tous les personnages mauvais
+@103005 = ~Hurlement du Chien de la Lune
+(Universelle) 
+
+Niveau : 6
+Sphère : Coercition, Protection
+Portée : personnelle
+Durée : variable
+Temps d'incantation : 2
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : sorts (-2), annule
+Résistance à la magie : oui
+
+Instille la peur chez les personnages d'alignement mauvais pendant 3 rounds et leur inflige 5 points de dégâts magiques par round.
+Les alliés voit leurs peurs se dissiper et sont protégés contre le mal pour une durée de 15 rounds.~
+
+// @2962
+@2962 = ~Hurlement du Chien de la Lune~
+
+// @19794 = ~Shapeshift: Brown Bear~ // SPCL611 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32257 V2.5
+// SPCL611.spl @100385
+// rivvers : touche comme une arme +2, pas d'augmentation de vitesse de déplacement
+@100385 = ~Métamorphose en ours brun
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 18/00
+- Dextérité : 12
+- Classe d'armure : 6
+- Attaques par round : 3
+- Dégâts : 1d6 (perforant), touche comme une arme +2~
+
+// @19793 = ~Shapeshift: Wolf~ // SPCL612 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32256 V2.5
+// SPCL612.spl @100384
+// rivvers : pas de vitesse de déplacement augmentée
+@100384 = ~Métamorphose en loup
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 15
+- Dextérité : 18
+- Classe d'armure : 6
+- Attaques par round : 2
+- Dégâts : 1d8 (perforant), touche comme une arme +1
+
+Capacités spéciales :
+- résistance au froid : 100 %
+- résistance au froid magique : 100 %
+- résistance à l'électricité : 50 %~
+
+// @19792 = ~Shapeshift: Black Bear~ // SPCL613 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32258 V2.5
+// SPCL613.spl @100386
+// rivvers : pas de vitesse de déplacement augmentée, 1d4 de dégâts
+@100386 = ~Métamorphose en ours noir
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 18/00
+- Dextérité : 12
+- Classe d'armure : 7
+- Attaques par round : 3
+- Dégâts : 1d4 (perforant), touche comme une arme +1~
+
+// @34710 = ~Summon Spirit Animal~ // SPCL621 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32239
+// SPCL621.spl @100367
+// rivvers : retrait du 'une fois par jour tous les 5 niveaux', nous ne sommes pas dans le menu de création du personnage
+@100367 = ~Convocation d'un esprit animal
+(Conjuration)
+
+Niveau : 6
+Sphère : Convocation
+Portée : personnelle
+Durée : 6 tours
+Temps d'incantation : 0
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Choisi un esprit animal particulier parmi Esprit ours, Esprit loup, Esprit lion ou Esprit serpent. Le personnage peut alors invoquer cet animal de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
+
+// @34812
+@34812 = ~Esprit serpent~
+// @34767
+@34767 = ~Esprit ours~
+// @34819
+@34819 = ~Esprit lion~
+// @34808
+@34808 = ~Esprit loup~
+
+// @34812 = ~Spirit Snake~ // SPCL622 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32240
+@100368 = ~Esprit serpent
+
+Le personnage peut invoquer un Esprit serpent. L'animal dispose de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~ // SPCL622 unidentified description
+
+// @34767 = ~Spirit Bear~ // SPCL623 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32241
+@100369 = ~Esprit ours
+
+Le personnage peut invoquer un Esprit ours. L'animal dispose de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~ // SPCL623 unidentified description
+
+// @34819 = ~Spirit Lion~ // SPCL624 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32242
+@100370 = ~Esprit lion
+
+Le personnage peut invoquer un Esprit lion. L'animal dispose de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~ // SPCL624 unidentified description
+
+// @34808 = ~Spirit Wolf~ // SPCL625 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32243
+@100371 = ~Esprit loup
+
+Le personnage peut invoquer un Esprit loup. L'animal dispose de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~ // SPCL625 unidentified description
+
+
+// @34734 = ~Shapeshift: Baby Wyvern~ // SPCL633 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32245 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
+// SPCL633.spl @100373
+// rivvers : ajout du bonus de CA contre les projectiles, dégâts +2
+// rivvers : ne protège pas spécifiquement du sort Glisse
+@100373 = ~Métamorphose en bébé wiverne
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 16
+- Dextérité : 17
+- Classe d'armure : 3 (+2 contre les projectiles)
+- Attaques par round : 2
+- Dégâts : 1d6 +2 (perforant), touche comme une arme +2, un coup porté inflige 5 points de dégâts de poison par seconde pendant 20 secondes (jet de sauvegarde contre le poison à -4 pour annuler)
+
+Capacité spéciale :
+- immunité à l'immobilisation, à la paralysie, au ralentissement, à l'absorption de niveau, aux toiles d'araignées, à l'enchevêtrement et aux effets du sort Glisse.~
+
+// @34734
+@34734 = ~Métamorphose en bébé wiverne~
+
+// @34743 = ~Shapeshift: Fire Salamander~ // SPCL634 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32246 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
+// SPCL634.spl @100374
+// rivvers : dégâts +3
+@100374 = ~Métamorphose en salamandre de feu
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 18/75
+- Dextérité : 19
+- Classe d'armure : 2
+- Attaques par round : 1
+- Dégâts : 1d8 +3 (perforant), touche comme une arme +3
+
+Capacités spéciales :
+- TAC0 : bonus de 1
+- vitesse de déplacement augmentée
+- résistance au feu : 50 %
+- Souffle de feu trois fois par jour (inflige 2d6 de points de dégâts du feu à la cible)~
+
+// @34743 
+@34743 = ~Métamorphose en salamandre de feu~
+
+// @52637 = ~Shapeshift: Werewolf~ // SPCL643 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32328 V2.5
+// SPCL643.spl @103009
+// rivvers : dégâts +2
+@103009 = ~Métamorphose en loup-garou
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 19
+- Dextérité : 16
+- Classe d'armure : 1
+- Attaques par round : 2
+- Dégâts : 1d6 +2 (tranchant), touche comme une arme +2
+
+Capacité spéciale :
+- résistance à la magie : 20 %~
+
+// @52637
+@52637 = ~Métamorphose en loup-garou~
+
+// @52502 = ~Shapeshift: Greater Werewolf~ // SPCL644 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32329 V2.5
+// SPCL644.spl @103011
+// rivvers : nom repris de la 3.5
+// rivvers : attention, pas de bonus de dégâts contrairement au loup-garou..., touche comme une arme +2
+@103011 = ~Métamorphose en Seigneur loup-garou
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 21
+- Dextérité : 20
+- Classe d'armure : -6
+- Attaques par round : 3
+- Dégâts : 1d8 (tranchant), touche comme une arme +2
+
+Capacités spéciales :
+- résistance au feu : 50 %
+- résistance au froid : 50 %
+- résistance à l'électricité : 50 %
+- résistance à l'acide : 50 %
+- résistance à la magie : 40 %~
+
+// @52502
+@52502 = ~Métamorphose en Seigneur loup-garou~
+
+// @23472 = ~Shapeshift: Spider~ // SPIN125 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32244 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
+// SPIN125.spl @100372
+// rivvers : nom repris du nom de la créature en question
+// rivvers : ajout du bonus de CA contre les projectiles, dégâts +1
+@100372 = ~Métamorphose en araignée-géante
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 15
+- Dextérité : 17
+- Classe d'armure : 4 (+4 contre les projectiles)
+- Attaques par round : 2
+- Dégâts : 1d4 +1 (perforant), touche comme une arme +1, poison (1 point de dégât toutes les 2 secondes pendant 5 rounds ; un jet de sauvegarde contre le poison à +1 annule)
+
+Capacités spéciales :
+- immunité aux toiles d'araignées
+- vitesse de déplacement augmentée~
+
+// @23472
+@23472 = ~Métamorphose en araignée-géante~
+
+// @18626 = ~Shapechange: Mind Flayer~ // SPIN152 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32262, correction perte d'intelligence
+// SPIN152.spl @100390
+// rivvers : ajout touche comme une arme +2, durée de l'absorption, capacité spéciale
+@100390 = ~Métamorphose en flagelleur mental
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Caractéristiques naturelles :
+- Force : 10
+- Dextérité : 10
+- Classe d'armure : 5
+- Attaques par round : 4
+- Dégâts : 1d2 (contondant), touche comme une arme +2, -5 en intelligence pendant 5 rounds
+
+Capacité spéciale :
+- Souffle psionique une fois par jour (étourdissement pendant 1 tour ; un jet de sauvegarde contre les sorts annule).~
+
+// @18626
+@18626 = ~Métamorphose en flagelleur mental~
+
+// Freddy : ajout de SPIN974 non traduit.
+// SPIN974.spl @103209
+@103209 = ~Souffle psionique
+(Universelle) 
+
+Niveau : 1
+Sphère : Coercition
+Portée : 6 mètres
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : rayon de 2,5 mètres
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : non
+
+L'une des attaques préférées des flagelleurs mentaux est le souffle psionique, une décharge d'énergie mentale qui étourdit pendant 1 tour tout adversaire s'il rate un jet de sauvegarde contre les sorts.~
+
+// @23480 = ~Shapeshift: Flind~ // SPWI493 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32260 V2.5
+// SPWI493.spl @100388
+@100388 = ~Métamorphose en flind
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+
+Caractéristiques naturelles :
+- Force : 17
+- Dextérité : 17
+- Classe d'armure : 1
+- Attaques par round : 2
+- Dégâts : 1d10 +1 (tranchant ou perforant), +1 point de dégât de feu, touche comme une arme +3
+
+Capacités spéciales :
+- TAC0 : bonus de 1
+- vitesse de déplacement augmentée~
+
+// @23480
+@23480 = ~Métamorphose en flind~
+
+// @23475 = ~Shapeshift: Ogre~ // SPWI494 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32261 V2.5
+// SPWI494.spl @100389
+// rivvers : dégâts +1
+@100389 = ~Métamorphose en ogre
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+
+Caractéristiques naturelles :
+- Force : 18/00
+- Dextérité : 9
+- Classe d'armure : 5
+- Attaques par round : 1
+- Dégâts : 4d6 +1 (contondant), touche comme une arme +1
+
+Capacité spéciale :
+- vitesse de déplacement augmentée~
+
+// @23475
+@23475 = ~Métamorphose en ogre~
+
+// @23471 = ~Shapeshift: Mustard Jelly~ // SPWI496 unidentified name (SoA+ToB reuse)
+// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
+// SPWI496.spl @100375
+// rivvers : ajout de la portée de l'attaque, touche comme une arme +3, résistance aux dégâts contondants : 60% (au lieu de 30)
+@100375 = ~Métamorphose en gelée moutarde
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+
+Caractéristiques naturelles :
+- Force : 14
+- Dextérité : 9
+- Classe d'armure : 4
+- Attaques par round : 1
+- Dégâts : 5d4 (contondant), touche comme une arme +3, portée jusqu'à 4,5 mètres, 1 point de dégât de poison toutes les 2 secondes pendant 5 rounds (jet de sauvegarde contre le poison à +2 pour annuler), ralentissement pendant 200 secondes (jet de sauvegarde contre le souffle à -2 pour annuler)
+
+Capacités spéciales :
+- résistance au froid : 50 %
+- résistance à l'électricité : 100 %
+- résistance à la magie : 125 %
+- résistance au froid magique : 50 %
+- résistance aux dégâts tranchants : 30 %
+- résistance aux dégâts contondants : 60 %
+- résistance aux dégâts perforants : 100 %
+- résistance aux dégâts projectiles : 85 %
+- immunité à l'étourdissement, au sommeil, à la peur, au poison, à la pétrification, à la confusion, au charme, à la paralysie et à l'absorption de niveau
+- immunité aux armes non-magiques
+- vitesse de déplacement augmentée~
+
+// @23471
+@23471 = ~Métamorphose en gelée moutarde~
+
+// @49376 = ~Slayer Change~ // OHBBCLT4 unidentified name (SoA+ToB reuse)
+// Freddy : version utilisée par Kastulor. Mais l'analyse de son script montre que la définition du sort n'est pas la bonne. J'ai pourtant traduit le texte original car ce sort n'est utilisé que par lui.
+// @SPIN822.spl
+// Active SPIN823.spl
+// rivvers : CA-4 (au lieu de -9), ajout immunité confusion, charme et peur
+@103016 = ~Changement en Écorcheur
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : jusqu'à 7 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Composante verbale : non
+
+Cette capacité vous permet de prendre la forme de l'essence brute de Bhaal : une créature puissante et violente, bardée de crocs et de griffes. L'utiliser réduit de 2 points votre réputation, car même ceux qui n'assistent pas à votre transformation peuvent ressentir la corruption émanant de vos pulsions.
+
+Caractéristiques naturelles :
+- Force : 25
+- Dextérité : 25
+- Classe d'armure : -4
+- Attaques par round : 4
+- Dégâts : 1d8 (contondant) + 2 de froid, touche comme une arme +5
+
+Capacités spéciales :
+- TAC0 fixé à 0
+- Jets de sauvegarde fixés à 2
+- +100 points de vie
+- Résistance à la magie : 40 %
+- Immunité à l'emprisonnement, l'absorption de niveau, la confusion, la peur, le charme, l'étourdissement et les attaques de projectiles.~
+
+// SPCL212.spl
+// version paladin
+// rivvers : le rayon en version 2.5
+@1000026 = ~Détection du mal
+(Universelle) 
+
+Niveau : 1
+Portée : personnelle
+Durée : instantanée
+Temps d'incantation : 1
+Zone d'effet : rayon de 9 mètres
+Jet de sauvegarde : aucun
+Résistance à la magie : non
+Composante verbale : non
+
+Ce sort permet de découvrir l'aura maléfique de n'importe quelle créature. Toute créature mauvaise à portée du sort se met à rougeoyer pendant un bref instant.~
+
+// SPCL213.spl
+// version paladin
+@1000027 = ~Protection contre le mal
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection
+Portée : toucher
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 1 cible
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de 2 à ses jets d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+
+// SPCL222.spl
+// version chevalier
+@1000028 = ~Apaisement
+(Abjuration)
+
+Niveau : 1
+Sphère : Charme
+Portée : 9 mètres
+Durée : 5 tours
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+
+Le paladin insuffle du courage au bénéficiaire du sort et élève son moral à son plus haut niveau ainsi qu'à ses alliés présents dans la zone d'effet. Au fur et à mesure que la durée du sort s'écoule, le moral des cibles reviennent à leur niveau normal. Si les cibles sont affectées par une terreur magique, cette peur s'annule.~
+
+// SPCL231.spl
+// version inquisiteur
+@103007 = ~Dissipation de la magie
+(Abjuration)
+
+Niveau : 1
+Portée : 12 mètres
+Durée : permanente
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Les effets du sort s'appliquent au double du niveau de l'inquisiteur.
+Un sort de Dissipation de la magie annule les effets magiques affectant toutes les créatures dans la zone : effets des sorts, des potions et de certains objets magiques comme les baguettes. Mais il n'affecte pas les objets magiques enchantés ou les protections contre les sorts (Renvoi et Déviation des sorts). Les chances de réussite du sort dépendent du niveau du paladin et du niveau de magie à dissiper, et sont de 50 % à la base. Pour chaque niveau d'expérience du paladin supérieur par rapport à celui du sort original, ses chances de succès augmentent de 5 %. Pour chaque niveau inférieur par rapport à celui du sort original, ses chances sont réduites de 5 %. Mais, malgré la différence de ces niveaux, il y a toujours au moins 1 % de chances de succès ou d'échec. Donc, si un paladin possède 10 niveaux de plus que la magie qu'il tente de dissiper, les probabilités d'échec sont de 1 % seulement. De la même manière, si le paladin possède 4 niveaux de moins que le sort qu'il tente de dissiper, il n'a que 10 % de chances de réussir. Ce sort est donc pratiquement inutile si la magie à dissiper est supérieure de 10 niveaux par rapport au paladin.
+Remarque : ce sort dissipe les effets des Glisses, des Toiles d'araignée et des Nuages puants, mais n'affecte pas leur zone d'effet.~
+
+// SPCL232.spl
+// version inquisiteur
+@1000029 = ~Vision véritable
+(Divination)
+
+Niveau : 5
+Sphère : Divination
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : champ visuel
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Immédiatement après le lancement du sort, tous les sorts hostiles d'illusion ou de fantasme dans un rayon de 25 mètres autour du lanceur sont dissipées. Les sorts affectés sont : Image réfléchie, Invisibilité, Image miroir, Non-détection, Invisibilité améliorée, Porte d'ombre, Double illusoire, Projection d'image et Simulacre. La Résistance magique de la cible ne fonctionne pas dans ce cas. Ce sort n'affecte que les ennemis, et n'influence donc pas l'Invisibilité éventuelle d'un membre du groupe.~
+
+// SPCL732.spl
+// version prêtre de heaum
+@1000030 = ~Vision véritable
+(Divination)
+
+Niveau : 5
+Sphère : Divination
+Portée : personnelle
+Durée : 1 tour
+Temps d'incantation : 3
+Zone d'effet : champ visuel
+Jet de sauvegarde : aucun
+Composante verbale : non
+
+Immédiatement après le lancement du sort, tous les sorts hostiles d'illusion ou de fantasme dans un rayon de 25 mètres autour du lanceur sont dissipées. Les sorts affectés sont : Image réfléchie, Invisibilité, Image miroir, Non-détection, Invisibilité améliorée, Porte d'ombre, Double illusoire, Projection d'image et Simulacre. La Résistance magique de la cible ne fonctionne pas dans ce cas. Ce sort n'affecte que les ennemis, et n'influence donc pas l'Invisibilité éventuelle d'un membre du groupe.~
+
+// SPCL722.spl
+// version prêtre de talos
+@1000031 = ~Éclair
+(Évocation)
+
+Niveau : 3
+Sphère : Électricité
+Portée : 15 mètres + 1,5 mètres / niveau
+Durée : permanente
+Temps d'incantation : 3
+Zone d'effet : rayon de 1 mètre
+Jet de sauvegarde : sorts, 1/2
+Résistance à la magie : oui
+Composante verbale : non
+
+En lançant ce sort, le prêtre libère une décharge électrique puissante qui inflige 1d6 points de dégâts par niveau du jeteur de sorts (dégâts maximum de 10d6) à chaque créature située dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi permet de n'encaisser que la moitié des dégâts (arrondis à la fraction inférieure). L'éclair prend naissance à une portée et une hauteur déterminées par le prêtre et s'étend sur une ligne directe partant du prêtre. Par exemple, si un éclair de 12 m est lancé à 54 m du prêtre, son extrémité la plus éloignée est à 66 mètres (54 +12). Si l'éclair rencontre un mur, il rebondit jusqu'à ce qu'il atteigne sa longueur complète.~
+
+// SPCL742.spl
+// version prêtre de lathandre
+@1000032 = ~Immobilisation des morts-vivants
+(Nécromancie)
+
+Niveau : 3
+Sphère : Coercition
+Portée : 10 mètres
+Durée : 2 rounds / niveau
+Temps d'incantation : 3
+Zone d'effet : rayon de 1,5 mètres
+Jet de sauvegarde : sorts, annule
+Résistance à la magie : oui
+Composante verbale : non
+
+Les effets du sort sont centrés sur la victime choisie par le prêtre. Tout ennemi se trouvant dans un rayon de 2 mètres autour de la cible est également affecté. Ceux qui réussissent leur jet de sauvegarde échappent totalement aux effets du sort. Les créatures ainsi immobilisées ne peuvent ni bouger ni parler, mais restent conscientes de ce qui se passe autour d'elles et peuvent continuer à utiliser toutes les capacités ne nécessitant ni la parole, ni un déplacement quelconque. L'immobilisation n'empêche pas la dégradation de la santé due aux blessures.~
+
+

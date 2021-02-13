@@ -1,0 +1,282 @@
+// Chapitre I, Etage I
+
+@34089 = ~Chapitre 1.
+
+Ma vieille amie Imoen m'a délivré de mon emprisonnement. Je ne me souviens pas comment je suis arrivé ici et je ne sais pas davantage qui aurait pu vouloir nous enfermer. Ma tête me fait mal et ma mémoire est dans le brouillard... que s'est-il passé ? Où suis-je ?~ ~Chapitre 1.
+
+Ma vieille amie Imoen m'a délivrée de mon emprisonnement. Je ne me souviens pas comment je suis arrivée ici et je ne sais pas davantage qui aurait pu vouloir nous enfermer. Ma tête me fait mal et ma mémoire est dans le brouillard... que s'est-il passé ? Où suis-je ?~
+
+// Aataqah
+@38794 = ~Ah, je vois à qui je dois m'adresser. Ne le prends pas mal, <GABBER>, mais je suis curieux de voir quelle sera la réponse de <CHARNAME> ! J'ai des questions pour toi, <CHARNAME> ! Approche sans crainte !~
+@38795 = ~Bienvenue, <GABBER> ! Tu as mis un peu plus de temps que je ne l'avais prévu pour t'échapper. Je suis Aataqah.~ [OGREM01] 
+@18618 = ~Tu as réussi malgré tout, <GABBER>. Voici donc un conseil. Trouve Rielev. Il a longuement attendu quelqu'un comme toi.~
+
+// Djinn du plan de l'air
+@10867 = ~Je suis enfermé. Que puis-je... qui êtes-vous ? Ah, je vois... le Maître est parti et vous vous êtes attiré des ennuis.~ [OGREM01] 
+@10870 = ~Seriez-vous le fameux djinn de la lampe ?~
+@10873 = ~Réduit à l'état d'esclave conviendrait mieux... J'ai été capturé chez moi, dans ce Plan de l'Air, par un magicien. Il m'a enfermé dans cette lampe afin que je garde ses affaires, et aussi quelque chose qui vous appartient.~
+@19801 = ~Si j'avais la possibilité de vous rendre votre arme, je le ferais, mais la force qui m'emprisonne est forte. Tant que je serai enfermé dans cette lampe, je resterai sous le pouvoir du mage.~
+@19916 = ~Vous pouvez essayer. Tant que je suis emprisonné, ni moi ni la lampe ne pouvons être abîmés. Et tant que je suis emprisonné, je ne peux pas vous rendre votre arme...~
+@10989 = ~Cela m'a l'air d'être beaucoup de soucis pour pas grand chose. Je ne suis pas intéressé.~ ~Cela m'a l'air d'être beaucoup de soucis pour pas grand chose. Je ne suis pas intéressée.~
+@10999 = ~Cela m'a l'air d'être beaucoup de soucis pour pas grand chose. Je ne suis pas intéressé.~ ~Cela m'a l'air d'être beaucoup de soucis pour pas grand chose. Je ne suis pas intéressée.~
+
+@19894 = ~La lampe dans laquelle je suis emprisonné est magique. Elle ne peut être cassée tant qu'elle n'est pas rassemblée avec sa lampe jumelle, la vraie lampe.~
+@11012 = ~Je sens que vous avez la lampe. Faisons l'échange.~
+@44816 = ~Trouvez la lampe jumelle de celle dans laquelle je suis emprisonné. Faites cela pour moi et je vous donnerai une arme puissante.~
+@10994 = ~Où puis-je trouver cette lampe ?~
+// Vouvoiement
+@19930 = ~Enfin ! Me voilà libre ! Voici votre objet, homme de chair et d'os. Vous vous êtes comporté de façon honorable et je dois vous prévenir : ne vous approchez pas du Maître !~ ~Enfin ! Me voilà libre ! Voici votre objet, femme de chair et d'os. Vous vous êtes comportée de façon honorable et je dois vous prévenir : ne vous approchez pas du Maître !~
+
+
+// Dryades
+@11345 = ~N'avons-nous pas assez souffert ? Ayez pitié, <PRO_LADYLORD> !~
+@11220 = ~Ne nous oubliez pas ! Je suis resté si longtemps loin du soleil ! Je ne sais pas combien de temps je pourrais encore le supporter...~
+@39590 = ~Tiens... nous avons enfin un nom à mettre sur notre geôlier. Irenicus, c'est ça ? Dites-moi, dryades, pourquoi cet Irenicus ferait-il tout cela pour vous garder ici ?~
+@11174 = ~Si vous réussissez à fuir, vous devez porter nos glands à la Reine. Parlez-lui de notre situation dans la tanière de cette créature.~ 
+@11196 = ~Vous pouvez déjouer ses plans pour nous au moins. Si vous amenez les glands à la Reine des Fées elle pourra faire repousser nos arbres et nous libérer !~
+@11212 = ~Je vous aiderai si vous m'aidez. Je recherche une lampe pour libérer un djinn emprisonné dans le Plan de l'Air. En avez-vous vu une ?~ 
+@11424 = ~Je vous aiderai si vous m'aidez. Je recherche une lampe pour libérer un djinn emprisonné dans le Plan de l'Air. En avez-vous vu une ?~
+@11429 = ~Je vous aiderai si vous m'aidez. Je recherche une lampe pour libérer un djinn emprisonné dans le Plan de l'Air. En avez-vous vu une ?~
+@17787 = ~Je vous aiderai si vous m'aidez. Je recherche une lampe pour libérer un djinn. En avez-vous vu une ?~
+@11379 = ~Nous possédons cette lampe. Si vous acceptez de porter nos glands à la Reine des Fées, nous vous la donnerons.~
+@11381 = ~Si vous amenez les glands à la Reine des Fées elle pourra faire repousser nos arbres et nous libérer ! Elle vit tout au sud des collines de Lancevent ! Est-ce que vous le ferez pour nous ?~
+@11383 = ~J'apporterais vos glands à la Reine des Fées en échange de la lampe.~
+@11421 = ~Merci ! La voici.~
+@17746 = ~Ilyich est le chef du clan des esclaves duergars. Il se trouve quelque part dans le donjon. Revenez quand vous aurez les glands en votre possession et nous vous dirons comment vous enfuir.~
+@17759 = ~Vous avez accompli une noble chose pour nous. Apportez ces glands à la Reine des Fées qui vit au sud d'une colonie appelée Franc-Marché.~
+@11422 = ~Nous ne vous donnerons pas la lampe si vous ne nous aidez pas. Revenez si vous changez d'avis. Nous devons nous enfuir d'ici !~
+@11425 = ~Pas question de vous aider.~
+@11444 = ~Vous êtes revenu. Pouvons-nous faire autre chose pour vous ?~ ~Vous êtes revenue. Pouvons-nous faire autre chose pour vous ?~ 
+@11447 = ~Je cherche une lampe pour libérer un djinn emprisonné dans le Plan de l'Air. En avez-vous vu une ?~
+@18245 = ~C'est très noble de votre part de prendre des risques pour libérer les djinns. Nous avons la lampe et nous allons vous la donner.~
+@38650 = ~Comment savez-vous cela ? Il vous a touchée comme nous, n'est-ce pas ? Irenicus recherche quelque chose qu'il ne peut pas trouver et il cherche chez ceux qui n'en ont pas non plus la moindre idée.~
+@38648 = ~Vous êtes la bienvenue parmi nous, jeune femme. L'exubérance de la jeunesse est une musique que nous n'avons pas entendue depuis longtemps.~ 
+@38655 = ~J'ai appris... d'autres choses. Tu es si belle. Je ne peux presque plus te voir. Je veux seulement rentrer à la maison. Oh, <CHARNAME>, quand pourrons-nous rentrer ?~
+
+
+// Collines de Lancevent
+@37426 = ~Non, petite soeur. Tu n'es pas condamnée. Viens, Llyna ! Plante les graines de nos soeurs, pour qu'elles puissent retrouver le goût du vent.~
+
+
+// Golem à activer, se met en attente, Maître
+// Ce n'est pas une question de droit mais de pouvoir, le golem a reçu une instruction contraire à la demande
+// Il se met en attente, plutôt que 'se retirer'
+@10651 = ~Je ne peux parler de lui. Si ce n'est pas l'heure d'accomplir mes besognes, je dois me mettre en attente.~
+@10661 = ~Comme vous voudrez, Maître. Je me met en attente.~
+// conçu ou façonné plutôt que créé
+@10654 = ~Je suis un serviteur né de la magie du Maître. Il m'a conçu pour nettoyer les égouts et nourrir le gardien.~ 
+@10668 = ~Il se nourrit des ordures et des restes des prisonniers. S'il n'est pas l'heure d'accomplir mes besognes je dois me mettre en attente.~ 
+// maître > Maître
+@10757 = ~Je me soumets à votre volonté, Maître.~
+@10683 = ~Rielev a la pierre d'activation, Maître. Elle est sur la table de sa chambre. La table à côté de sa jarre porteuse de vie.~
+// le golem gardien ? La VO est claire et conforme : elle est vers Rielev
+@10743 = ~Votre magie m'oblige à être activé par la pierre, Maître. Elle se trouve sur la table dans la chambre où vous avez laissé Rielev.~
+@10747 = ~Comme vous voudrez, Maître. Je me met en attente.~
+@10758 = ~Comme vous voudrez, Maître. Si vous ne désirez pas que j'accomplisse mes besognes, je me met en attente.~
+@10760 = ~J'ai fini ma besogne, Maître. Le gardien se nourrit. Il n'y a plus rien d'autre à faire.~
+@10763 = ~Oui, Maître.~
+@10766 = ~La magie du Maître m'empêche de parler de lui. Je dois me mettre en attente.~
+@10764 = ~Il se nourrit des ordures et des restes des prisonniers. C'est la créature qui garde le chemin vers vos appartements. Je dois me mettre à attente. Votre magie m'y oblige.~
+@10744 = ~Je vais donc aller la récupérer puis revenir.~
+// VO : I know where I keep such things, fool! I will get it when I wish!
+// VF : Où garde-t-il la pierre d'activation ?
+@10745 = ~Je sais parfaitement où je mets mes affaires, golem sans cervelle ! Je l'aurai quand je le souhaiterai !~
+
+// Golem geôlier
+@10827 = ~Il ne faut pas aller à l'encontre de la volonté du maître. Retournez dans vos cellules.~ 
+@10846 = ~Le gardien vous empêchera d'entrer dans les appartements du maître. Retournez dans vos cellules. C'est la volonté du maître.~ 
+
+// Ilyich
+// il appelle ses gars 'les filles' mais aussi 'ses hommes'
+@18384 = ~Attention, les gars ! V'là de la compagnie ! Ho, prisonniers ! Z'êtes venu au mauvais endroit, j'vous le dis ! Ilyich et ses hommes vont vous arrêter !~[DWARF03] 
+@18438 = ~Je ne connais pas cet endroit. Je ne cherche pas querelle, duergar.~
+
+// Jaheira
+@38537 = ~Je peux t'aider aussi. Ne devrais-je pas essayer ? Je ne supporte pas de te voir enfermée ainsi.~
+
+// Minsc
+// plus conforme à la voix
+@25107 = ~Ooooh, tu es un malin, toi ! Je comprends maintenant ! Tu n'as dit ça que pour me rendre fou ! Suffisamment fou pour que je me libère ! Ton intelligence égale celle de Bouh, parfois !~ [MINSC77] ~Ooooh, tu es une maligne, toi ! Je comprends maintenant ! Tu n'as dit ça que pour me rendre fou ! Suffisamment fou pour que je me libère ! Ton intelligence égale celle de Bouh, parfois !~ [MINSC77]
+@59897  = ~(Minsc est sous le charme des dryades et ne vous parlera pas. Vous devez accepter de les aider si vous souhaitez récupérer Minsc)~
+
+// Rielev
+@11560 = ~Je ne suis certainement pas un serviteur. Qui es-tu ?~ ~Je ne suis certainement pas une servante. Qui es-tu ?~
+@11801 = ~Je ne sais pas... des semaines... des années... je n'ai aucune notion du temps qui passe. Et je suis seul... si seul.~ 
+@37847 = ~Ces cellules ou ces cristaux ne me seront d'aucune utilité pour m'échapper. Ne compte pas que je t'aide.~
+@11840 = ~Ces cellules ou ces cristaux ne me seront d'aucune utilité pour m'échapper. Ne compte pas que je t'aide.~
+@17355 = ~Ce... Cette unité qui me retient... Elle est alimentée par des cellules, des cristaux. Si tu les emportes avec toi, je parviendrai à m'endormir... à mourir... à mourir enfin.~ 
+
+// Rielev, les autres
+@11730 = ~Je vous en prie, Maître ! Les fourmis ! Vos djinns n'ont-ils rien qui puisse m'aider ? Aaah ! Je, je prendrai la statue et je lui parlerai moi-même, si vous me le permettez !~ 
+@11896 = ~Je n'essayais pas de voler les affaires de la Maîtresse. Je ne pourrais jamais faire une chose pareille, je vous suis toujours resté fidèle ! Pourquoi suis-je ici, Maître ? Que m'est-il arrivé ?~ 
+
+// Chapitre I, Etape II
+
+// Ulvaryl, deux créatures pointent sur son dialogue, de sexe différent, il semble que la communauté la considère comme une vampire
+@52387 = ~Je suis déjà morte, voleur. Rejoins-moi dans les ténèbres...~
+// trahir les Voleurs ? conforme à la VO mais il ne s'est jamais allié à eux, bien au contraire
+@52389 = ~Assez ! Tuez cette créature et rasez le bâtiment. Irenicus va savoir ce qu'il en coûte de s'attaquer aux Voleurs de l'Ombre !~
+
+//Yoshimo
+@56482 = ~Nous ne servons pas les mages maléfiques, non monsieur ! Mais Bouh te regarde avec suspicion, petit homme. Comment es-tu arrivé ici ? Je n'ai jamais vu les moustaches de Bouh frétiller ainsi !~
+@20024 = ~Tu devrais peut-être affronter seul les dangers de ce lieu !~ ~Tu devrais peut-être affronter seule les dangers de ce lieu !~
+// en partant du principe que c'est un voleur de niveau 10 avec 13 en Intelligence, il doit être capable de reconnaître les monstres lambdas
+@20103 = ~Dans la salle d'à côté, il y a quatre portails. Et chaque portail laisse passer un méphite agressif.~
+@20074 = ~Dans la salle d'à côté, il y a quatre portails. Et chaque portail laisse passer un méphite agressif.~ 
+@20082 = ~Dans la salle d'à côté, il y a quatre portails. Et chaque portail laisse passer un méphite agressif.~ 
+@20067 = ~Encore une chose... tu trouveras bientôt une grande salle contenant plusieurs baguettes montées sur des piédestaux. Si tu passes devant ces baguettes, tu risques de te faire tuer.~ 
+@20090 = ~Juste après cette salle, il y en a une autre contenant plusieurs baguettes montées sur des piédestaux. Elles pulvérisent tous ceux qui tentent de passer.~ 
+@14191  = ~Les baguettes sont scellées aux piédestaux, et tu ferais mieux de chercher les clefs et d'enlever les baguettes pour pouvoir traverser la salle. Encore une fois, adieu !~
+
+// ok ça dépasse un peu le chapitre I mais c'est le même dialogue
+@2783 = ~Le tenancier s'appelle Bernard. Il te vendra du très bon matériel à un prix raisonnable. Mais si tu as le temps, je te conseille d'aller au Marché de l'Aventure, sur la promenade.~ 
+@2789 = ~Oh, voleur de mon honneur, ne reviens pas me tourmenter encore ! Si tu n'es pas venu pour retirer tes paroles cruelles, je te demande de partir.~ [YOSHIM61] ~Oh, voleuse de mon honneur, ne reviens pas me tourmenter encore ! Si tu n'es pas venu pour retirer tes paroles cruelles, je te demande de partir.~ [YOSHIM61] 
+@2790 = ~Je suis revenu pour m'excuser.~ ~Je suis revenue pour m'excuser.~
+
+// Assassin de fin
+@49002 = ~Nous allons en terminer ici et maintenant. Nous mettrons fin à votre petite guerre des guildes et à Irenicus d'ici la fin de la journée.~
+@49012 = ~Je connais Irenicus pour avoir été son prisonnier. Je peux vous aider !~ ~Je connais Irenicus pour avoir été sa prisonnière. Je peux vous aider !~
+@49015 = ~Je peux vous délivrer. Embrochez-vous sur nos lames, tombez face à nos sortilèges et vous serez libre ! Votre chute et celle d'Irenicus marqueront la fin de la guerre !~ 
+
+// Frennedan
+@12634 = ~Non, je ne sais pas qui m'a fait cela, mon Seigneur. S'il vous plaît, aidez-moi ! Je suis trop vieux, je ne survivrai pas longtemps !~ ~Non, je ne sais pas qui m'a fait cela, ma Dame. S'il vous plaît, aidez-moi ! Je suis trop vieux, je ne survivrai pas longtemps !~
+@12638 = ~Alors, peut-être aiderez-vous un pauvre petit garçon ? N'est-ce pas, noble <PRO_LADYLORD> ? J'ai froid et je suis tout seul.~ 
+@12648 = ~Sniff ! Je veux juste être libre, <PRO_SIRMAAM>. C'est tout. S'il vous plaît, aidez-moi. Laissez-moi partir, je vous en prie.~ 
+@12652 = ~Je ne suis pas un dop..., un doppl... un ces trucs. Quoi que ce puisse être, <PRO_SIRMAAM>. Oooh, je ne sais pas quoi dire pour vous convaincre de m'aider. Je suis là depuis si longtemps.~ 
+@12669 = ~Je suis impatient d'être libéré de cet horrible endroit. Merci de m'avoir permis de vous suivre, mon <PRO_LADYLORD>.~ ~Je suis impatient d'être libéré de cet horrible endroit. Merci de m'avoir permis de vous suivre, ma <PRO_LADYLORD>.~
+
+// Imoen banter
+// Je ne peux pas faire comme si de rien n'était // I can't look away
+@37852 = ~Je ne peux pas m'empêcher de le contempler.~
+// vérifier la voix, traduction peu conforme de la VO
+//@38612 = ~Qu'est-ce... où sommes-nous ? C'est magnifique. Je ne peux pas croire que celui qui enferme des gens dans ces affreux réceptacles puisse également profiter de cet endroit...~ [IMOENJ53] 
+@38628 = ~Des duergars, je crois. Plutôt maléfiques, il me semble. Ca ne m'étonne pas qu'ils travaillent pour notre ravisseur.~ 
+@58493 = ~Je n'ai pas l'intention de faire demi-tour. Notre 'hôte' a largement prouvé ses mauvaises intentions.~ // GO 58496
+@58495 = ~S'il a découvert quelque chose qui peut m'être utile, j'irais peut-être le 'persuader' de me le révéler.~ // GO 58498
+@843   = ~Mon tourmenteur connaît-il un moyen d'amplifier mes pouvoirs ?
+
+Imoen m'a rapporté une chose étrange. Notre geôlier saurait certaines choses sur ma condition... d'enfant de Bhaal. Il aurait mentionné un moyen de l'exploiter. Je ne suis pas vraiment en position de lui soutirer des informations, mais c'est le genre de choses que je ne devrais pas oublier.~
+
+
+
+
+
+// Journal
+// Maalaq > Jamais il ne se présente, donc retrait des références
+
+@34099  = ~La libération du djinn.
+
+Pour récupérer ce qui est en la possession du djinn, je dois d'abord le libérer en me procurant la lampe jumelle de celle auquel il est lié. Il m'a appris que cette lampe est toujours à proximité de son maître... soit dans ses appartements soit en possession de quelques dryades ou golems.~
+
+@47514  = ~La libération du djinn.
+
+J'ai récupéré la lampe auprès des dryades... il ne me reste plus qu'à retourner voir le djinn pour la lui rendre.~
+
+@47515  = ~La libération du djinn.
+
+J'ai libéré le djinn après avoir récupéré sa lampe auprès de trois dryades pour la lui rendre. En remerciement, il m'a donné du matériel qu'il gardait pour le magicien Irenicus.~
+
+@47519  = ~Trouver le moyen de libérer Jaheira.
+
+J'ai libéré Jaheira grâce à la clef que j'ai trouvée dans la salle du golem geôlier.~
+
+@47522  = ~Faire en sorte que le golem ouvre les portes du donjon.
+
+Grâce à la pierre d'activation en ma possession, le golem des égouts va accomplir sa besogne... qui comprend l'ouverture des portes fermées par magie de ce niveau du donjon.~
+
+@47523  = ~Trouver la clef pour libérer Frennedan.
+
+Frennedan a été libéré de sa cage grâce à une clef que j'ai trouvée dans la salle à côté de sa prison.~
+
+@47517  = ~Libérer Rielev de son système de survie.
+
+Rielev a été libéré de sa vie interminable. J'ai pris les cristaux qui semblaient alimenter la machine dans laquelle il végétait, mais pas avant qu'il m'ait dit qu'ils pouvaient être utilisés pour alimenter des machines similaires où d'autres serviteurs sont emprisonnés.~
+
+@34105  = ~Trouver un moyen de libérer Jaheira de sa cellule. 
+
+Jaheira est emprisonnée dans la même salle où j'ai été retenu prisonnier. Elle est dans une cage protégée par une serrure magique qui ne semble pas pouvoir être crochetée. Il y a peut-être une clef quelque part dans le donjon.~ ~Trouver un moyen de libérer Jaheira de sa cellule. 
+
+Jaheira est emprisonnée dans la même salle où j'ai été retenue prisonnière. Elle est dans une cage protégée par une serrure magique qui ne semble pas pouvoir être crochetée. Il y a peut-être une clef quelque part dans le donjon.~
+@34107  = ~Faire en sorte que le golem ouvre les portes du donjon.
+
+Il semble que le golem des égouts ouvrira les portes du donjon si j'arrive à trouver une pierre d'activation... elle est sur une table près de quelqu'un nommé Rielev.~
+@34108  = ~Trouver la clef afin de libérer Frennedan.
+
+J'ai accepté de libérer Frennedan de sa cage de verre. Apparemment la clef est dans un des coffres à proximité.~
+@74419  = ~Faire en sorte que le golem ouvre les portes du donjon~
+
+@47518  = ~Trouver un moyen de libérer Minsc de sa cellule.
+
+Minsc s'est libéré grâce à sa force amplifiée par la colère et a jailli hors de sa cage. Apparemment, celui qui nous a emprisonnés a sous-estimé la colère d'un homme et de son hamster.~
+
+// aucune précision qu'il s'agit d'un nain dans le dialogue
+@34092  = ~Au secours des dryades d'Irenicus. 
+
+J'ai accepté d'aider un trio de dryades. Elles m'ont demandé de rapporter des glands à la reine des fées. C'est un individu du nom de Ilyich qui est en leur possession et il est actuellement quelque part dans le donjon.~
+
+@34093  = ~Au secours des dryades d'Irenicus. 
+
+Afin de libérer les dryades de leur emprisonnement, je dois apporter des glands à la reine des fées. Cette dernière se trouve dans un endroit connu sous le nom de Collines de Lancevent.~
+
+@47779  = ~Au secours des dryades d'Irenicus.
+
+J'ai rapporté les glands à la reine des fées, Vaelasa, et les dryades captives dans le donjon d'Irenicus ont été libérées. Elles sont parties planter les glands pour faire repousser leurs arbres, et Vaelasa en personne m'a exprimé sa bienveillance et sa gratitude pour mes actes.~
+
+// Items
+// Fiole > Lampe
+@10685  = ~Lampe du djinn~
+@15326  = ~Lampe du djinn~
+@34701  = ~Cette lampe est une réplique exacte de celle du djinn emprisonné dans le plan de l'air.~
+@34716  = ~Ce sont les glands magiques des dryades, que vous avez obtenus auprès du chef duergar Ilyich.~
+
+@10692  = ~Clef de la Baguette de givre~
+@10695  = ~Clef de la Baguette de foudre~
+@10696  = ~Clef de la Baguette de nuage mortel~
+@10702  = ~Clef de la Baguette de projectile magique~
+@15341  = ~Clef de la Baguette de projectile magique~
+@15324  = ~Pierre d'activation du golem des égouts~
+@15325  = ~Statue d'élémentaire d'air~
+@10684  = ~Statue d'élémentaire d'air~
+@6527   = ~Statue d'élémentaire d'air~
+@34713  = ~Cette clef ressemble à une petite baguette de projectile magique.~
+@34714  = ~Cette clef ressemble à une petite baguette de projectile magique.~
+@10376  = ~Une étrange clef, tiède au toucher.~
+@15335  = ~Clef de la Baguette de feu~
+@15336  = ~Clef de la Baguette de givre~
+@15337  = ~Clef de la Baguette d'invocation~
+@15338  = ~Clef de la Baguette de foudre~
+@15339  = ~Clef de la Baguette de nuage mortel~
+
+@43041  = ~Cette pierre peut être utilisée pour activer les fonctions motrices du golem des égouts.
+
+PARAMÈTRES :
+
+Poids : 1~
+@34699  = ~Cette petite statue représente le tourbillon d'un élémentaire d'air.
+
+PARAMÈTRES :
+
+Poids : 2~
+
+@61350  = ~Lame du chaos +2~
+@61351  = ~La lame du chaos +2 : Épée de Sarevok
+Il s'agit de l'arme de Sarevok, frère de <CHARNAME>, qui fut utilisée dans la bataille de la Porte de Baldur. <CHARNAME> l'a remporté, ruinant ainsi les plans de Sarevok, et sauvant la Côte des Épées de la guerre. L'épée n'est pas réellement identifiable, car elle a été conçue spécifiquement pour Sarevok afin de concentrer les énergies qu'il espérait contrôler. La plupart de ses pouvoirs se sont évanouis avec lui.
+
+PARAMÈTRES :
+
+Capacités de combat :
+ Dégâts : +1 (tranchant)
+ Soigne le porteur de 1 point de vie
+
+Dégâts : 1d10 +2 (tranchant)
+TAC0 : +2
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Nécessite :
+  14 en Force~
+
+
+@2854   = ~Ainsi, enfant divin, tu t'en es sorti. Tu as plus de ressources que je ne le pensais.~ [DPJON133]
+@2857   = ~Tortures ? Pauvre idiote, tu n'as pas vraiment compris ce que je faisais, n'est-ce pas ?~ [DPJON134]

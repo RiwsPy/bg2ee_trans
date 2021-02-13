@@ -1,0 +1,955 @@
+// Pose de piège
+// Furtivité > Déplacement silencieux (BG2 seulement)
+// Race ennemie > Ennemi juré
+
+@9550  = ~HUMAINS :
+Les humains sont la race prédominante à Féérune. Ils règnent sur la plupart des empires et des royaumes importants des Royaumes Oubliés. À l'exception peut-être des petites-gens, ils forment la race la plus sociable et la plus tolérante. Les humains peuvent prendre n'importe quelle classe. Ils sont aussi la seule race à pouvoir prétendre à une classe jumelée. Cependant, ils ne peuvent pas se multi-classer.
+
+Les humains disposent des traits suivants :
+– +10 % en Crochetage, +5 % en Détection des pièges, +15 % en Vol à la tire, +10 % en Déplacement silencieux, +5 % en Se cacher dans l'ombre~
+
+@9551  = ~NAINS :
+Les nains sont des êtres petits et trapus, facilement identifiables par leur taille et par leur physionomie. Ils ont les joues rubicondes, les yeux sombres et les cheveux foncés. Les nains ont tendance à être austères et taciturnes. Ils s'adonnent à des travaux pénibles et manquent d'humour. Ils aiment la bière, l'hydromel, et encore la bière, mais avant tout, ils aiment l'or. Il existe quatre races de nains au sein des Royaumes : les nains d'écu, les nains dorés, les nains sauvages et les duergars.
+
+Les nains disposent des traits suivants :
+– +1 en Constitution ; -1 en Dextérité ; -2 en Charisme
+– Bonus de 2 aux jets de sauvegarde contre la Paralysie/Poison/Mort, contre les Sceptres/Bâtons/Baguettes et contre les Sorts, bonus supplémentaires selon le score de Constitution
+– Infravision
+– +20 % en Crochetage, +20 % en Détection des pièges, +15 % en Vol à la tire, +10 % en Déplacement silencieux, +5 % en Se cacher dans l'ombre, +5 % en Détection des illusions, +10 % en Pose de piège~
+
+@9552  = ~ELFES :
+Les elfes sont généralement plus petits et plus minces que les humains. Leurs traits sont fins et délicats, et ils s'expriment d'une voix mélodieuse. Ils sont considérés comme frivoles et distants. Les elfes aiment la beauté naturelle, la danse, les espiègleries et d'autres passe-temps similaires. Leur humour est plein d'intelligence, comme leurs chansons et leurs poèmes. Il existe six races d'elfes au sein des Royaumes : les elfes du soleil, les elfes de la lune, les elfes sauvages, les elfes aquatiques, les elfes noirs (drows) et les elfes ailés (avariels).
+
+Les elfes disposent des traits suivants :
+– +1 en Dextérité ; -1 en Constitution
+– 90 % de résistance aux charmes et au sommeil magique
+– Bonus de 1 au TAC0 avec les arcs, les épées longues et les épées courtes
+– Infravision
+– +5 % en Crochetage, +5 % en Détection des pièges, +20 % en Vol à la tire, +15 % en Déplacement silencieux, +15 % en Se cacher dans l'ombre~
+
+@9553  = ~GNOMES :
+Apparentés aux nains, les gnomes sont sensiblement plus petits que leurs lointains cousins. Les gnomes, comme ils le clament avec fierté, sont également moins rondelets que les nains. La plupart ont le teint foncé ou la peau hâlée, des cheveux blancs et un nez relativement épaté. Les gnomes ont un sens de l'humour percutant et plein de malice, notamment pour les farces. Leur amour de la nature n'a d'égal que celui qu'ils portent aux gemmes et aux bijoux. Il existe deux races de gnomes au sein des Royaumes : les gnomes des roches et les gnomes des profondeurs (svirfnebelins).
+
+Les gnomes disposent des traits suivants :
+– +1 en Intelligence ; -1 en Sagesse
+– Bonus de +2 aux jets de sauvegarde contre les Sceptres/Bâtons/Baguettes et contre les Sorts, bonus supplémentaires selon le score de Constitution
+– Infravision
+– +15 % en Crochetage, +15 % en Détection des pièges, +15 % en Vol à la tire, +15 % en Déplacement silencieux, +10 % en Se cacher dans l'ombre, +10 % en Détection des illusions, +5 % en Pose de piège~
+
+@9554  = ~PETITES-GENS :
+Les petites-gens sont des gens de petite taille, généralement grassouillets, qui ressemblent beaucoup à de petits humains. Ils ont un visage rond et large, souvent rougeaud. Leurs cheveux sont normalement frisés et le dessus de leurs pieds est recouvert de poils. Dans l'ensemble, ils préfèrent le confort des maisons aux aventures dangereuses. Ils aiment la bonne vie, l'humour grivois et les histoires simples. Il existe trois races de petites-gens au sein des Royaumes : les pieds-légers, les grands et les vaillants.
+
+Les petites-gens disposent des traits suivants :
+– +1 en Dextérité ; -1 en Force ; -1 en Sagesse
+– Bonus de 2 aux jets de sauvegarde contre la Paralysie/Poison/Mort, contre les Sceptres/Bâtons/Baguettes et contre les Sorts, bonus supplémentaires selon le score de Constitution
+– +1 au TAC0 avec les frondes
+– +15 % en Crochetage, +10 % en Détection des pièges, +20 % en Vol à la tire, +20 % en Déplacement silencieux, +20 % en Se cacher dans l'ombre~
+
+@9555  = ~DEMI-ELFES :
+Les demi-elfes sont un mélange d'humains et d'elfes. C'est un peuple doté d'une certaine beauté, qui a hérité des qualités des deux races dont il est issu. Les demi-elfes ont la curiosité, l'inventivité et l'ambition de leurs ancêtres humains, et le sens raffiné, l'amour de la nature et les goûts artistiques de leurs ancêtres elfiques.
+
+Les demi-elfes disposent des traits suivants :
+– 30 % de résistance aux charmes et au sommeil magique
+– Infravision
+– +10 % en Crochetage, +5 % en Détection des pièges, +25 % en Vol à la tire, +10 % en Déplacement silencieux, +10 % en Se cacher dans l'ombre~
+
+@53191 = ~DEMI-ORQUES :
+Les demi-orques sont issus de l'union de parents humains et orques. Ils sont aussi grands que les humains, mais un peu plus lourds à cause de leur masse musculaire. Leur peau verdâtre, leur front fuyant, leurs mâchoires saillantes, leurs dents proéminentes et leur corps massif les rendent faciles à reconnaître. Les demi-orques sont tolérés sur la Côte des Épées car, contrairement au Nord, les habitants de ce royaume n'ont pas subi d'attaques orques depuis plusieurs siècles. Les demi-orques sont connus pour leur grande force.
+
+Les demi-orques bénéficient des traits suivants : 
+– +1 en Force ; +1 en Constitution ; -2 en Intelligence
+– Infravision
+– +10 % en Crochetage, +5 % en Détection des pièges, +15 % en Vol à la tire, +10 % en Déplacement silencieux, +5 % en Se cacher dans l'ombre~
+
+@9556  = ~GUERRIER :
+Le guerrier est un champion, une fine lame, un soldat et un bagarreur. Sa connaissance des armes et des tactiques peut lui sauver la vie. Les guerriers sont au premier rang dans toutes les batailles, luttant pied à pied avec les monstres et les vilains. Un bon guerrier doit être fort et en bonne santé s'il veut espérer survivre.
+
+CAPACITÉS :
+
+– Peut porter des casques
+– Peut porter n'importe quelle armure et utiliser toutes les armes
+– Peut atteindre la grande maîtrise (*****) avec n'importe quelle arme
+– Peut se spécialiser (***) dans n'importe quel style de combat, et être maître (***) dans le style de combat à deux armes
+– Dés de vie : d10 jusqu'au niveau 9 puis 3 / niveau
+– Score de TAC0 : +1 / niveau
+– Score de connaissance : +1 / niveau
+
+Caractéristique requise pour le jumelage : Force~
+
+@25201 = ~BERSERKER :
+Il s'agit d'un guerrier à l'écoute de sa partie animale et qui, durant le combat, peut atteindre un état d'esprit qui lui permet de se battre plus longtemps, plus durement, et plus sauvagement qu'un humain ne pourrait le faire normalement. Les berserkers ont tendance à être issus de cultures barbares, et il peut très bien s'agir d'un choix conscient du guerrier au cours de son apprentissage. Dans tous les cas, les opposants du berserker seront impressionnés par les aspects sauvages de la nature de celui-ci. Cette spécialité est assez courante chez les nains, alors appelés "Enragés".
+
+Avantages :
+– Accès à la capacité 'Furie' une fois par jour par tranche de 4 niveaux
+
+FURIE :
+Cet état dure un tour. Sous Furie, le personnage obtient un bonus de 2 au toucher, aux dégâts et à la classe d'armure, et devient immunisé aux charmes, à la confusion, à la terreur, à la débilité mentale, aux immobilisations, à l'emprisonnement, à l'absorption de niveaux, au labyrinthe, à l'étourdissement et au sommeil. Il gagne également 15 points de vie temporaires, qui sont retirés à la fin de la Furie, pouvant rendre le personnage inconscient.
+À la fin de la Furie, le personnage est essoufflé, et écope d'un malus de 2 au toucher, aux dégâts et à la classe d'armure pendant 30 secondes.
+
+Inconvénient :
+– Ne peut se spécialiser dans les armes à distance~
+
+@25203 = ~TUEUR DE MAGICIENS :
+Ce guerrier a reçu un entraînement spécifique qui lui permet d'exceller dans la chasse et l'attaque des lanceurs de sorts.
+
+Avantages :
+– Tout lanceur de sort profane touché par ce type de personnage se voit appliquer une probabilité de 25 % cumulatifs de rater ses incantations pendant 30 secondes
+– Gain de 1 % de résistance à la magie par niveau. De plus, il gagne 4 % de résistance à la magie supplémentaires tous les deux niveaux à partir du niveau 20
+
+Inconvénient :
+– Ne peut pas utiliser d'objets magiques autres qu'armures et armes~
+
+@25204 = ~KENSAI :
+Connu aussi sous le nom de "Seigneur de l'épée", ce guerrier s'entraîne pour ne plus faire qu'un avec son arme. Il est d'une terrible efficacité, rapide et entraîné pour combattre sans être encombré. 
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts tous les 3 niveaux
+– Bonus de -2 à la CA
+– Bonus de -1 au facteur de vitesse tous les 4 niveaux
+– Accès à la capacité 'Kaï' une fois par jour tous les 4 niveaux d'expérience (une fois par jour au niveau 1)
+
+KAI :
+Pendant 10 secondes toutes ses attaques, infligent le maximum de dommages.
+
+Inconvénients :
+– Ne peut utiliser d'arme de trait
+– Ne peut porter d'armure, de casque ou de bouclier
+– Ne peut porter de gantelet ou de bracelet~
+
+@45869 = ~BARBARE :
+Les barbares peuvent être d'excellents guerriers. Bien que moins disciplinés ou entraînés que les guerriers normaux, les barbares peuvent entrer dans une rage meurtrière, devenant ainsi des adversaires plus coriaces et plus puissants.
+
+Avantages :
+– Dés de vie : d12 jusqu'au niveau 9, puis 3 / niveau
+– Immunité aux dégâts sournois
+– Bonus de 2 points en vitesse de déplacement
+– niveau 11 : bonus de 10 % de résistance à toute forme de dégâts physiques
+– niveaux 15 et 19 : bonus de 5 % de résistance à toute forme de dégâts physiques
+– Accès à la capacité 'Rage' une fois par jour tous les 4 niveaux (une fois par jour au niveau 1)
+
+RAGE :
+Pendant 30 secondes, la rage confère un bonus de +4 en Constitution et en Force, une pénalité de +2 à la classe d'armure et un bonus de +2 aux jets de sauvegarde contre les sorts. La rage immunise aussi contre les sorts de charme, d'immobilisation, d'effroi, de labyrinthe, d'étourdissement, de sommeil, de confusion et d'absorption de niveau.
+
+Inconvénients :
+– Ne peut pas porter d'armure plus lourde que l'armure feuilletée
+– Ne peut que se spécialiser (**) dans le maniement de n'importe quelle arme~
+
+@74301 = ~PROTECTEUR NAIN :
+Le Protecteur nain est un formidable guerrier qui a la réputation de valoir deux soldats de toute autre race. Ayant reçu un entraînement intensif dans les techniques de combat naines, une poignée de ces robustes combattants peut rendre une ligne de front quasi-infranchissable.
+
+Avantages :
+– Dés de vie : d12 jusqu'au niveau 9, puis 3 / niveau
+– niveaux 5, 10, 15, et 20 : bonus de 5 % de résistance à toute forme de dégâts physiques
+– Accès à la capacité 'Position défensive' une fois par jour tous les 4 niveaux (une utilisation au niveau 1)
+
+POSITION DÉFENSIVE :
+Le Protecteur nain gagne un bonus de 2 à ses jets de sauvegarde, 50 % de résistance à toute forme de dégâts physiques, et une pénalité de 50 % à sa vitesse de déplacement pendant un tour.
+
+Inconvénients :
+– Exclusivement limitée à la race naine
+– Ne peut dépasser la maîtrise martiale haut maître (****) dans la hache et le marteau de guerre
+– Ne peut que se spécialiser (**) dans le maniement de n'importe quelle autre arme~
+
+@45867 = ~MOINE :
+Les moines sont des guerriers qui cherchent la perfection à travers la contemplation et l'action. Ce sont des combattants polyvalents, bien entraînés au combat sans arme ni armure. Les moines ne peuvent pas lancer de sorts, mais ils ont des pouvoirs magiques uniques. Ils canalisent une énergie subtile, appelée 'Ki', qui leur permet de réaliser des exploits incroyables. Le coup le plus connu des moines est leur aptitude à assommer un adversaire en le frappant sans armes.
+
+CAPACITÉS :
+
+– Dés de vie : d8 jusqu'au niveau 9, puis 2 / niveau
+– Score du TAC0 : +1 / niveau
+– Score de connaissance : + 1 / niveau
+– Bonus de 2 en vitesse de déplacement, +1 tous les 5 niveaux
+– Le moine peut effectuer une attaque à mains nues par round ; il gagne 1/2 attaque supplémentaire tous les 3 niveaux. Ses attaques peuvent tuer leurs adversaires.
+  Niveaux 1-2 : 1d6 (contondant)
+  Niveaux 3-5 : 1d8
+  Niveaux 6-8 : 1d10
+  Niveaux 9-11 : 1d12 +1, toucher +1, touche comme une arme +1
+  Niveaux 12-14 : 1d12 +2, toucher +2, touche comme une arme +2
+  Niveaux 15-24 : 1d20 +3, toucher +3, touche comme une arme +3
+  Niveaux 25+ : 1d20 +4, toucher +4, touche comme une arme +4
+– Bonus de 2 aux jets de sauvegarde contre les Sorts
+– Parade de projectiles : -1 à la classe d'armure contre les projectiles par tranche de 3 niveaux
+– La classe d'armure naturelle d'un moine est de 9 au niveau 1, et diminue ensuite de 1 tous les 2 niveaux jusqu'au 18 puis diminue de 1 tous les 3 niveaux jusqu'au niveau 30 puis diminue de 1 tous les 5 niveaux
+– Gagne 10 points par niveau qu'il peut investir entre les compétences Détection des pièges, Se cacher dans l'ombre et Déplacement silencieux.
+– Accès à la capacité 'Coup étourdissant' une fois par jour tous les 4 niveaux
+
+COUP ÉTOURDISSANT :
+Toutes les attaques réussies au cours du round suivant obligent la victime à réussir un jet de sauvegarde contre les sorts sous peine d'être assommée. Remarque : ce talent spécial modifie automatiquement l'attaque normale d'un moine, sans avoir besoin de viser une cible.
+
+– Niveau 5 : Immunité à la maladie, la hâte et le ralentissement
+– Niveau 7 : Accès à la capacité 'Imposition des mains' pour se guérir de 2 points de vie par niveau
+– Niveau 8 : Bonus de -1 au facteur de vitesse
+– Niveau 9 : Bonus de 1 aux jets de sauvegarde et immunité au charme
+– Niveau 11 : Immunité au poison
+– Niveau 12 : Bonus de -1 au facteur de vitesse
+– Niveau 13 : Accès à la capacité 'Paume Vibratoire' une fois par jour
+
+PAUME VIBRATOIRE :
+Si le moine touche un adversaire, ce dernier doit réussir un jet de sauvegarde contre les sorts ou mourir. Remarque : ce talent spécial modifie automatiquement l'attaque normale d'un moine, sans avoir besoin de viser une cible.
+
+– Niveau 14 : 3 % de résistance à la magie par niveau (démarre avec 42 % au niveau 14, jusqu'à 78 % au niveau 26)
+– Niveau 20 : Immunité aux armes non-magiques
+
+Inconvénients :
+– Doit être d'alignement loyal
+– Ne peut porter aucune armure, bouclier ou casque
+– Ne peut utiliser que les armes de voleur, sauf les armes à deux mains
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans le style de combat à une arme, et ne peut pas avoir recours aux autres styles de combat~
+
+
+@74307 = ~MOINE DE LA LUNE NOIRE :
+L'Ordre de la Lune Noire est un ordre monastique secret qui suit les préceptes de la sombre déesse Shar. Les Moines de la Lune Noire ont recours à leurs prouesses physiques, à la magie noire et à beaucoup de subterfuges différents pour dissimuler leurs activités et frapper avec une précision mortelle.
+
+Avantages :
+– Peut investir des points dans la compétence Détection des illusions
+– Bonus de 10 % en Détection des illusions
+– Accès à la capacité 'Poing de glace' une fois par jour tous les 4 niveaux (une utilisation au niveau 1)
+
+POING DE GLACE :
+Lorsque cette capacité est activée, les poings du Moine de la Lune Noire se nimbent d'une coquille de glace. Pendant un round par niveau, les attaques à mains nues infligent 2 dégâts du froid supplémentaires.
+
+– Niveau 1 : Accès à la capacité 'Cécité' une fois par jour
+– Niveau 3 : Accès à la capacité 'Flou' une fois par jour
+– Niveau 7 : Accès à la capacité 'Toucher vampirique' une fois par jour
+– Niveau 11 : Accès à la capacité 'Image miroir' une fois par jour
+
+Inconvénients :
+– Doit être d'alignement loyal-mauvais
+– N'a pas accès à la capacité 'Imposition des mains'
+– N'a pas accès à la capacité 'Coup étourdissant'~
+
+@74310 = ~MOINE DE LA CONSCIENCE SOLAIRE :
+Les Moines de la Conscience Solaire étaient les suivants d'Amaunator au temps de Néthéril, mais aujourd'hui, leur culte est divisé entre Lathandre, Séluné et Sunie. Les Moines de la Conscience Solaire suivent strictement la loi, et ont recours à leur arts martiaux et leurs capacités magiques pour repousser le mal et la corruption où qu'ils se trouvent.
+
+Avantages :
+– Niveau 2 : Accès à la capacité 'Rayon de la Conscience Solaire' une fois par jour
+
+RAYON DE LA CONSCIENCE SOLAIRE :
+Le Moine de la Conscience Solaire projette un rayon de lumière de sa paume, infligeant à une cible unique 1d8 points de dégâts du feu tous les 2 niveaux, avec un maximum de 5d8 au niveau 10. Les morts-vivants subissent 6 points de dégâts supplémentaires.
+
+– Niveau 5 : Accès à la capacité 'Poings enflammés' une fois par jour
+
+POINGS ENFLAMMÉS :
+Le Moine de la Conscience Solaire concentre sa lumière intérieure dans ses attaques à mains nues, transformant ses poings en armes enflammées qui infligent 2d6 points de dégâts de feu supplémentaires pendant un round. La durée de cette capacité augmente jusqu'à 2 rounds au niveau 9, 3 rounds au niveau 12, 4 rounds au niveau 15 et 5 rounds au niveau 25. Cette capacité spéciale modifie automatiquement les attaques de base ; il n'y a pas besoin de changer d'arme.
+
+– Niveau 6 : Accès à la capacité 'Rayon de la Conscience Solaire' deux fois par jour
+– Niveau 8 : Accès à la capacité 'Soleil ascendant' une fois par jour
+
+SOLEIL ASCENDANT :
+Le Moine de la Conscience Solaire se nimbe de flammes qui agissent comme un Bouclier de feu (rouge), lui conférant 50 % de résistance au feu et le protégeant des attaques à moins de 1,5 mètres : un adversaire qui frappe le personnage avec une arme ou un sort subit 1d8 +2 points de dégâts de feu.
+
+– Niveau 10 : Accès à la capacité 'Rayon de la Conscience Solaire' trois fois par jour
+– Niveau 13 : Accès à la capacité 'Faisceau de la Conscience Solaire' une fois par jour
+
+FAISCEAU DE LA CONSCIENCE SOLAIRE :
+Le Moine de la Conscience Solaire provoque une explosion de lumière intense qui touche toutes les créatures à moins de 9 mètres à la ronde. Le Faisceau de la Conscience Solaire ne frappe pas automatiquement toutes les cibles, mais consiste en une attaque de corps-à-corps basée sur le TAC0 du moine, et qui bénéficie d'un bonus de 3 contre les morts-vivants. Les victimes subissent 9d6 points de dégâts de feu, avec un bonus de +3 contre les morts-vivants, mais peuvent diviser les dommages par deux grâce à un jet de sauvegarde contre les sorts. En outre, toutes les créatures (excepté le personnage) doivent réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglées pendant 2 heures.
+
+– Niveau 15 : Accès à la capacité 'Rayon de la Conscience Solaire' quatre fois par jour
+
+Inconvénients :
+– Doit être d'alignement loyal-bon
+– N'a pas accès à la capacité 'Coup étourdissant'
+– N'a pas accès à la capacité 'Paume vibratoire'~
+
+@9558  = ~PALADIN :
+Un paladin est un guerrier intrépide et pur, un modèle de bonté et d'authenticité. Tout comme le guerrier, le paladin est un homme d'action et de combat. Cependant, il vit pour des idéaux de droiture, de justice, d'honnêteté, de piété et de chevalerie. Il s'efforce d'être un exemple vivant de ces vertus, afin que d'autres puissent tirer des enseignements de son comportement et progresser grâce à ses actions.
+
+CAPACITÉS :
+
+– Peut porter des casques
+– Peut porter n'importe quelle armure et utiliser toutes les armes
+– Peut se spécialiser (**) dans le maniement de n'importe quelle arme
+– Peut se spécialiser (**) dans n'importe quel style de combat, et allouer maître (***) dans le style de combat à deux armes
+– Peut lancer 'Imposition des mains' une fois par jour pour rendre à une cible un maximum de 2 points de vie par niveau
+– Peut lancer 'Détection du mal' une fois par jour par niveau (trois utilisations au niveau 1)
+– Peut lancer 'Protection contre le mal' une fois par jour par niveau
+– Peut repousser les morts-vivants comme un clerc possédant deux niveaux de moins, à partir du niveau 3
+– Peut lancer quelques sorts divins à partir du niveau 9
+– Bonus de 2 aux jets de sauvegarde
+– Doit être d'alignement loyal-bon
+
+– Dés de vie : d10 jusqu'au niveau 9 puis 3 / niveau
+– Score de connaissance : +1 / niveau
+– Score de TAC0 : +1 / niveau~
+
+@25206 = ~CHEVALIER :
+Cette classe constitue l'archétype du chevalier, le guerrier empli de vertu, d'honneur et de courage. Il s'est spécialisé dans le combat des monstres maléfiques " classiques " comme les Démons et les Dragons.
+
+Avantages :
+– Bonus de 3 au toucher et aux dégâts contre les créatures démoniaques ou draconiques
+– Immunité à la peur et aux échecs de moral
+– Immunité au poison
+– 20 % de résistance au feu
+– 20 % de résistance à l'acide
+– Peut lancer 'Apaisement' une fois par jour par niveau
+
+APAISEMENT : Le paladin insuffle du courage au bénéficiaire du sort et élève son moral à son plus haut niveau ainsi qu'à ses alliés présents dans la zone d'effet. Au fur et à mesure que la durée du sort s'écoule, le moral des cibles reviennent à leur niveau normal. Si les cibles sont affectées par une terreur magique, cette peur s'annule.
+
+Inconvénient :
+– Ne peut pas utiliser d'armes de jet~
+
+@25207 = ~INQUISITEUR :
+L'inquisiteur consacre sa vie à traquer et à éliminer ceux qui pratiquent la magie du mal et à vaincre les forces des ténèbres. Son dieu lui confère certaines capacités à cette fin.
+
+Avantages :
+– 'Dissipation de la magie' une fois par jour tous les 4 niveaux (1 utilisation au niveau 1)
+– 'Vision véritable' une fois par jour tous les 4 niveaux (1 utilisation au niveau 1)
+– Immunité à l'immobilisation
+– Immunité au charme
+
+Inconvénients :
+– N'a pas accès à la capacité 'Imposition des mains'
+– Ne peut utiliser de sorts de prêtres
+– Ne peut repousser les morts-vivants~
+
+@25208 = ~CHASSEUR DE MORTS-VIVANTS :
+Ce guerrier saint a dédié sa vie à l'anéantissement des morts-vivants et autres créatures surnaturelles, et est immunisé contre leur plus dangereuses capacités.
+
+Avantages :
+– Bonus de 3 au toucher et aux dégâts contre les morts-vivants
+– Immunité à l'immobilisation
+– Immunité à l'absorption de niveaux
+
+Inconvénient :
+– N'a pas accès à la capacité 'Imposition des mains'~
+
+@77514 = ~CHEVALIER NOIR :
+Le chevalier noir est l'incarnation du mal. C'est plus un démon qui a pris forme humaine qu'un mortel. Ce scélérat mérite amplement sa réputation de noirceur. S'acoquinant avec les diables et les démons, servant les divinités maléfiques, le chevalier noir est craint et détesté de tous. Certaines vont jusqu'à appeler ces êtres perfides « anti-paladin », eu égard à leur nature complètement malfaisante.
+
+Avantages :
+– Immunité à l'absorption de niveau
+– Immunité à la peur
+– Accès à la capacité 'Absorption de vie' une fois par jour.
+
+ABSORPTION DE VIE :
+Inflige 2 points de dégâts par niveau à un adversaire, et soigne le chevalier noir d'autant de points de vie.
+
+– Accès à la capacité 'Arme empoisonnée' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
+
+ARME EMPOISONNÉE :
+Chaque coup réussi au cours des 5 prochains rounds empoisonnera la cible. Chaque cible ne peut être affectée qu'une fois par round. Le montant des dégâts de poison dépend du niveau du personnage :
+
+Niveau 1 : la cible subit 1 point de dégât de poison par seconde pendant 6 secondes (annulé par un jet de sauvegarde contre la mort à +1)
+Niveau 5 : la cible subit 1 point de dégât de poison par seconde pendant 12 secondes (annulé par un jet de sauvegarde contre la mort) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
+Niveau 9 : la cible subit 1 point de dégât de poison par seconde pendant 18 secondes (annulé par un jet de sauvegarde contre la mort à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
+Niveau 13 : la cible subit 1 point de dégât de poison par seconde pendant 24 secondes (annulé par un jet de sauvegarde contre la mort à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)
+
+– Niveau 3 : Accès à la capacité 'Aura de désespoir' une fois par jour.
+
+AURA DE DÉSESPOIR :
+Lorsque cette capacité est utilisée, tous les ennemis situés à moins 9 mètres du chevalier noir subissent des effets néfastes en fonction du niveau du chevalier noir :
+
+Niveau 3 : Inflige aux ennemis une pénalité de 1 à leurs jets de toucher et de dégâts et une pénalité de 2 à leur Classe d’armure pendant 1 tour.
+Niveau 6 : Inflige aux ennemis une pénalité de 2 à leurs jets de toucher et de dégâts et une pénalité de 2 à leur Classe d’armure pendant 1 tour.
+Niveau 15 : Inflige aux ennemis une pénalité de 4 à leurs jets de toucher et de dégâts et une pénalité de 4 à leur Classe d’armure pendant 1 tour, et cause la panique des ennemis de niveau 8 et inférieur.
+Niveau 20 : Inflige aux ennemis une pénalité de 4 à leurs jets de toucher et de dégâts et une pénalité de 4 à leur Classe d’armure pendant 1 tour, et cause la panique des ennemis de niveau 18 et inférieur.
+
+Inconvénients :
+– Doit être d'alignement mauvais
+– N'a pas accès à la capacité 'Détection du mal'
+– N'a pas accès à la capacité 'Imposition des mains'
+– N'a pas accès à la capacité 'Protection contre le mal'~
+
+@9557  = ~RÔDEUR :
+Le rôdeur est un guerrier et un forestier. Il est adroit dans le maniement des armes et compétent dans l'observation et la connaissance des bois. Il protège et guide souvent les voyageurs perdus et les honnêtes paysans. Pour vivre longtemps, un rôdeur doit être fort et sage dans les voies de la nature.
+
+CAPACITÉS :
+
+– Peut porter des casques
+– Peut porter n'importe quelle armure et utiliser toutes les armes
+– Peut se spécialiser (**) dans le maniement de n'importe quelle arme
+– Peut se spécialiser (**) dans n'importe quel style de combat, et être maître (***) dans le style de combat à deux armes
+– Commence avec deux étoiles dans le style de combat à deux armes
+– Peut sélectionner une race ennemie, contre laquelle il recevra un bonus de +4 au toucher et aux dégâts en combat
+– Peut lancer 'Charme-animal' une fois par jour tous les 2 niveaux (une utilisation au niveau 1)
+– Peut se cacher dans l'ombre lorsqu'il porte une armure compatible
+– Peut lancer quelques sorts divins à partir du niveau 8
+– Doit être d'alignement bon
+– Dés de vie : d10 jusqu'au niveau 9 puis 3 / niveau
+– Score de TAC0 : +1 / niveau
+– Score de connaissance : +1 / niveau
+
+Caractéristiques requises pour le jumelage : Force, Dextérité, Sagesse~
+
+@25209 = ~ARCHER :
+Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités classiques des guerriers.
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts avec les armes de jet tous les 3 niveaux d'expérience jusqu'au niveau 18 puis tous les 5 niveaux
+– Peut se spécialiser Grand maître (*****) dans le maniement des arcs courts, arcs longs et arbalètes
+– Accès à la capacité 'Tir ajusté' tous les 4 niveaux
+
+TIR AJUSTÉ :
+Toute attaque à distance effectuée dans les 10 secondes qui suivent a les effets suivants (en sus des dégâts normaux) :
+  Niveau 4 : La cible subit un malus de 1 au TAC0 pendant 20 secondes
+  Niveau 8 : La cible subit un malus de 1 aux jets de sauvegarde contre les sorts pendant 15 secondes
+  Niveau 12 : La cible subit un malus de 1 à la Force pendant 10 secondes
+  Niveau 16 : +2 aux dégâts du tir
+
+Inconvénients :
+– Ne peut pas se spécialiser dans les armes de mêlée
+– Ne peut pas porter d'armure métallique~
+
+@25211 = ~TRAQUEUR :
+Toujours à la recherche de renseignements, à l'aise aussi bien en ville que dans la nature, ce sont les rois du camouflage et de la furtivité.
+
+Avantages :
+– Bonus de 20 % en Se cacher dans l'ombre et en Déplacement silencieux
+– Peut effectuer des attaques sournoises 
+  Niveaux 1-8 : x1
+  Niveaux 9-16 : x2
+  Niveaux 17+ : x3
+– Niveau 12 : accès aux sorts de mage Hâte, Protection contre les projectiles normaux et Déviation de sorts mineure
+
+Inconvénient :
+– Ne peut pas porter d'armure plus épaisse que celle de cuir clouté~
+
+@25212 = ~BELLUAIRE :
+Ce type de rôdeur est un solitaire, rarement à l'aise en milieu urbain. Il a une affinité naturelle avec les animaux : ce sont ses amis et ses frères d'armes, avec lesquels il entretient une forme limitée de communication télépathique.
+
+Avantages :
+– Bonus de 15 % en Se cacher dans l'ombre et en Déplacement silencieux
+– Niveau 1 : accès au sort de mage "Familier"
+– Niveau 8 : accès au sort de druide "Convocation d'animaux 1"
+– Niveau 10 : accès au sort de druide "Convocation d'animaux 2"
+– Niveau 12 : accès au sort de druide "Convocation d'animaux 3"
+
+Inconvénients :
+– Ne peut pas utiliser d'arme métallique (comme les épées, hallebardes, marteaux,..)
+– Ne peut pas porter d'armure métallique (comme les cottes de maille, harnois,..)~
+
+@9561  = ~VOLEUR : Lorsqu'il s'agit de parvenir à ses fins, pour le meilleur ou pour le pire, le voleur se révèle un chapardeur adroit. Il se distingue par sa ruse, son agilité et sa discrétion. Emploiera-t-il son talent contre les passants innocents et les riches marchands ou contre les oppresseurs et les monstres ? Tel est le choix auquel il est confronté.
+
+CAPACITÉS :
+
+– Ne peut porter d'armure plus lourde que la besantine
+– Ne peut porter de casque
+– Ne peut utiliser de bouclier plus lourd que la targe
+– Ne peut utiliser que les armes suivantes : épée longue, épée courte, katana, cimeterre, dague, gourdin, bâton, arbalète, arc court, fléchette et fronde
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans les styles de combat
+– Peut distribuer 25 points par niveau (40 au niveau 1) dans les talents de voleur suivants : Crochetage, Vol à la tire, Détection des pièges, Déplacement silencieux, Se cacher dans l'ombre, Détection des illusions et Pose de piège
+– Accès à la capacité 'Pose de piège' une fois par jour tous les 5 niveaux (une utilisation au niveau 1)
+
+POSE DE PIÈGE : Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le voleur augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis
+  Niveau 1 : le piège inflige 2d8 +5 dégâts (projectile)
+  Niveau 11 : le piège inflige 2d8 +5 dégâts (projectile), plus 2d6 dégâts du poison par round pendant 3 rounds
+  Niveau 16 : le piège inflige 3d8 +5 dégâts (projectile), plus 4d8 +2 dégâts de feu
+  Niveau 21 : le piège inflige 3d8 +5 dégâts (projectile), plus 20 dégâts du poison sans jet de sauvegarde ; la cible meurt instantanément si elle échoue à un jet de sauvegarde contre la mort à +4
+
+– Peut avoir recours à l'attaque sournoise pour augmenter ses dégâts :
+  Niveaux 1-4 : x2
+  Niveaux 5-8 : x3
+  Niveaux 9-12 : x4
+  Niveaux 13+ : x5
+
+– Ne peut pas être d'alignement loyal-bon
+– Score de connaissance : + 3 / niveau
+– Score de TAC0 : +1 / 2 niveaux
+– Dés de vie : d6 jusqu'au niveau 10 puis 2 / niveau
+
+Caractéristique requise pour le jumelage : Dextérité~
+
+@25213 = ~ASSASSIN :
+Il s'agit d'un expert dans l'art du meurtre et qui sait exploiter à son plus grand avantage la furtivité et la surprise.
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts.
+– L'attaque sournoise peut atteindre x7 au lieu de x5 :
+  Niveaux 17-20: x6
+  Niveaux 21-40: x7
+– Peut enduire son arme de poison une fois par jour au niveau 1 et une fois de plus tous les 4 niveaux par la suite.
+
+ARME EMPOISONNÉE :
+Chaque coup réussi au cours des 30 prochaines secondes empoisonnera la cible. Chaque cible ne peut être affectée qu'une fois par round. Le montant des dégâts de poison dépend du niveau du personnage :
+Niveaux 1-4 : la cible subit 1 point de dégât de poison par seconde pendant 6 secondes (annulé par une sauvegarde contre la mort à +1)
+Niveaux 5-8 : la cible subit 1 point de dégât de poison par seconde pendant 12 secondes (annulé par une sauvegarde contre la mort) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
+Niveaux 9-12 : la cible subit 1 point de dégât de poison par seconde pendant 18 secondes (annulé par une sauvegarde contre la mort à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
+Niveaux 13+ : la cible subit 1 point de dégât de poison par seconde pendant 24 secondes (annulé par une sauvegarde contre la mort à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)
+
+Inconvénient :
+– Il n'a que 15 points de compétence par niveau à répartir dans ses talents de voleur.~
+
+@25215 = ~CHASSEUR DE PRIMES :
+C'est un chasseur d'hommes, entraîné pour traquer ses proies et pour les ramener vivantes, que ce soit pour le compte des autorités ou de maîtres du crime. Ce sont des adversaires redoutables particulièrement bien entraînés. Ils maîtrisent le talent de pose de pièges bien au-delà des autres voleurs. 
+
+Avantages :
+– Bonus de 15 % en Pose des pièges
+– Accès à la capacité 'Pose de piège spécial' par jour tous les 5 niveaux
+
+POSE DE PIEGE SPECIAL :
+Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le chasseur de primes augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis.
+– Niveau 1 : le piège inflige 3d8 +5 points de dégâts (projectile) et ralentit la victime pendant 5 rounds si elle rate un jet de sauvegarde contre les sorts à -4.
+– Niveau 11 : le piège inflige 4d8 +5 points de dégâts (projectile) et immobilise la victime pendant 5 rounds si elle rate un jet de sauvegarde contre les sorts à -1.
+– Niveau 16 : le piège déclenche le sort Sphère d'Otiluke sur la victime pendant 7 rounds si elle rate un jet de sauvegarde contre les sorts.
+– Niveau 21 : le piège déclenche le sort Labyrinthe sur la victime.
+
+Inconvénient :
+– Il n'a que 20 points de compétence par niveau à répartir dans ses talents de voleur.~
+
+@25216 = ~BRETTEUR :
+Ce roublard est à la fois un acrobate, une fine lame et une personne d'esprit. Il incarne le charme et la grâce.
+
+Avantages :
+– Bonus de -1 à la classe d'armure
+– -1 à la classe d'armure tous les 5 niveaux
+– Bonus de 1 au toucher et aux dégâts tous les 5 niveaux
+– Il peut se spécialiser (**) dans les armes de mêlée de voleur
+– Il peut devenir un maître (***) dans le style de combat à deux armes
+
+Inconvénient :
+– Ne peut effectuer d'attaque sournoise~
+
+@74298 = ~MAÎTRE DES OMBRES :
+Les Maîtres des ombres font appel à la magie pour améliorer leurs capacités de discrétion. Énigmatiques et dangereux, ces voleurs aux compétences uniques possèdent la capacité de se fondre parfaitement dans les ombres, mieux qu'aucun roublard ordinaire, pour frapper sans crier gare... parfois avec une rapidité surnaturelle.
+
+Avantages :
+– Bonus de 10 % en Déplacement silencieux et en Se cacher dans l'ombre.
+– Discrétion totale : le Maître des ombres peut se cacher dans l'ombre même s'il est observé.
+– Esprit fuyant : bonus de 1 aux jets de sauvegarde.
+– 'Pas de l'ombre' une fois par jour tous les 5 niveaux.
+
+PAS DE L'OMBRE :
+Permet d'entrer dans le Plan de l'Ombre et de s'y déplacer pendant 7 secondes, tandis que le temps est figé pour tout le reste du monde. Dans cet état, le Maître des ombres ne peut ni attaquer, ni lancer de sorts.
+
+Inconvénients :
+– Ne peut être d'alignement loyal.
+– Il a recours à une version moins puissante de l'attaque sournoise des voleurs :
+  Niveaux 1-4 : x1 (pas de multiplicateur)
+  Niveaux 5-8 : x2
+  Niveaux 9-12 : x3
+  Niveaux 13+ : x4
+– Il n'a que 20 points de compétence par niveau (30 au premier niveau) à répartir dans les talents de voleur.
+– Ne peut pas poser de pièges.
+
+Caractéristiques requises pour le jumelage : Force, Dextérité, Charisme.~
+
+@74304 = ~DISCIPLE DU DRAGON :
+Les Disciples du dragon sont de puissants ensorceleurs qui possèdent un ancêtre dragon parmi leur ascendance. Leur affinité naturelle avec la magie fait ressortir cet héritage draconique, et leur permet de lancer de puissants sortilèges tout en développant des capacités similaires à celles des dragons.
+
+Avantages :
+– Dés de vie : d6
+– Bonus de 1 à la classe d'armure
+– Niveau 3 : Accès à la capacité 'Attaque de souffle' une fois par jour
+
+ATTAQUE DE SOUFFLE :
+Le personnage crache une flamme qui mesure 7,5 mètres de longueur. Le souffle inflige 3d8 points de dégâts de feu à toutes les créatures prises dans un cône de 140 degrés. La flamme inflige 1d8 points de dégâts de feu supplémentaires au niveau 6 et tous les 3 niveaux par la suite, jusqu'à un maximum de 8d8 au niveau 18.
+
+– Niveaux 4, 8, 12 et 16 : 25 % de résistance au feu
+– Niveaux 5 et 15 : Bonus de 1 à la classe d'armure et à la Constitution
+– Niveaux 10 et 20 : Bonus de 1 à la classe d'armure
+
+Inconvénients :
+– Lance un sort de moins par niveau et par jour que l'ensorceleur.~
+
+@9559  = ~CLERC :
+Le clerc est un prêtre générique (de toutes les mythologies) qui guide les besoins spirituels d'une communauté. Il est à la fois un protecteur et un guérisseur. Cependant, il n'est pas purement défensif. Lorsqu'une créature maléfique se fait menaçante, le clerc est parfaitement armé pour la rechercher sur son propre terrain et la détruire. Il en va de même pour un clerc maléfique.
+
+CAPACITÉS :
+
+– Peut porter des casques
+– Peut porter n'importe quelle armure
+– Ne peut utiliser que des armes contondantes : marteau de guerre, gourdin, fléau d'armes, masse d'armes, morgenstern, bâton et fronde
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans les styles de combat
+– Peut repousser les morts-vivants
+– Peut lancer des sorts divins
+– Dés de vie : d8 jusqu'au niveau 9, puis 2 / niveau
+– Score de connaissance : +1 / niveau
+– Score du TAC0 : +2 / 3 niveaux~
+
+@25221 = ~PRÊTRE DE TALOS :
+Talos, également connu comme le Seigneur des Tempêtes, est la plus grande divinité des tempêtes et des destructions de Féérune. Son dogme exige une obéissance totale de la part de ses clercs, leur demandant de répandre la destruction là où ils le peuvent.
+
+Avantages : 
+– 'Éclair' une fois par jour tous les 5 niveaux (une utilisation au niveau 1)
+– 'Bouclier tempête' une fois par jour tous les 10 niveaux (une utilisation au niveau 1)
+
+BOUCLIER TEMPÊTE :
+Ce sort dure 6 secondes par niveau du lanceur de sorts. Il le protège contre l'électricité, le feu, le froid et les projectiles non-magiques.
+
+Inconvénient :
+– Doit être d'alignement neutre-mauvais, chaotique-neutre ou chaotique-mauvais.~
+
+@25222 = ~PRÊTRE DE HEAUM :
+Les fidèles du dieu neutre des Sentinelles et des Protecteurs sont des guerriers à part entière. Ils sont souvent considérés comme les défenseurs des innocents, des faibles et des pauvres.
+
+Avantages : 
+– 'Vision véritable', une fois par jour tous les 5 niveaux (une utilisation au niveau 1)
+– 'Épée animée', une fois par jour tous les 10 niveaux (une utilisation au niveau 1)
+
+ÉPEE ANIMÉE :
+Ce sort fait apparaître une épée dans la main du personnage (ne peut être lâchée, volontairement ou non). Cette arme est enchantée comme une arme +4 et fournit un bonus de 4 au TAC0, mais aucun bonus aux dégâts. Elle inflige 2d4 points de dégâts à toute cible qu'elle touche. L'arme fixe le nombre d'attaques par round du personnage à 3 et dure 1 round par niveau. Tant que le personnage l'a en main, il ne peut pas lancer le moindre sort.
+
+Inconvénient :
+– Doit être d'alignement loyal ou neutre-strict.~
+
+@25223 = ~PRÊTRE DE LATHANDRE :
+Lathandre est le dieu de la créativité, de l'aube, du renouveau, de la naissance, du printemps, de la vitalité et de la jeunesse. Il aide ceux qui luttent contre les morts-vivants et bénit ceux qui donnent la vie.
+
+Avantages :
+– 'Immobilisation des morts-vivants' une fois par jour tous les 5 niveaux (une utilisation au niveau 1)
+– 'Don de Lathandre' une fois par jour tous les 10 niveaux (une utilisation au niveau 1)
+
+DON DE LATHANDRE :
+Ce sort dure 1 round par niveau et confère +1 aux jets d'attaque, de dégâts et de sauvegarde, ainsi qu'une attaque supplémentaire par round. Il protège également contre l'absorption de niveau.
+
+Inconvénient :
+– Doit être d'alignement bon ou neutre-strict.~
+
+@93786 = ~PRÊTRE DE TYR :
+Tyr est la divinité de la justice et de la loi. Ses principales préoccupations sont le châtiment des criminels et la promotion de la loi et du bien dans le monde. La croyance en la justice rendue par l'exercice bienveillant de la force, ou du moins la vigilance armée, est sa raison d'être. Tyr est une divinité d'importance dans le panthéon Féérûnien grâce à sa position de leader de la Triade, un trio de dieux d'alignement loyal-bon qui représentent chacun les concepts de courage, de justice, de persévérance, de devoir, d'obéissance, d'honneur, de soulagement de la souffrance et, dans une certaine mesure, de martyre vertueux.
+
+Avantages :
+– 'Exaltation' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
+
+EXALTATION :
+Ce sort permet au prêtre de porter secours à une personne autre que lui-même. Par contact, il la guérit de tout effet de peur, de sommeil, de débilité mentale, d'inconscience et d'ébriété, ainsi que des états de rage et de confusion. En outre, le bénéficiaire est protégé pendant un tour contre les sorts et attaques qui provoquent ces effets.
+
+– 'Faveur divine' une fois par jour tous les 10 niveaux (une utilisation au niveau 1).
+
+FAVEUR DIVINE :
+Ce sort fait bénéficier le lanceur d'un bonus de 1 à ses jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.
+
+Inconvénient :
+– Doit être d'alignement loyal-bon, neutre-bon ou loyal-neutre.~
+
+@103223 = ~PRÊTRE DE TEMPUS :
+Tempus, aussi connu sous le nom du Seigneur des Batailles ou du Marteleur d'Ennemis, distribue ses faveurs au hasard, et pourtant sa nature chaotique fait qu'il favorise chaque camp de façon équitable. Il peut soutenir une armée un jour, puis ses adversaires le lendemain. Telle est la nature de la guerre. Le clergé de Tempus peut se retrouver des deux côtés d'un même conflit, mais nul ne saurait dire à qui le dieu de la guerre accordera sa faveur.
+
+Avantages :
+– 'Puissance sacrée' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
+– 'Chaos de la bataille' une fois par jour tous les 10 niveaux (une utilisation au niveau 1).
+
+CHAOS DE LA BATAILLE :
+Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires du prêtre dans une zone de 7,5 mètres de rayon centrée sur lui. Chaos de la bataille dure 1 tour et affecte au hasard la classe d'armure, les points de vie, le TAC0, les jets de sauvegarde ou la chance des cibles. L'amplitude de l'effet débute à 1 (5 en ce qui concerne les points de vie), et augmente d'1 point (5 points en ce qui concerne les points de vie) tous les 6 niveaux du lanceur.
+
+Inconvénient :
+– Doit être d'alignement chaotique-bon, neutre-strict, chaotique-neutre ou chaotique-mauvais.~
+
+@9562  = ~BARDE :
+Le barde est également un roublard, mais il est très différent du voleur. Il tire sa force de sa personnalité agréable et charmante. Grâce à elle et à son intelligence, il fait son chemin dans le monde. Le barde est un musicien talentueux et un magasin ambulant de commérages, de contes à dormir debout et de légendes. De toute situation il sait tirer une leçon ; c'est un touche-à-tout qui ne maîtrise rien parfaitement. Alors que la plupart des bardes sont des fripouilles, leurs histoires et leurs chansons sont bien accueillies presque partout.
+
+CAPACITÉS :
+
+– Ne peut porter d'armure plus lourde que la cotte de mailles (les sorts ne peuvent être lancés en armure)
+– Ne peut utiliser de bouclier plus lourd que la targe
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans les styles de combat
+– Peut avoir recours au talent de voleur de Vol à la tire
+– Peut lancer des sorts profanes à partir du niveau 2
+– Doit être d'alignement partiellement neutre
+– Score du TAC0 : +1 / 2 niveaux
+– Score de connaissance : + 10 / niveau
+– Dés de vie : d6 jusqu'au niveau 10 puis 2 / niveau
+– Peut utiliser la capacité de 'Chant de barde'
+
+CHANT DE BARDE :
+Lorsqu'elle est active, cette capacité octroie aux alliés les bonus suivants :
+  Niveaux 1-14 : augmente moral à valeur moyenne, protection contre la peur et apaisement de la peur, chance +1
+  Niveaux 15-19 : augmente moral à valeur moyenne, protection contre la peur et apaisement de la peur, chance +2
+  Niveaux 20+ : augmente moral à valeur moyenne, protection contre la peur et apaisement de la peur, chance +3~
+
+@25217 = ~MAITRE-LAMES :
+Il s'agit d'un barde que les talents de guerrier rendent encore plus impressionnant. Sa façon de combattre est spectaculaire, très visuelle, mais aussi mortelle.
+
+Avantages : 
+– Peut attribuer trois points dans le style de combat deux armes
+– Accès aux capacités 'Spirale offensive' et 'Spirale défensive' une fois par jour tous les 4 niveaux
+
+SPIRALE OFFENSIVE :
+Dure 24 secondes, +2 au toucher et aux dégâts, 1 attaque supplémentaire, toutes les attaques font le maximum de dégâts. Ne peut être utilisée en conjonction avec Hâte ou Hâte améliorée
+
+SPIRALE DEFENSIVE :
+Dure 24 secondes, -1 à la classe d'armure par niveau d'expérience, jusqu'à un maximum de -10
+
+Inconvénients :
+– Seulement la moitié du score en Connaissance (5 / niveau)
+– Seulement la moitié du score en Vol à la tire
+– La chanson du barde ne s'améliore pas avec les niveaux~
+
+@25219 = ~BOUFFON :
+Expert dans l'art de la plaisanterie et du ridicule, ce barde utilise ses capacités de comédien pour distraire et désorienter ses ennemis. Attention, il est mortellement drôle !
+
+CHANT DU BOUFFON :
+La chanson du Bouffon n'aide pas ses alliés, au lieu de cela, elle affecte tous les ennemis dans un rayon de 4,5 mètres :
+  Niveaux 1-14 : confusion, un jet de sauvegarde contre les sorts (+2) permet d'annuler l'effet
+  Niveaux 15-19 : en sus, les ennemis sont également ralentis, un jet de sauvegarde contre les sorts (sans bonus) permet d'annuler cet effet
+  Niveaux 20+ : en sus, les ennemis sont également assommés, un jet de sauvegarde contre les sorts (+2) permet d'annuler cet effet
+
+Inconvénient :
+– Aucun~
+
+@25220 = ~SCALDE :
+Ce barde nordique est également un guerrier à part entière. Ses chansons sont des sagas guerrières, sur les batailles et la vertu.
+
+Avantage :
+– Bonus de 1 au toucher et aux dégâts
+– Chant amélioré :
+
+CHANT DU SCALDE :
+La chanson du Scalde a des effets différents de celle du barde :
+  Niveaux 1-14 : +2 au toucher et aux dégâts, -2 à la classe d'armure pour ses alliés
+  Niveaux 15-19 : +4 au toucher et aux dégâts, -4 à la classe d'armure pour ses alliés, immunité à la peur
+  Niveaux 20+ : +4 au toucher et aux dégâts, -4 à la classe d'armure pour ses alliés, immunité à la peur, l'étourdissement et la confusion
+
+Inconvénient :
+– Seulement le quart du score en Vol à la tire~
+
+@9560  = ~DRUIDE :
+Le druide sert la cause de la nature et de la neutralité ; La nature sauvage est sa communauté. Il utilise ses pouvoirs spéciaux pour la protéger et préserver l'équilibre du monde.
+
+CAPACITÉS :
+
+– Ne peut porter que des armures créées à partir de matières végétales ou animales (cuir, écailles...)
+– Ne peut utiliser de bouclier plus lourd que la targe
+– Ne peut utiliser que les armes suivantes : cimeterre, dague, gourdin, lance, bâton, fléchette et fronde
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans les styles de combat
+– Peut lancer des sorts divins
+– Au niveau 7, il peut changer de forme en loup, en ours noir ou en ours brun une fois par jour
+– Au niveau 15, il devient immunisé au poison
+– Au niveau 18, 21 et 24, il gagne 10 % de résistance au feu, au froid, à l'électricité et à l'acide
+– Doit être d'alignement neutre-strict
+– Dés de vie : d8 jusqu'au niveau 9, puis 2 / niveau
+– Score de connaissance : +1 / niveau
+– Score de TAC0 : +2 / 3 niveaux
+
+Caractéristiques requises pour le jumelage : Sagesse, Charisme.~
+
+
+@25224 = ~DRUIDE TOTÉMIQUE : Ce druide s'identifie complètement à un animal. Cela lui procure une connexion spéciale avec le règne animal, et il peut faire appel à leurs esprits pour l'aider.
+
+Avantages :
+– Accès à la capacité "Convocation d'un esprit animal" une fois par jour au niveau 1, puis une fois supplémentaire tous les 5 niveaux.
+
+CONVOCATION D'UN ESPRIT ANIMAL :
+Peut invoquer un esprit animal particulier (Esprit ours, Esprit loup, Esprit lion ou Esprit serpent). Le personnage peut invoquer un animal de 1 DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.
+
+Inconvénients :
+– Ne peut pas se transformer~
+
+@25225 = ~METAMORPHE :
+Ce druide n'est pas un métamorphe parce qu'il a accès à une grande variété de formes mais plutôt parce qu'il ne se consacre qu'à une seule transformation. Il a accepté d'être infecté par la lycanthropie mais, grâce à son intense entraînement et à son étude approfondie de cette capacité, il est capable de la contrôler. Il devient un loup-garou, l'espèce la plus célèbre de lycanthropes.
+
+Avantages :
+– Accès à la capacité 'Métamorphose en loup-garou' une fois par jour tous les 2 niveaux jusqu'au niveau 13 (une utilisation au 1er niveau)
+– Niveau 13 : Accès à la capacité 'Métamorphose en Seigneur loup-garou' une fois par jour puis une autre fois tous les deux niveaux
+
+Inconvénients :
+– ne peut se métamorphoser en d'autres formes en raison de l'effort requis pour maintenir son équilibre mental dans sa forme primaire
+– ne peut porter d'armure~
+
+@25227 = ~JUSTICIER :
+Membre d'une secte spéciale, ce druide s'est dévoué au combat contre ceux qui profanent la nature. Ils possèdent des pouvoirs qui dépassent ceux des druides normaux, qu'ils ont gagnés par des rituels intensifs, très épuisants sur le plan physique.
+
+Avantages :
+– Niveau 7 : Peut se métamorphoser, une fois par jour, en plus des formes normales, en Araignée-géante, en Bébé wyverne, et en Salamandre de feu
+– Niveau 19 : Peut se transformer deux fois par jour
+– Accès à 6 sorts de magicien :
+  Niveau 1 : Orbe chromatique
+  Niveau 3 : Toile d'araignée
+  Niveau 5 : Éclair
+  Niveau 7 : Invisibilité majeure
+  Niveau 9 : Chaos
+  Niveau 11 : Chaîne d'éclairs
+
+Inconvénients :
+– Ne peut porter d'armure meilleure que celle de cuir
+– -2 en Force et Constitution à la création~
+
+@103060 = ~SHAMAN :
+Les shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les druides avec la nature, mais les shamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagés entre les deux mondes, les shamans privilégient l'équilibre à la domination.
+
+CAPACITÉS :
+
+– Peut porter uniquement l'armure de cuir, la besantine et l'armure de peau
+– Ne peut utiliser de bouclier plus lourd que la targe
+– Ne peut utiliser que les armes suivantes : dague, gourdin, lance, hache, bâton, fléchette, fronde et arc court
+– Ne peut être que compétent (*) dans le maniement des armes
+– Ne peut être que compétent (*) dans les styles de combat
+– Peut lancer des sorts de druide
+– Le shaman n'apprend pas tous les sorts du niveau comme un druide. À la place, il sélectionne de nouveaux sorts à apprendre à chaque niveau ; un shaman peut lancer des sorts sans avoir besoin de les mémoriser
+– Le shaman a un accès immédiat à un nombre de sorts spécifiques à sa classe, qu'il peut lancer comme n'importe quel autre sort : Protection de l'esprit, Brouillard putride, Lucidité spirituelle, Feu spirituel, Rappel de l'esprit, Verrou spirituel et Portail éthéré
+– Il acquiert la compétence Détection des illusions en débutant avec 20 %. Puis il gagne 4 % par niveau pour atteindre un maximum de 100 % au niveau 20
+– Il peut utiliser la Danse shamanique à volonté
+
+DANSE SHAMANIQUE : Les shamans peuvent invoquer des esprits alliés grâce à une danse rituelle. Durant la danse, le shaman subit une pénalité de 4 à la classe d'armure et il ne peut se déplacer, attaquer, lancer des sorts, utiliser des objets ou des capacités spéciales, ou effectuer toute autre activité. À chaque round, tandis que le shaman danse, il a 35 % de chance de base plus 2 % pour chaque niveau supplémentaire qu'un esprit réponde à l'appel, avec un maximum de 75 % au niveau 20. Tous les esprits invoqués disparaîtront si le shaman se déplace, arrête de danser, ou si l'esprit quitte son champ de vision. Les esprits augmentent en puissance au fur et à mesure que le shaman gagne des niveaux supplémentaires :
+  Niveau 1 : Esprits animal mineurs (serpent, renard, limier), jusqu'à 2 esprits en même temps
+  Niveau 6 : Esprits animal majeurs (ours, panthère, sanglier), jusqu'à 3 esprits en même temps
+  Niveau 12 : Esprits de la nature mineurs (esprit d'air mineur, esprit de terre mineur, esprit de feu mineur), jusqu'à 4 esprits en même temps
+  Niveau 18 : Esprits de la nature majeurs (esprit d'air, esprit de terre, esprit de feu), jusqu'à 5 esprits en même temps
+Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits disponibles en fonction du niveau du shaman. Par exemple, au niveau 12 le shaman invoquera soit un esprit de la nature mineur, soit un esprit animal majeur, soit un esprit animal mineur, mais il ne pourra pas choisir ceux qui apparaîtront. Les esprits feront de leur mieux pour protéger le shaman, mais il ne les contrôle pas directement
+
+– Aucun bonus de sorts par jour lié à une grande Sagesse
+– Doit être d'alignement neutre bon, neutre strict ou neutre mauvais
+– Ne peut pas être bi-classé ou multi-classé
+– Le shaman n'est pas éligible pour une forteresse
+– Dés de vie : d8
+– Score de connaissance : +1 / niveau
+– Score de TAC0 : +2 / 3 niveaux~
+
+
+
+@9588  = ~Votre personnage est doté initialement de <number> points de compétence. Faites votre choix parmi les compétences en surbrillance dans la liste suivante. Si votre personnage est un guerrier, il pourra choisir deux fois la même compétence. Il bénéficiera ainsi d'une spécialisation dans les armes répertoriées. N'oubliez pas qu'un personnage peut utiliser n'importe quelle arme disponible dans sa race et classe, qu'il soit doté ou pas des compétences nécessaires à son utilisation. Cependant, s'il ne possède pas les compétences nécessaires, il est pénalisé lors de son jet d'attaque.
+
+Tableau des points de compétence* :
+
+<DOTS1>
+
+<DOTS2>
+
+<DOTS3>
+
+<DOTS4>
+
+<DOTS5>
+
+* Les attaques supplémentaires ne sont disponibles qu'aux classes des combattants.~
+
+@32116 = ~Non-compétent (aucune étoile) : À ce niveau, le personnage souffre d'une pénalité de toucher avec l'arme sélectionnée. Le malus est de -2 pour les classes combattantes, -5 pour les mages et -3 pour les autres.
+
+Compétent (1 étoile) : À ce niveau, le personnage peut utiliser l'arme sans pénalité.~
+@32117 = ~Spécialisé (2 étoiles) : À ce niveau, le personnage bénéficie d'un bonus de +1 pour toucher et de +2 aux dégâts, avec l'arme sélectionnée. S'il a une classe de combattant, il gagne également une demi-attaque supplémentaire par round.~
+@32118 = ~Maître (3 étoiles) : À ce niveau, le personnage bénéficie d'un bonus de +3 pour toucher et de +3 aux dégâts avec l'arme sélectionnée. S'il a une classe de combattant, il gagne également une demi-attaque supplémentaire par round.~
+@32119 = ~Haut maître (4 étoiles) : À ce niveau, le personnage bénéficie d'un bonus de +3 pour toucher, de +4 aux dégâts et de -1 au facteur de vitesse avec l'arme sélectionnée. S'il a une classe de combattant, il gagne également une demi-attaque supplémentaire par round.~
+@32120 = ~Grand maître (5 étoiles) : À ce niveau le personnage bénéficie d'un bonus de +3 pour toucher, de +5 aux dégâts et de -3 au facteur de vitesse avec l'arme sélectionnée. S'il a une classe de combattant, il gagne également une attaque supplémentaire par round.~
+
+
+@9582  = ~FORCE : la force mesure la force musculaire, l'endurance et la résistance d'un personnage. C'est la première qualité exigée d'un guerrier.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9583  = ~CONSTITUTION : la constitution mesure la forme physique d'un personnage, sa santé et sa résistance physique à la douleur, aux blessures et aux maladies. Cette caractéristique est importante pour le rôdeur.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9584  = ~DEXTERITE : la dextérité mesure la coordination entre les mains et les yeux d'un personnage, son agilité, ses réflexes et son équilibre. C'est la première qualité exigée d'un voleur.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9585  = ~INTELLIGENCE : l'intelligence mesure la mémoire, la capacité de raisonnement et d'apprentissage d'un personnage. C'est la première qualité exigée d'un mage.
+
+Notez qu'un personnage dont l'intelligence est de 8 ou moins est illettré, et ne peut lancer de sorts à partir de parchemins ou de la plupart des baguettes, quelle que soit sa classe.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9586  = ~SAGESSE : la sagesse mesure l'instruction, le jugement et le bon sens d'un personnage. C'est la première qualité exigée d'un prêtre.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9587  = ~CHARISME : le charisme mesure les qualités de persuasion d'un personnage, son magnétisme personnel et sa capacité à diriger. Cette caractéristique est importante pour le druide, le barde et le paladin.
+
+Minimum : <MINIMUM>
+Maximum : <MAXIMUM>~
+
+@9598  = ~CROCHETAGE : un voleur peut utiliser cette capacité pour crocheter des cadenas, des serrures à combinaison et des serrures de portes.~
+@9600  = ~DÉPLACEMENT SILENCIEUX : lorsque le voleur utilise ce talent, il peut se déplacer sans bruit.~
+@9461  = ~Déplacement silencieux~
+
+@34120  = ~Se cacher dans l'ombre~
+@34121  = ~Détection des illusions~
+@34122  = ~Pose de piège~
+@34123  = ~DETECTION DES ILLUSIONS : Le regard perçant d'un voleur lui permet de détecter les inconsistances mineures causées par les sorts d'illusion.~
+@34124  = ~POSE DE PIEGE : Son talent naturel à désarmer les pièges permet au voleur de créer et de poser les siens.~
+
+
+@61560 = ~Aucune~
+
+@9603  = ~LOYAL BON :
+Les personnages de cet alignement croient qu'une société ordonnée, puissante, avec un gouvernement bien organisé, peut améliorer les conditions de vie du plus grand nombre. Pour y parvenir, il est nécessaire de créer des lois et de s'y soumettre. Lorsque le peuple respecte les lois et s'entraide, l'ensemble de la société prospère. Par conséquent, les personnages loyaux bons recherchent ce qui est le plus avantageux pour la majorité et ce qui cause le moins de dommages. Un serf honnête et travailleur, un roi bon et avisé ou un ministre de la justice sévère mais franc sont autant d'exemples d'individus loyaux bons.
+
+Réputation initiale : 12
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (deux fois par jour)
+– Ralentissement du poison (deux fois par jour)
+– Puiser dans la puissance divine (deux fois par jour)~
+@9604  = ~LOYAL NEUTRE :
+L'ordre et l'organisation revêtent une importance considérable pour les personnages de cet alignement. Ils croient en un gouvernement puissant et bien organisé, qu'il s'agisse d'une tyrannie ou d'une démocratie bienveillante. Les avantages de l'organisation et de la discipline compensent les problèmes moraux soulevés par leurs actions. Un inquisiteur déterminé à trouver les traîtres à n'importe quel prix ou un soldat qui ne remet jamais en cause les ordres constituent d'excellents exemples d'un comportement loyal neutre.
+
+Réputation initiale : 10
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (une fois par jour)
+– Ralentissement du poison (une fois par jour)
+– Puiser dans la puissance divine (une fois par jour)
+– Absorption mineure de Larloch (une fois par jour)
+– Horreur (une fois par jour)
+– Toucher vampirique (une fois par jour)~
+@9605  = ~LOYAL MAUVAIS :
+Ces personnages croient à l'utilisation de la société et de ses lois dans leur propre intérêt. L'ordre et l'organisation élèvent ceux qui méritent de régner, tout en établissant une hiérarchie clairement définie entre les maîtres et les serviteurs. Dans cette perspective, les personnages loyaux mauvais appuient les lois et les sociétés qui protègent leurs intérêts. Si quelqu'un est blessé ou souffre à cause d'une loi qui profite à des personnages loyaux mauvais, tant pis pour lui. Les personnages loyaux mauvais obéissent aux lois par peur du châtiment. Dans la mesure où ils peuvent être contraints d'honorer un contrat ou un serment qui leur est défavorable, les personnages loyaux mauvais font généralement preuve d'une grande vigilance avant de donner leur parole. Une fois cette parole donnée, ils la respectent, sauf s'ils trouvent parmi les lois de la société un moyen légal de ne pas le faire. Un tyran à la main de fer et un marchand sournois et avide offrent de parfaits exemples d'êtres loyaux mauvais.
+
+Réputation initiale : 9
+
+Capacités associées (Shadows of Amn uniquement) :
+– Absorption mineure de Larloch (deux fois par jour)
+– Horreur (deux fois par jour)
+– Toucher vampirique (deux fois par jour)~
+@9606  = ~NEUTRE BON :
+Ces personnages croient qu'un équilibre des forces est important, mais que les intérêts de la loi et du chaos n'excluent pas le besoin d'agir pour le bien. Etant donné que l'univers est immense et qu'il contient de nombreuses créatures dont les aspirations diffèrent, la poursuite déterminée du bien ne bouleverse pas l'équilibre ; elle pourrait même le préserver. Si encourager le bien signifie apporter son soutien à une société organisée, alors il ne faut pas hésiter. Il en va de même si le bien implique le renversement de l'ordre social existant. L'ordre social en lui-même ne recèle aucune valeur propre. Un baron désobéissant aux commandements du roi pour détruire ce qu'il considère comme mauvais constitue un excellent exemple de personnage neutre bon.
+
+Réputation initiale : 11
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (deux fois par jour)
+– Ralentissement du poison (deux fois par jour)
+– Puiser dans la puissance divine (deux fois par jour)~
+@9607  = ~NEUTRE MAUVAIS :
+Les personnages neutres mauvais s'intéressent principalement à eux-mêmes et à leur propre progrès. Il ne voient aucune objection particulière à travailler en groupe ou seuls. Leur seul souci est d'avancer. S'il existe un moyen rapide et simple de tirer profit de quelque chose, que ce soit légal, douteux ou manifestement illégal, ils l'exploiteront. Bien que les personnages neutres mauvais n'aient pas l'attitude du "chacun pour soi" propre aux personnages chaotiques, ils n'ont aucun scrupule à trahir leurs amis et leurs compagnons pour quelque profit personnel. Leur allégeance est généralement basée sur la puissance et l'argent, ce qui les rend assez réceptifs aux pots-de-vin. Un mercenaire sans scrupules, un voleur ordinaire et un informateur hypocrite qui livre les gens aux autorités pour se protéger et se faire valoir illustrent parfaitement les personnages neutres mauvais.
+
+Réputation initiale : 9
+
+Capacités associées (Shadows of Amn uniquement) :
+– Absorption mineure de Larloch (deux fois par jour)
+– Horreur (deux fois par jour)
+– Toucher vampirique (deux fois par jour)~
+@9608  = ~NEUTRE STRICT:
+Les personnages véritablement neutres croient à un équilibre ultime des forces et refusent de considérer les actions comme étant soit bonnes, soit mauvaises. Etant donné que la majorité des individus émettent des jugements, les personnages véritablement neutres sont très rares. Ils font tout leur possible pour éviter de prendre le parti des forces du bien ou du mal, de la loi ou du chaos. Leur tâche est de veiller à ce que toutes ces forces demeurent dans une confrontation équilibrée. Les personnages véritablement neutres sont parfois contraints à des alliances plutôt spéciales. Dans une large mesure, ils sont obligés de se ranger du côté des opprimés quelle que soit la situation, changeant même parfois de camp lorsque le perdant devient le gagnant. Un druide véritablement neutre peut s'associer à la baronnie locale pour réduire au silence une tribu de gnolls mauvais, et abandonner ses alliés ou changer de camp lorsque les gnolls sont à deux doigts de l'anéantissement. Il essaiera d'empêcher chacun des deux camps de devenir trop puissant. Les personnages vraiment neutres sont à l'évidence très rares dans le monde.
+
+Réputation initiale : 10
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (une fois par jour)
+– Ralentissement du poison (une fois par jour)
+– Puiser dans la puissance divine (une fois par jour)
+– Absorption mineure de Larloch (une fois par jour)
+– Horreur (une fois par jour)
+– Toucher vampirique (une fois par jour)~
+@9609  = ~CHAOTIQUE BON :
+Les personnages chaotiques bons sont des individualistes possédant une forte propension à la gentillesse et à la bienveillance. Ils croient à toutes les vertus de la bonté et du droit, mais ils recourent peu aux lois et aux règlements. Ils ne sont d'aucune utilité pour ceux qui "essaient d'entraîner les gens et de leur dire ce qu'ils ont à faire". Leurs actions sont guidées par leurs propres critères moraux qui, bien que tournés vers le bien, ne sont pas toujours en parfait accord avec le restant de la société. Un pionnier courageux toujours prêt à se déplacer face à l'avancée des colonisateurs qui le suivent à la trace illustre parfaitement le personnage chaotique bon.
+
+Réputation initiale : 11
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (deux fois par jour)
+– Ralentissement du poison (deux fois par jour)
+– Puiser dans la puissance divine (deux fois par jour)~
+@9610  = ~CHAOTIQUE NEUTRE :
+Les personnages chaotiques neutres ne croient pas à l'ordre, y compris dans leurs propres actions. Selon ce principe directeur, ils ont tendance à suivre leur caprice du moment. Le bien et le mal n'entrent pas en ligne de compte lorsqu'il s'agit de prendre une décision. Il est très difficile de traiter avec les personnages chaotiques neutres. Ils sont connus pour jouer, joyeusement et sans but apparent, tout ce qu'ils possèdent sur un simple coup de dé. On ne peut pratiquement pas se fier à eux. En fait, ce trait de caractère est la seule chose qui soit fiable en eux ! Cet alignement est peut-être celui qui pose les plus grandes difficultés. Les lunatiques ont tendance à avoir un comportement chaotique neutre.
+
+Réputation initiale : 10
+
+Capacités associées (Shadows of Amn uniquement) :
+– Soins des blessures légères (une fois par jour)
+– Ralentissement du poison (une fois par jour)
+– Puiser dans la puissance divine (une fois par jour)
+– Absorption mineure de Larloch (une fois par jour)
+– Horreur (une fois par jour)
+– Toucher vampirique (une fois par jour)~
+@9611  = ~CHAOTIQUE MAUVAIS :
+Ces personnages sont un fléau pour tout ce qui est bon et organisé. Les personnages chaotiques mauvais sont motivés par l'appât du gain et par le plaisir. Ils n'ont aucun scrupule à s'emparer de ce qu'ils veulent par tous les moyens possibles. Les lois et les gouvernements sont les outils des faibles incapables de se débrouiller par eux-mêmes. Les forts ont le droit de prendre ce dont ils ont envie et les faibles sont là pour se faire exploiter. Lorsque les personnages chaotiques mauvais se regroupent, ils ne sont pas motivés par le désir de coopérer, mais plutôt par le besoin de se défendre contre des ennemis puissants. Seul un chef vigoureux, capable d'obliger ses sujets à lui obéir, peut maintenir la cohésion d'un tel groupe. Dans la mesure où le pouvoir est basé sur la force brute, un chef est susceptible d'être remplacé au moindre signe de faiblesse par celui qui saura prendre sa place en l'éliminant par n'importe quel moyen. Les boucaniers et les monstres assoiffés de sang et peu intelligents illustrent parfaitement les personnalités chaotiques mauvaises.
+
+Réputation initiale : 8
+
+Capacités associées (Shadows of Amn uniquement) :
+– Absorption mineure de Larloch (deux fois par jour)
+– Horreur (deux fois par jour)
+– Toucher vampirique (deux fois par jour)~
+
