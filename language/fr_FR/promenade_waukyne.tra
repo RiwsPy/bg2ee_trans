@@ -1,0 +1,211 @@
+// Marchand d'armures : Maheer : ne vend que des armes (nulles)
+// Manque Ilmater
+
+
+// Marché de l'aventurier
+@48395 = ~Marché de l'aventurier~
+@61405 = ~Marchand~
+
+// @60855 / 60856 : Fauconnier / Hawker ~ Colporteur > plus proche du crieur public
+@60857 = ~Venez ! Entrez au Marché de l'Aventurier ! Derrière moi, vous trouverez tout ce dont a besoin un aventurier.~ 
+
+@25026 = ~Mésanges et malédictions ! Je suis sûr d'en avoir vu ici la dernière fois ! Est-ce que quelqu'un a éternué quand j'avais le dos tourné ? Grumph...~ 
+@25029 = ~Hmmm... vous ne seriez pas un Mage Cagoulé, par hasard ? Hmmm... mmm... c'est pour une soupe. Oui, c'est cela. De la soupe de salamandre. Pour mes, euh, mes enfants... et tout. Grumph... Vous la voyez ou non ?~ ~Hmmm... vous ne seriez pas une Mage Cagoulé, par hasard ? Hmmm... mmm... c'est pour une soupe. Oui, c'est cela. De la soupe de salamandre. Pour mes, euh, mes enfants... et tout. Grumph... Vous la voyez ou non ?~
+@25035 = ~Fleurs en pot et fornication ! Un vieil homme demande de l'aide à un jeune et qu'est-ce qu'il reçoit ? Du dédain ! Grumph...~ ~Fleurs en pot et fornication ! Un vieil homme demande de l'aide à une jeune et qu'est-ce qu'il reçoit ? Du dédain ! Grumph...~ 
+@25039 = ~Très sournoisement. Grumph... Bon, écoutez ! Est-ce trop demandé de la part d'un vieil homme ? Vous voyez cette fichue poudre de salamandre ou pas ? Hmph !~ 
+@30081 = ~Mmmm. Hmmm. Hein ? Du large, vagabond ! Ne vois-tu pas que je suis en train de réfléchir à un achat de la plus haute importance ?!~ ~Mmmm. Hmmm. Hein ? Du large, vagabonde ! Ne vois-tu pas que je suis en train de réfléchir à un achat de la plus haute importance ?!~ 
+
+// Brelm
+@25048 = ~Je descends tout juste du navire. Je reviens des Sélénaes où la mer était extrêmement agitée.~ 
+@25051 = ~Si vous allez vers les docks, méfiez-vous ! Ce quartier regorge de voleurs ! Et aucun garde à la ronde !~ 
+@25115 = ~Vous ne me croyez pas, Ribald ? J'en ai vu deux l'autre fois... Et ils l'ont regretté !~ 
+@25116 = ~En tout cas, je te parie ce que tu veux que s'il y a bien une chose qu'ils ne regrettent pas, c'est ton odeur.~
+@25118 = ~Vous n'êtes pas un voleur, tout de même ? Le Marché de l'aventurier, ici, n'apprécie guère les voleurs.~ ~Vous n'êtes pas une voleuse, tout de même ? Le Marché de l'aventurier, ici, n'apprécie guère les voleurs.~
+@25119 = ~Il paraît qu'une sphère argentée énorme surgit de nulle part est apparue dans les bas quartiers.~
+@25123 = ~Toujours est-il que je l'ai vue, de mes propres yeux, je ne suis pas aveugle !~
+@25134 = ~Dans ce cas, tu as certainement rencontré Sire Francis. Ou Denal Sixfingers. Ils résidaient encore à Scornubel la dernière fois que je m'y suis rendu.~
+@25135 = ~Euh... Ben, je... non. *grumph* Parfois, je vous hais, si vous saviez, Ribald !~ 
+
+// Ribald
+// Il vouvoie charname ou Jaheira mais tutoie Mazzy et Brelm, charname le tutoie
+@16978 = ~Je te remercie mais je désire juste jeter un coup d’œil.~
+@16979 = ~Je souhaiterais voir quelques articles en particulier.~
+@42005 = ~J'ai besoin de renvoyer un groupe de chevaliers Solamniques dans leur plan. Peux-tu m'aider ?~
+@38857 = ~Assez bien, mon ami, grâce à <CHARNAME>, que voici. C'est un cœur vaillant, qui m'a sauvé la vie dans les collines contre un Seigneur de l'ombre.~
+@38853 = ~Eh bien, j'en dois une à ton ami pour avoir permis à une jeune fille aussi ravissante que toi de rester parmi nous... Comment vont les aventures ?~ ~Eh bien, j'en dois une à ton amie pour avoir permis à une jeune fille aussi ravissante que toi de rester parmi nous... Comment vont les aventures ?~
+@38855 = ~Ah, tu es bien gentille. À dire vrai, je m'en passe fort bien. Tu peux jeter un coup d’œil à ma nouvelle boutique, ma petite, mais la prochaine fois, j'apprécierai que tu ne tardes pas à revenir me voir.~ 
+@38859 = ~Je n'y compterais pas, mon ami.~
+@38863 = ~Très bien, mademoiselle Jaheira. J'aime autant vous prévenir que je n'accepterai plus d'être ennuyé par les ménestrels... dois-je vous rappeler que l'époque où j'entretenais des liens avec votre espèce est depuis longtemps révolue ?~
+@38865 = ~Il faut toujours s'attendre au pire avec ceux de votre communauté... Mais je devrais me préoccuper de mes propres manières. Veuillez m'excuser.~
+@42015 = ~Il s'agissait alors d'une seule créature... combien m'avez-vous dit qu'il y en avait, cette fois ? Hmm... selon moi, vous vous en tirerez pour... oh... 9000 pièces d'or.~
+@42022 = ~Alors revenez quand vous l'aurez. Je ne peux me permettre de brader mes tarifs, je ne suis qu'un intermédiaire.~
+@42019 = ~Tout dépend à qui l'on pose la question ? Il se peut que vos chevaliers trouvent ce prix raisonnable. En tout cas, c'est à prendre ou à laisser.~
+@42025 = ~C'est un plaisir de traiter avec vous. Vous venez de cette merveilleuse sphère, n'est-ce pas ? Mon amie viendra demain.~ 
+@42028 = ~J'ai mes informateurs. En outre, où donc peut-on trouver des créatures planaires si ce n'est dans la partie la plus étrange de la cité ? Allez, soyez tranquille, vous la verrez demain.~
+@42029 = ~Étant donné le prix que vous payez, je peux vous assurer qu'elle sera à l'heure.~ 
+@45507 = ~Je vous en prie. Que se passe-t-il ?~ 
+@45513 = ~Évidemment, ils l'ont capturé. Terce aurait dû s'y attendre... il a dû penser qu'on n'allait pas l'ennuyer pour un simple disque, mais les mages sont très stricts quand il s'agit d'octroyer leurs autorisations.~ 
+@45517 = ~Que sais-tu sur les Voleurs de l'Ombre ?~
+@45519 = ~Hmm. Vous espérez les corrompre ? On ne sait jamais... les Mages Cagoulés eux-mêmes ne sont pas infaillibles.~
+@45522 = ~Si vous n'avez pas encore cherché à la Couronne de cuivre, dans les bas quartiers, ou bien je vous conseille d'essayer l'un des temples. Vous pouvez aussi voir du côté des Voleurs de l'Ombre, aux docks, si traiter avec ce genre de crapules ne vous dérange pas.~
+@45524 = ~Que sais-tu sur les Voleurs de l'Ombre ?~
+@45526 = ~Ce sont les maîtres des Docks... Moi-même ne m'y rends jamais. Votre contact là-bas sera Bloodscalp. On dit qu'ils sont occupés à batailler en ce moment, mais on ne sait jamais.~
+@45515 = ~Que le Conseil leur confère un tel pouvoir est scandaleux. Mystra est la seule personne qui pourrait vous dire ce qu'ils font de leurs prisonniers. J'aimerais pouvoir vous aider, mais je n'ai plus jamais entendu parler de Terce.~ 
+@45521 = ~Je suis sûr qu'un aventurier aussi intrépide que vous saura trouver de l'or. Si vous voulez mon avis, les récompenses viennent à ceux qui savent où les chercher.~ ~Je suis sûr qu'une aventurière aussi intrépide que vous saura trouver de l'or. Si vous voulez mon avis, les récompenses viennent à ceux qui savent où les chercher.~
+@45530 = ~D'accord. La boutique sera toujours debout à votre retour, pas vrai ?~ 
+@57311 = ~Très bien. Vous êtes un bon client, et un fameux aventurier. Désirerez-vous voir ma réserve secrète ? Pour 50 pièces d'or, je vous montre ces marchandises.~ ~Très bien. Vous êtes une bonne cliente, et une fameuse aventurière. Désirerez-vous voir ma réserve secrète ? Pour 50 pièces d'or, je vous montre ces marchandises.~
+@57317 = ~Désolé, mais je ne suis pas intéressé par tes articles secrets.~ ~Désolée, mais je ne suis pas intéressée par tes articles secrets.~
+@57318 = ~Jette donc un coup d’œil. Je vous assure que vous ne serez pas déçu.~ ~Jette donc un coup d’œil. Je vous assure que vous ne serez pas déçue.~
+@61119 = ~Bien sûr. L'interdiction d'user de magie ne s'applique qu'aux sujets " suspects ". À Amn, les citoyens intègres sont jugés sur un unique critère : l'argent.~
+@61120 = ~Si vous avez assez d'or, les Mages Cagoulés vous laisseront le bénéfice du doute. Après tout, pourquoi pas ? Ils s'enrichissent quoiqu'il arrive, et si vous générez des troubles, ils vous arrêtent.~
+@61121 = ~Le marché est cependant honnête... une fois que vous les aurez payés, je pense qu'ils vous laisseront agir à votre guise. Si vous êtes intéressé, allez voir le Mage Corneil. Vous le trouverez dans le quartier du Gouvernement, dans le bâtiment du même nom.~
+@61123 = ~Que sais-tu sur les Voleurs de l'Ombre ?~
+
+// Deidre
+@61544 = ~Salutations, aventurier, je suis Deidre. Je suis membre l'empire magique d'Aurora et j'ai accès à sa considérable collection d'objets magiques.~ ~Salutations, aventurière, je suis Deidre. Je suis membre l'empire magique d'Aurora et j'ai accès à sa considérable collection d'objets magiques.~
+
+// Lucy
+@58410 = ~Un peu hautaine, Lucy s'élève quand vous approchez. Cette wiverne vous ignore.~
+
+// Dame Yuth
+@46479 = ~Bonjour à vous. Je vous observe depuis votre arrivée... Je crois pouvoir deviner que mes marchandises vous intéresseront.~ 
+@46519 = ~Tu fais erreur, une autre fois peut-être.~
+@61053 = ~Laisse-moi voir ce que tu as.~
+@46517 = ~Voyagez prudemment, et faites attention aux Mages Cagoulés.~
+@46526 = ~Voyons voir ce que tu proposes.~
+@61175 = ~Éloignes-toi de moi, colporteuse !~
+@46530 = ~Colporteuse ? Bah - Je n'ai pas besoin d'imbéciles comme vous. Au revoir.~
+@61111 = ~Oui, j'imaginais bien que vous le seriez. Un des mages, du nom de Corneil, décide de qui peut obtenir le permis d'utiliser la magie ici. Ramenez-lui moult pièces si vous allez le voir.~
+@61112 = ~Vous le trouverez sûrement dans les bureaux des autorités dans le quartier du Gouvernement. À présent... désirez-vous voir ce que je propose ou non ?~
+@61113 = ~Bien sûr, montres-moi ce que tu as.~
+
+
+
+
+// Ler
+@14726 = ~Au nom du ciel, mais d'où venez-vous ? Je n'arrive pas à croire que ce maudit mage soit devenu fou ! Comme si une guerre des guildes à Athkatla ne suffisait pas !~ 
+@1162 = ~Non, Athkatla est au sud de la Côte des Épées. Je me demande qui nous avons irrité pour être ici ? Nous devons nous cacher, peut-être dans les bas-fonds.~
+@42227 = ~Khalid ? Silvanus, qu'il entende mon vœu... S'il le faut, je viderai entièrement cette ville pour retrouver son meurtrier... je le jure.~
+@44960 = ~Je le sais car j'habite près des rues. Il y a une guerre entre les voleurs et une nouvelle guilde. Je ne sais pas grand-chose mais de nombreuses personnes ont disparu.~
+@61116 = ~Vous ETES nouveau ici, non ? La magie est interdite à Athkatla. Je pense que les Mages Cagoulés ont le contrôle des autres mages.~ ~Vous ETES nouvelle ici, non ? La magie est interdite à Athkatla. Je pense que les Mages Cagoulés ont le contrôle des autres mages.~
+
+// Dame Beth
+@14854 = ~Hmph. Je suppose que ces manières sont dignes d'un étranger.~ ~Hmph. Je suppose que ces manières sont dignes d'une étrangère.~
+@14856 = ~Ah, je pensais bien que vous étiez des étrangers à cause de votre accent et de vos vêtements. Bienvenue à Athkatla, la Cité de la Monnaie.~
+@14864 = ~Athkatla ? La capitale de l'Amn ? Hum... sauriez-vous qui était ce mage, à tout hasard ?~
+@14868 = ~Eh bien, je suis convaincu que ce mage est un criminel pour commencer. Savez-vous qui il est ?~ ~Eh bien, je suis convaincue que ce mage est un criminel pour commencer. Savez-vous qui il est ?~
+@14863 = ~Très bien. Bonne continuation, mon <PRO_LADYLORD>.~ ~Très bien. Bonne continuation, ma <PRO_LADYLORD>.~
+@14891 = ~Non. Avez-vous vu ce qui s'est passé ?~
+@14895 = ~Oui ? Puis-je vous être utile, mon <PRO_LADYLORD> ?~ ~Oui ? Puis-je vous être utile, ma <PRO_LADYLORD> ?~
+@38773 = ~Prends garde, <CHARNAME>. J'ai entendu parler de ces Mages Cagoulés. Des mages d'un ordre puissant, et les seuls mages autorisés dans Amn, je crois.~
+@24994 = ~Pas vraiment, mon <PRO_LADYLORD>. Tout le monde ici sur la Promenade était effrayé lorsque le mage a commencé à se battre avec ces hommes, ceux en noir.~ ~Pas vraiment, ma <PRO_LADYLORD>. Tout le monde ici sur la Promenade était effrayé lorsque le mage a commencé à se battre avec ces hommes, ceux en noir.~ 
+
+// Mira
+@15519 = ~Bonjour et bonnes affaires ! Je ne vous ai jamais vu avant. Aurais-je la chance de faire la connaissance d'un nouveau venu à la Cité de la Monnaie ?~ ~Bonjour et bonnes affaires ! Je ne vous ai jamais vue avant. Aurais-je la chance de faire la connaissance d'une nouvelle venue à la Cité de la Monnaie ?~
+@15524 = ~J'ai perdu un client. Honte à moi ! Faites de bonne affaires, mon <PRO_LADYLORD>.~ ~J'ai perdu une cliente. Honte à moi ! Faites de bonne affaires, ma <PRO_LADYLORD>.~
+@15526  = ~Je respecte votre vie privée, mon bon <PRO_LADYLORD>. Je suis Mira, propriétaire de cette échoppe et de son contenu. Regardez mes marchandises, et dites-moi si vous désirez quelque chose.~ ~Je respecte votre vie privée, ma bonne <PRO_LADYLORD>. Je suis Mira, propriétaire de cette échoppe et de son contenu. Regardez mes marchandises, et dites-moi si vous désirez quelque chose.~
+@15544 = ~Vous êtes un aventurier, mon <PRO_LADYLORD>, non ? Vous en trouverez d'autres comme vous à la Couronne de Cuivre, dans les bas-fonds.~ ~Vous êtes une aventurière, ma <PRO_LADYLORD>, non ? Vous en trouverez d'autres comme vous à la Couronne de Cuivre, dans les bas-fonds.~
+@15545 = ~Les mages ? Ah, rien que d'en parler, ça porte malheur ! La magie est interdite en Amn, alors je ne sais pas grand-chose des mages.~ 
+@15546  = ~Les Voleurs de l'Ombre ? Je ne sais pas grand-chose, mon <PRO_LADYLORD>, et mon ignorance vaut une perle. On les accuse de tous les crimes de la ville.~ ~Les Voleurs de l'Ombre ? Je ne sais pas grand-chose, ma <PRO_LADYLORD>, et mon ignorance vaut une perle. On les accuse de tous les crimes de la ville.~
+@15798  = ~Eh bien, une fois encore, bonjour et bonnes affaires ! Mira se souvient toujours des visages. Que puis-je faire pour vous aujourd'hui, mon <PRO_LADYLORD> ?~ ~Eh bien, une fois encore, bonjour et bonnes affaires ! Mira se souvient toujours des visages. Que puis-je faire pour vous aujourd'hui, ma <PRO_LADYLORD> ?~
+
+// Mr & Mrs Harrold
+@14610 = ~Ha, quelle sacrée surprise ! Cette femme crie à l'assassin à la vue d'un écureuil.~
+@14618 = ~(soupir) Ce cirque n'est toujours pas ouvert. Cette bonne femme est trop têtue pour passer à autre chose.~
+@14619 = ~Je ne veux pas savoir pourquoi ce cirque est fermé. Nous venons de loin et nous ne partirons pas avant que les gardes nous aient laissés entrer !~
+@14621 = ~Pas question ! Je veux savoir ce qui se passe ! Je veux des réponses !~
+@19641 = ~Ce que vous avez fait est héroïque.~
+
+// Arnolinus
+@15854 = ~Rah ! Arnolinus doit-il constamment être dérangé ?! Qu'est-ce que vous voulez ?~ 
+// asexué pour coller avec le reste du dialog, il y a plusieurs <RACE>
+@15906 = ~Non ! Arnolinus pense que tu es indigne du labeur d'Arnolinus ! Arnolinus ne fera pas d'affaires avec toi !~
+@15907 = ~Humph. Hum. A contrecœur, Arnolinus accepte tes excuses, <RACE>. Tu peux jeter un œil aux armures d'Arnolinus mais pas trop longtemps.~
+
+// Maheer
+@15959 = ~Tu viens de la Rashéménie ? J'en ai d'excellents souvenirs et j'espère emmener Bouh la visiter dès que j'aurai terminé mon Dajemma.~
+@15962 = ~Oh... Euh... Je vois. Je... Où en étais-je ? Ah, oui, cher <PRO_LADYLORD> ! Donc, vous êtes toujours intéressé par mes marchandises, n'est-ce pas ?~ ~Oh... Euh... Je vois. Je... Où en étais-je ? Ah, oui, chère <PRO_LADYLORD> ! Donc, vous êtes toujours intéressée par mes marchandises, n'est-ce pas ?~
+@15984 = ~Maheer vous accueille de nouveau avec joie dans son échoppe ! Voulez-vous jeter un coup d’œil à son stock d'armes ?~ 
+@15989 = ~Maheer est très triste de voir que quelqu'un d'aussi intelligent et gentil que vous, <PRO_LADYLORD>, parte déjà. Eh bien au revoir et à la prochaine fois !~ ~Maheer est très triste de voir que quelqu'un d'aussi intelligente et gentille que vous, <PRO_LADYLORD>, parte déjà. Eh bien au revoir et à la prochaine fois !~
+@60983 = ~Son nom est Cromwell, cher <PRO_LADYLORD>... et son échoppe se trouve dans le quartier des docks de cette ville.~ ~Son nom est Cromwell, chère <PRO_LADYLORD>... et son échoppe se trouve dans le quartier des docks de cette ville.~
+@60984 = ~Je vais vous confier un secret, cher <PRO_LADYLORD>... Moi, je peux fabriquer le plus beau cor ! Le nain, lui, il ne connaît pas la musique...~ ~Je vais vous confier un secret, chère <PRO_LADYLORD>... Moi, je peux fabriquer le plus beau cor ! Le nain, lui, il ne connaît pas la musique ...~
+
+// Enge
+@15993  = ~Excusez-moi ? Je foule quoi ?~
+
+// Hes
+@16033 = ~Certes, mon nom est <CHARNAME>.~
+@16044  = ~Bienvenue, <CHARNAME>. Vous êtes libre de regarder les biens que je possède et de me poser toutes les questions que vous voudrez.~
+@16048 = ~Montrez-moi ce que vous proposez.~
+@16056 = ~Je ne suis guère versé en magie, bien que parfois certains objets étranges passent par chez moi. Essayez donc le Marché de l'aventurier.~ 
+
+// Quataris
+@30696  = ~Que la journée vous soit propice, mon <PRO_LADYLORD> ! Je me nomme Quataris... désirez-vous quelque objet d'art ? Un tableau pour rehausser votre demeure, peut-être ?~ ~Que la journée vous soit propice, ma <PRO_LADYLORD> ! Je me nomme Quataris... désirez-vous quelque objet d'art ? Un tableau pour rehausser votre demeure, peut-être ?~
+@30703  = ~Je suis désolé, l'ami... je crains que vous ne trouviez pas votre bonheur ici. Si jamais vous tombez sur quelque objet d'art... dont personne n'a l'usage, sachez que je suis toujours preneur. Que la journée vous soit propice, en tous cas !~ ~Je suis désolé, la belle... je crains que vous ne trouviez pas votre bonheur ici. Si jamais vous tombez sur quelque objet d'art... dont personne n'a l'usage, sachez que je suis toujours preneur. Que la journée vous soit propice, en tous cas!~
+
+// Jerlia
+@28752 = ~Je suis sûr que vous avez ça en stock. Il lui en faut 200 blocs.~ ~Je suis sûre que vous avez ça en stock. Il lui en faut 200 blocs.~
+@28887 = ~Je suis navrée, mais je ne puis donner cette information sans dédommagement.~
+@28784 = ~Un Duergar ? Et où un nain d'une espèce aussi maléfique trouve-t-il asile en Amn ?~
+@50114 = ~C'est malhonnête, mais ce misérable ne mérite pas plus étant donné ce qu'il exige de l'église. Sire Sarles est bien trop orgueilleux et mériterait une bonne leçon.~
+@28880 = ~Désolée, mais je reste fidèle à Waukyne l'Amie-des-Marchands. Elle ne s'est pas beaucoup manifestée ces derniers temps, mais je l'entends d'ici me souffler, dans toute sa sagesse, que ce n'est point une bonne affaire.~ 
+@28941 = ~Ravie de vous revoir. J'ai votre alliage. Il ressemble à s'y méprendre à de l'illithium et il en possède presque toutes les propriétés. Il n'y a qu'un tout petit problème.~
+@28969 = ~Je crains que vous n'ayez à souffrir la concurrence du temple de Lathandre ainsi que celui de Talos. Ils sont tous deux très convaincants.~
+@28983 = ~Mais les prix ont augmenté entre temps. Vous êtes conscient des mécanismes de l'offre et de la demande, n'est-ce pas ? Je dois donc vous en demander 500 pièces d'or au lieu des 200 convenues. Ce qui est encore tout à fait raisonnable, au demeurant.~  ~Mais les prix ont augmenté entre temps. Vous êtes consciente des mécanismes de l'offre et de la demande, n'est-ce pas ? Je dois donc vous en demander 500 pièces d'or au lieu des 200 convenues. Ce qui est encore tout à fait raisonnable, au demeurant.~ 
+@29148 = ~Je croyais que vous aviez fait affaire avec Unger ? Ne me dites pas que vous avez mis au tapis mon seul fournisseur d'illithium !~ 
+
+
+
+// 7 vaux
+// @47373 et la suite : uniquement pour les mâles, attention dépend de GABBER : Gender(LastTalkedToBy)
+// @47373  = ~Oh, parfait. Encore un spécimen de mâle qui vient boire plus que de raison pour ensuite vomir sur mon plancher. Hmpf ! Que voulez-vous, exactement ?~ ~Oh, parfait. Encore une belle ivrogne qui vient boire plus que de raison pour ensuite vomir sur mon plancher. Hmpf ! Que voulez-vous, exactement ?~
+// Suppression de la version féminine, dépend que de GABBER mâle
+@47375  = ~Je ne suis pas un 'mâle'... J'appartiens au peuple des <RACE>s !~
+@47376  = ~Je ne suis pas un 'mâle'... J'appartiens au peuple des <RACE>s !~
+@47388  = ~Je ne suis pas un 'mâle'... J'appartiens au peuple des <RACE>s !~
+@47389  = ~Je ne suis pas un 'mâle'... J'appartiens au peuple des <RACE>s !~
+// que pour les femmes, dialogue asexué
+@47408  = ~Eh bien, pour tout vous dire, mon dernier mari... paix à son âme... avait baptisé cet endroit les Sept Voiles. Il y faisait venir des danseuses du ventre, et lorsqu'elles sont parties, je n'ai pas eu le courage de changer radicalement le nom.~
+
+// Atatelo
+// dialogue peu compatible avec DAYNIGHTALL, remplacement par DAYANDMONTH, correction du nom
+@47485 = ~Bonjour, bonjour ! Bienvenue à... euh... quelle heure est-il ? Nous sommes le <DAYANDMONTH> ? Alors, bienvenue à la représentation du <DAYANDMONTH> des talents d'Alatelo De Bonito !~ 
+// Rime simple en 14/15 syllabes dans la VO, il 'donne' le mot à Patricia
+@47493 = ~"Jeteur de sorts depuis l'aurore, et désireux d'un meilleur sort, 
+Chanter les jours fastes des chevaliers, quitter les robes qui... qu'il déplore !
+Un mage chanteur et vers diseur, bien que souvent taxé de boiteux, 
+Je chanterai en dépit de tout..."~
+@47496 = ~Mais taisez-vous par les dieux !~
+
+// Mencar Brisecaillou & co
+@47430  = ~Ha ! Si ce n'est pas un misérable <PRO_RACE>, en grande tenue d'aventurier ! HA, HA ! Ta maman t'a laissé sortir de ses jupons, petit ? Vaudrait mieux que t'y retournes, maintenant !~ ~Ha ! Si ce n'est pas une misérable <PRO_RACE>, en grande tenue d'aventurière ! HA, HA ! Ta maman t'a laissée sortir de ses jupons, petite ? Vaudrait mieux que t'y retournes, maintenant !~
+@47431 = ~Ha ! *hips* La bonne blague, Mencar, mon ami ! Ha !~ 
+@47432 = ~Une bonne blague, a dit Smelly ! Une bonne blague qu'il dit !~
+// la majuscule à Orques est laissée pour insister sur l'importance apportée par le personnage
+@47433 = ~Amon ! Dis à ton lutin puant bien trop le pet d'arrêter de m'appeler Smelly ! Mon nom c'est Smaeluv Tranche-Orques ! Si y dit encore ça une fois, je l'réduit en bouillie flasque !~
+@47436 = ~Quoiiii ? Tu OSES ternir l'honneur de Smaeluv Tranche-Orques ! Je vais te -- !~
+@47437 = ~ASSEZ, malédiction ! Vos chamailleries me fatiguent ! Quant à toi, petit <PRO_RACE>... tu ferais mieux d'aller où tu seras mieux accueilli. Cette taverne est tout juste assez grande pour nous, et personne d'autre.~ ~ASSEZ, malédiction ! Vos chamailleries me fatiguent ! Quant à toi, petite <PRO_RACE>... tu ferais mieux d'aller où tu seras mieux accueillie. Cette taverne est tout juste assez grande pour nous, et personne d'autre.~
+@47443 = ~Ha ! T'es si drôle, Mencar ! Smaeluv rigole bien de tes manières provocantes !~
+@47445  = ~Bien sûr que oui, Brennan ! On fête quelque chose, et que j'sois maudit si je bois pendant qu'un <PRO_RACE> vient me puer dans les narines ! Maintenant dégage, <PRO_RACE>, avant de goûter à ma hache !!~ ~Bien sûr que oui, Brennan ! On fête quelque chose, et que j'sois maudit si je bois pendant qu'une <PRO_RACE> vient me puer dans les narines ! Maintenant dégage, <PRO_RACE>, avant de goûter à ma hache !!~
+@47442 = ~Tu peux prendre ton verre et te l'mettre où j'pense, maudit <PRO_RACE> ! Je vais pas trinquer avec un freluquet tremblotant dans mon propre bar, alors dégage !~ ~Tu peux prendre ton verre et te l'mettre où j'pense, maudite <PRO_RACE> ! Je vais pas trinquer avec une mijaurée tremblotante dans mon propre bar, alors dégage !~
+@47450 = ~Ha ! Si ce n'est pas moi, mon vieil ami Mencar Brisecaillou. J'irai où je veux. C'est une piètre excuse pour un nain, mais tu ne pourras rien y faire.~
+@47451 = ~De toutes les insultes que j'ai prises dans la figure, celle-ci la plus pire ! T'es un sale traître menteur et lâche, Korgan... après c'que t'as fait, je suis surpris que t'aies pas pris le maquis !~ 
+@47461 = ~Je t'ai dit de disparaître, bâtard, et de pas revenir me chauffer ! A moins qu'tu n'aies assez de courage pour te battre, tu f'rais bien de fuir tant que tu le peux !!~ ~Je t'ai dit de disparaître, bâtarde, et de pas revenir me chauffer ! A moins qu'tu n'aies assez de courage pour te battre, tu f'rais bien de fuir tant que tu le peux !!~
+@47440 = ~Méfie-toi, le nain. Je n'encaisserai pas plus longtemps tes insultes.~
+
+@47478 = ~Quoi ? ! Qu'est-ce que t'as volé à Smaeluv, sale méduse ?!~
+
+// Mithrest
+@28886 = ~Par les dieux ! Un gnome au Mithrest ! Je ne viendrai plus ici !~
+@29008 = ~Mais tu es un gnome ! Un petit gnome puant au grand nez !~ 
+@28981 = ~Il se lassera de sa compagnie dans moins d'une semaine et elle aura le cœur brisé. Il m'a fait exactement la même chose.~ 
+
+// Temple d'Ilmater
+@29085 = ~Certainement, <PRO_BROTHERSISTER>... suis-moi.~ 
+@29088  = ~Ilmater est le dieu de la compassion et de l'endurance, mon frère. Nous prenons soin des enfants abandonnés de la ville. Tel est le vœu du Dieu Pleureur.~ ~Ilmater est le dieu de la compassion et de l'endurance, ma soeur. Nous prenons soin des enfants abandonnés de la ville. Tel est le vœu du Dieu Pleureur.~
+@29091 = ~Qu'Ilmater te garde, <PRO_BROTHERSISTER>.~ 
+@58241 = ~Il s'agit de Yoshimo, un traître. Je ne sais s'il était sincère, mais au moment de mourir il a supplié Ilmater de bien vouloir s'emparer de son cœur. Il craignait l'enfer auquel il était promis.~
+@58243 = ~Je déposerai donc le cœur de cet homme sur la poitrine d'Ilmater. Le Dieu Pleureur décidera s'il y a lieu de le punir pour ses péchés.~ 
+
+
+
