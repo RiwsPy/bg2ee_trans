@@ -1,0 +1,471 @@
+// Clara / Hexxat
+
+// open from ohhfak11.CRE : Hexxat (Femme)
+// open from ohhfak9.CRE : Hexxat (Femme)
+// open from ohhfak8.CRE : Hexxat (Femme)
+// open from ohhfak10.CRE : Hexxat (Femme)
+// open from ohhfak15.CRE : Hexxat (Femme)
+// open from ohhfak13.CRE : Hexxat (Femme)
+
+@80876 = ~J'ai... parlé avec vous. J'ai besoin d'aide... J'ai besoin d'aide pour... ~ [OH80876] 
+    // GO BERNARD.DLG: 
+	@80877 = ~Excusez la, <PRO_SIRMAAM>. Hexxat est inoffensive, mais elle est légèrement... dispersée.~
+        @80878 = ~Est-ce qu'elle va bien ?~ // GO BERNARD.DLG:
+			@80881 = ~Je n'irais pas jusqu'à dire ça. Mais j'ai peur qu'elle ne puisse guère aller mieux.~
+            @80882 = ~Comment cela ?~ // GO BERNARD.DLG:
+			@80884 = ~Elle vient ici chaque soir. Je devrais la jeter dehors, mais regardez la... Ce serait comme voler la pièce à un mendiant.~
+                @80885 = ~Ma Dame ? Est-ce que tout va bien ?~ // GO 80890
+                // if Global(ohh_metclara) == 1:
+                    @86418 = ~Clara, c'est moi, <CHARNAME>. Que t'est-il arrivé ?~ // GO 86414
+                // if PartyGold > 1:
+                    @80887 = ~Tenez, prenez ça. Servez à cette femme ce qu'elle veut.~ // GO BERNARD.DLG: 
+						@80889 = ~J'accepte volontiers l'or, mais tout ce qu'elle demande c'est de l'eau, qu'en toute honnêteté, je ne l'ai jamais vu boire.~
+                        // GO 80894
+                @80888 = ~Vous pouvez nous laisser maintenant.~ // GO BERNARD.DLG: 
+				@80925 = ~Comme tu le souhaites.~
+                    @80926 = ~Bien, maintenant les présentations. Je suis <CHARNAME>. Et vous êtes...?~ // GO 80938
+        @80879 = ~Elle peut rester par ici si elle le souhaite. Je pourrais avoir besoin de compagnie.~ // GO BERNARD.DLG:
+		@80919 = ~Elle parle à peine plus qu'elle ne mange, et elle ne mange rien, mais si cela ne pose pas de problème alors je vous laisse tranquilles.~
+            @80920 = ~Elle est peut-être malade.~ // GO BERNARD.DLG:
+			@80923 = ~Une pestiférée ? Pour sûr, je n'ai pas besoin de ça.~
+                @80924 = ~Tout va bien ma Dame ?~ // GO 80929
+            @80921 = ~Puis-je vous offrir quelque chose à manger, ma Dame ? Ou quelque chose à boire peut-être ?~ // GO 80906
+            @80922 = ~Vous pouvez nous laisser maintenant.~ // GO BERNARD.DLG: @80925 = ~As you wish, m'<PRO_LADYLORD>.~
+        // if Global(ohh_metclara) == 1:
+            @86411 = ~Je connais cette femme – Clara n'est-ce pas ?~ // GO 86412
+        @80880 = ~Y'a-t-il a un problème par ici ?~ // GO BERNARD.DLG:
+		@80883 = ~Ma seule inquiétude est qu'elle puisse déranger un bon client.~
+            // GO BERNARD.DLG: @80884 = ~She's in here every night. I should throw her out, but look at her—it'd be like kicking a sick dog.~
+
+@86412 = ~Pas Clara... Hexxat.~ [OH86412] 
+    @86413 = ~Je dois faire erreur, bien que la ressemblance soit frappante..~ // GO BERNARD.DLG: @80884 = ~She's in here every night. I should throw her out, but look at her—it'd be like kicking a sick dog.~
+
+@86414 = ~Mon nom est... Hexxat. Pas Clara. Je dois aller à... la tombe de Dragomir.~ [OH86414] 
+    @86415 = ~Vous voulez vous rendre à une tombe. Pourquoi ?~ // GO 80894
+    @86416 = ~Pour ça, je peux vous aider.~ // GO 80910
+    @86417 = ~Même en d'autres circonstances je vous aurais dit bon vent. Bon vent !~ // END
+
+@80890 = ~Bien. Je dois aller... la tombe de Dragomir. Dans le... le quartier... avec des tombes.~ [OH80890] 
+    @80891 = ~Vous voulez vous rendre à une tombe ? Pourquoi ?~ // GO 80894
+    @80892 = ~Pour ça, je peux vous aider.~ // GO 80910
+    @80893 = ~Même en d'autres circonstances je vous aurais dit bon vent. Bon vent !~ // END
+
+@80894 = ~Le trésor. Il y a... un grand trésor là-bas. Dans la tombe de Dragomir. Le cimetière... L'entrée par le cimetière.~ [OH80894] 
+    // if !Global(ohh_offered_drink) == 1:
+        @80895 = ~Je peux vous offrir quelque chose à boire ?~ // GO 80906
+    @80896 = ~Pourquoi ne vous joindriez vous pas à nous ? Pour l'heure je souffre d'une migraine foudroyante. Sans quoi je serai très intéressé par la promesse d'un trésor venant d'une étrange femme, légèrement perturbée, rencontrée dans une taverne, et ne serais que trop heureux de vous aider à piller votre tombe.~ ~Pourquoi ne vous joindriez vous pas à nous ? Pour l'heure je souffre d'une migraine foudroyante. Sans quoi je serai très intéressée par la promesse d'un trésor venant d'une étrange femme, légèrement perturbée, rencontrée dans une taverne, et ne serais que trop heureuse de vous aider à piller votre tombe.~ // GO 80915
+    @80897 = ~Un trésor vous dites ? Quel genre de trésor ?~ // GO 80898
+
+@80898 = ~Somptueux. Somptueux trésor.~ [OH80898] 
+    @80899 = ~Je vois que vous avez à cœur de vous rendre en cet endroit , et je serais une bien piètre personne si je vous laissais y aller seule.~ // GO 80910
+    @80900 = ~J'admets que cette perspective m'intrigue, mais vous semblez à peine tenir debout, alors ne parlons pas de piller une tombe. Pourquoi ne vous joindriez-vous pas à nous ? Reprenez quelques forces, et lorsque vous aurez recouvré en partie vos esprits nous pourrons nous rendre à votre tombe.~ // GO 80915
+    @80901 = ~C'est une proposition intrigante. Vous savez où l'on peut trouver ce somptueux trésor ?~ // GO 80902
+
+@80902 = ~La tombe. La tombe de Dragomir. Parmi les tombes. Le quartier des tombes.~ [OH80902] 
+    @80903 = ~J’espérais quelque chose un brin plus précis, mais faute de grives on mange des merles. Allons voir cette tombe.~ // GO 80915
+    @80904 = ~Vous êtes une sacrée femme d'affaires. Très bien, allons voir cette tombe. Et ce trésor.~ // GO 80910
+    @80905 = ~Oui, vous l'avez déjà mentionné je crois. J'aimerais vous aider, mais j'ai bien peur qu'il ne faille pas moins qu'une intervention divine dans votre cas. Bonne chance pour retrouver la tombe de Dragomir.~ // END
+
+@80906 = ~Non. Je suis assoiffée mais... non. Je veux juste aller... à la tombe de Dragomir. Elle est... là où sont les tombes.~ [OH80906] 
+    @80907 = ~Je peux vous y amener.~ // GO 80910
+    @80908 = ~Vous dites qu'il y a un trésor là-bas ?~ // GO 80898
+    @80909 = ~Eh bien bonne chance pour vous y rendre.~ // END
+
+@80910 = ~La tombe de Dragomir ? Vous pouvez... m'y amener ?~ [OH80910] 
+    @80911 = ~Nous pouvons partir sur-le-champ.~ // GO BERNARD.DLG:
+	@80914 = ~Alors, je vous souhaite une bonne nuit.~
+        // END
+    @80912 = ~Je peux, mais vous n'avez pas l'air d'être en état d'aller piller une tombe maintenant. Rejoignez nous, commencez par reprendre des forces. Là nous pourrons nous rendre à votre tombe.~ // GO 80915
+    @80913 = ~Je pourrais, mais ce ne serait pas vous rendre service. Je vous donne un conseil : attendez un peu. Mangez un morceau, buvez quelque chose. Prenez des forces. Ainsi, quand vous trouverez la tombe, vous serez prête. Je vous souhaite bonne chance ma Dame. À vous entendre vous en aurez besoin.~ // END
+
+@80915 = ~PAS MIENNE. Pas ma tombe. Tombe de Dragomir. Dois aller... Tombe de Dragomir. Dans le quartier du cimetière.~ [OH80915] 
+    @80916 = ~Vous voulez vraiment vous y rendre n'est-ce pas ? Très bien.~ // GO 80933
+    @80917 = ~Bientôt, ma chère. Bientôt.~ // END
+    @80918 = ~Chaque chose en son temps. Une tombe est le dernier endroit auquel vous voulez vous rendre lorsque vous n'êtes pas au meilleur de votre forme.~ // END
+
+@80929 = ~Je suis... Hexxat. C'est qui je suis. Pouvez-vous m'aider ? J'ai besoin... besoin d'aller dans la tombe de Dragomir.~ [OH80929] 
+    @80930 = ~Plutôt simple jusque là.~ // GO 80910
+    @80931 = ~Une tombe ? Pourquoi voudriez-vous aller dans une tombe ?~ // GO 80894
+    @80932 = ~Je pourrais vous aider. Mais je ne le ferai pas. Pas ce soir, pour rien au monde. Adieu, ma Dame.~ // END
+
+@80933 = ~Vous viendrez avec moi à la tombe...?~ [OH80933] 
+    @80934 = ~Je viendrai. Vous êtes clairement trop affaiblie pour accomplir une telle entreprise à vous seule, mais je vois que rien ne vous arrêtera. Autant en finir rapidement pour que nous puissions reprendre le cours normal de nos vies.~ // END
+    @80935 = ~Bien sûr ! Je n'ai pas mis les pieds dans une bonne vieille tombe depuis des lustres.~ // END
+    @80936 = ~Bientôt. Pas cette nuit. Avant tout, vous devez regagner des forces. Lorsque vous vous sentirez mieux, alors nous irons rendre visite à Dragomir.~ // END
+
+@80938 = ~Hexxat. Mon nom était... est... Hexxat. Je dois... aller. À la tombe de Dragomir.~ [OH80938] 
+    @80939 = ~Je peux vous y amener.~ // GO 80910
+    @80940 = ~Qu'est-ce qui pourrait bien vous amener à vouloir vous rendre dans une tombe ? Non attendez, laissez moi deviner. Il y a un trésor là-bas.~ // GO 80894
+    @80941 = ~Une tombe ? Je passe.~ // END
+
+@80953 = ~Je vais partir maintenant, <CHARNAME>.~ [OH80953] 
+    @80954 = ~Êtes-vous sûre que c'est ce que vous voulez ?~ // GO 81004
+    @80955 = ~Mais pourquoi ? Nous avons passer de bons moments ensemble.~ // GO 80988
+    @80956 = ~Je suis navré d'entendre ça. Je vous souhaite bonne continuation.~ ~Je suis navrée d'entendre ça. Je vous souhaite bonne continuation.~ // END
+
+@80988 = ~Parlez pour vous.~ [OH80988] 
+    @80990 = ~Vous me blessez, Hexxat.~ // GO 80992
+
+@80992 = ~Vous vous en remettrez. En attendant, j'ai des affaires à régler ailleurs.~ [OH80992] 
+    @80997 = ~Dites m'en plus.~ // GO 81000
+    @80998 = ~Comme quoi ?~ // GO 81000
+    @80999 = ~Alors, je vous souhaite bonne chance dans vos futurs projets.~ // END
+
+@81000 = ~J'ai besoin d'un objet dans la tombe de Dragomir.~ [OH81000] 
+    @81001 = ~Quel objet ?~ // GO 81023
+    @81002 = ~Vous ne voudriez pas plutôt un objet venu de Franc-Marché à la place ? Ils sont plus faciles à obtenir.~ // GO 81033
+    @81003 = ~Je vous souhaite bonne chance alors.~ // END
+
+@81004 = ~J'ai des affaires qui m'attendent. Je pensais que vous pouviez m'aider. Je comprends que je me suis trompée.~ [OH81004] 
+    @81006 = ~Ne soyez pas si prompte à me juger. Quelle est cette affaire qui requiert votre attention ?~ // GO 81000
+    @81007 = ~Vous m'offensez, Hexxat.~ // GO 81012
+    @81010 = ~Nous apprenons toujours mieux de nos erreurs. Adieu.~ // END
+
+@81012 = ~Vous vous en remettrez. Adieu, <CHARNAME>.~ [OH81012] 
+    @81014 = ~Hexxat, attendez. Dites moi ce dont vous avez besoin.~ // GO 81000
+    @81019 = ~Je ne crois pas. Cette blessure va s'infecter, se propager et, avant même que je puisse m'en rendre compte, ma mort s'ensuivra. Je dois y faire face, et ce sera ta faute. Quelles sont donc ces affaires si importantes ?~ // GO 81000
+    @81022 = ~Bon vent.~ // END
+
+@81023 = ~Un objet précieux.~ [OH81023] 
+    @81026 = ~Alors nous irons le chercher avec vous. Allons-y.~ // END
+    @81027 = ~J'aimerai en savoir davantage. De quelle couleur est-il ? Est-ce un animal, un végétal, ou un minéral ? Est-il plus gros qu'une miche de pain ?~ // GO 81033
+    @81030 = ~Précieux en effet, pour risquer de perturber les morts dans leur sommeil.~ // GO 81033
+
+@81033 = ~Voulez-vous vous joindre à moi ou non ?~ [OH81033] 
+    @81039 = ~D'accord, je viens.~ // END
+    @81041 = ~Vous savez rendre les choses tellement excitantes. Comment pourrais-je résister ?~ // END
+    @81043 = ~Certainement pas.~ // END
+
+@80961 = ~C'est ici. La tombe de Dragomir.~ [OH80961] 
+    @80962 = ~Connaissez-vous un moyen d'entrer ?~ // GO 80965
+    @80963 = ~Je suis venu. J'ai vu. Je n'étais plus si résolu. J'ai disparu.~ ~Je suis venue. J'ai vu. Je n'étais plus si résolue. J'ai disparu.~ // END
+    @80964 = ~Ouvrez la. J'aimerais voir ce somptueux trésor que vous nous avez promis.~ // END
+
+@80965 = ~Je l'ai fait... avant.~ [OH80965] 
+    @80966 = ~Alors allons-y.~ // END
+    @80967 = ~Vous êtes déjà entrée ? Quand ?~ // GO 80969
+    @80968 = ~Alors refaites le. Un pillage nous attend.~ // END
+
+@80969 = ~Je... Je ne me souviens pas.~ [OH80969] 
+    @80970 = ~Peut-être que quelque chose à l'intérieur ravivera votre mémoire.~ // END
+    @80971 = ~C'est... moins utile que ce que j'espérais. Mais vous pouvez l'ouvrir ?~ // END
+    @80972 = ~Plus le temps passe, moins j'aime ce qui se trame. Retirons-nous, prenez un peu de temps, et voyez si vous pouvez rassembler quelques souvenirs de cet endroit.~ // GO 80973
+
+//@80973 = ~I must enter...~ [OH80973] 
+    // END
+
+@80973 = ~Je dois entrer...~ [OH80973] 
+    // if !valygar in party:
+        @80974 = ~Nous irons ensemble.~ // END
+    // if valygar in party:
+        //@80974 = ~We'll go together.~ // GO VALYGARJ.DLG:
+		@80976 = ~Cet endroit empeste la magie à plein nez, <CHARNAME>. Nous devrions rester à distance.~
+            // GO 80973
+	@80975 = ~Êtes-vous sûre que c'est une bonne idée, Hexxat? Parce qu'entre l'agression par cet esprit maléfique et l'obscurité stygienne de ces lieux, je mettrais ma tête à couper que ça n'en est pas une. Et maintenant que j'y pense, j'aurais aimé utiliser une autre image pour décrire à quel point j'en suis sûr.~ ~Êtes-vous sûre que c'est une bonne idée, Hexxat? Parce qu'entre l'agression par cet esprit maléfique et l'obscurité opaque et stygienne de ces lieux, je mettrais ma tête à couper que ça n'en est pas une. Et maintenant que j'y pense, j'aurais aimé utiliser une autre image pour décrire à quel point j'en suis sûre.~ // END
+
+//@80973 = ~I must enter...~ [OH80973] 
+    @80977 = ~Comme vous le souhaitez.~ // END
+    @80978 = ~Seul un fou entrerait dans cet endroit après ce que l'on vient de voir. Qu'est-ce qu'on attend ?~ // GO 102555
+
+@102555 = ~La tombe de Dragomir. Je dois entrer...~ 
+    @102556 = ~Très bien. Si vous le devez, faisons-le ensemble.~ // END
+    @102557 = ~Peut-être que vous le devez, mais en ce qui me concerne c'est non.~ // END
+
+@80981 = ~Le trésor est toujours là...~ [OH80981] 
+    @80982 = ~Bonne nouvelle. Récupérons le et partons d'ici.~ // GO OHHGHST1.DLG: 
+	@80985 = ~La tombe doit s'ouvrir...~
+        // GO OHHGHST2.DLG: 
+		@80986 = ~Vous devez pénétrer la tombe...~
+            @80987 = ~Pourquoi ?~ // GO OHHGHST2.DLG: 
+			@80993 = ~Libérez nous !~
+                // GO OHHGHST1.DLG:
+				@80994 = ~Réveillez l'Endormie !~
+                    // if !minsc in party:
+                        // END
+                    // if minsc in party:
+                        // GO MINSCJ.DLG: 
+						@80995 = ~Tout va bien, Bouh. Ils sont morts mais je suis sûr qu'ils ne sont pas méchants.~
+                            // END
+            @80989 = ~Euh, est-ce qu'on n'a pas déjà pénétré la tombe ?~ // GO OHHGHST2.DLG: @80993 = ~Free us!~
+            @80991 = ~Vivant ou mort, personne ne commande <CHARNAME>.~ // GO OHHGHST2.DLG: @80993 = ~Free us!~
+    @80983 = ~Attendez un instant... il ne s'agit pas d'un trésor métaphorique n'est-ce pas ? La dernière chose dont j'ai besoin c'est d'apprendre une importante vérité sur moi-même.~ // GO OHHGHST1.DLG: @80985 = ~The tomb must be opened...~
+    @80984 = ~Où est-il ?~ // GO OHHGHST1.DLG: @80985 = ~The tomb must be opened...~
+
+@81008 = ~Non. Non, c'est faux... L'Endormie est proche, mais pas ici...~ [OH81008] 
+    @81009 = ~Qui est l'Endormie ?~ // GO 81028
+    @81011 = ~Qu'est-ce que cette Endormie a à voir avec le trésor ?~ // GO 81015
+    @81013 = ~"L'Endormie" ? Je suis venu chercher un trésor, Hexxat.~ ~"L'Endormie" ? Je suis venue chercher un trésor, Hexxat.~ // GO 81015
+
+@81015 = ~L'Endormie est le trésor.~ [OH81015] 
+    @81016 = ~Qu'est-ce que l'Endormie ?~ // GO 81036
+    @81017 = ~Pourriez-vous estimer approximativement la valeur marchande de l'Endormie ? Voyons voir, 1.000.000 pièces d'or ? Moins ?~ // GO 81024
+    @81020 = ~Je ne sais pas ce qu'est l'Endormie, mais cela ne m'importe guère. Nos définitions respectives d'un fabuleux trésor semblent être radicalement différentes. Je vous laisse poursuivre le vôtre et je vous remercierai de faire de même lorsque je chercherai le mien.~ // END
+
+@81024 = ~L'Endormie est inestimable.~ [OH81024] 
+    // if !keldorn in party:
+        // END
+    // if keldorn in party:
+        // GO KELDORJ.DLG: 
+		@81037 = ~Les ombres hurlantes des morts ! Pour quelle folie perdons-nous notre temps, <CHARNAME> ?~
+            // END
+
+@81028 = ~L'Endormie doit s'éveiller.~ [OH81028] 
+    @81031 = ~Pourquoi ?~ // GO 81024
+    @81032 = ~Je déteste perturber le repos de qui que se soit, tout spécialement celui de ceux qui ont pour habitude de se reposer dans une tombe. Je pense que je vais y aller...~ // GO 81035
+    @81034 = ~Je n'aime pas ça. Adieu, Hexxat.~ // END
+
+@81035 = ~Vous ne devez pas partir. L'Endormie doit s'éveiller.~ [OH81035] 
+    // if !keldorn in party:
+        // END
+    // if keldorn in party:
+        // GO KELDORJ.DLG: @81037 = ~The shadows of the unquiet dead! What madness have you brought us to this time, <CHARNAME>?~
+
+@81036 = ~Hexxat...~ [OH81036] 
+    // if !keldorn in party:
+        // END
+    // if keldorn in party:
+        // GO KELDORJ.DLG: @81037 = ~The shadows of the unquiet dead! What madness have you brought us to this time, <CHARNAME>?~
+
+@81218 = ~Jamais dure une éternité, Dragomir.~ [OH81218] 
+    // END
+
+@81045 = ~Dragomir est mort.~ [OH81045] 
+    @81046 = ~Il est mort depuis un bon bout de temps, mais cette fois il ne s'en relèvera pas.~ // GO 81050
+    @81048 = ~Votre capacité à admettre les évidences est stupéfiante.~ // GO 81050
+    @81049 = ~Peut-être que cette fois sera la bonne.~ // GO 81050
+
+@81050 = ~Nous sommes très proches de là où nous devrions être. Nous devons avancer.~ [OH81050] 
+    @81051 = ~Avec prudence. Dragomir est peut-être inoffensif, mais nous ne sommes pas hors de danger.~ // GO 81055
+    @81052 = ~En avant ! Est-ce là que le trésor se trouve ?~ // GO 81054
+    @81053 = ~Nous sommes arrivés jusqu'ici... Autant finir le travail.~ // GO 81055
+
+@81054 = ~Le trésor, oui...~ [OH81054] 
+    // GO 81055
+
+@81055 = ~Nous sommes tout proches maintenant.~ [OH81055] 
+    // END
+
+@81056 = ~Vous devez pénétrer la tombe.~ [OH81056] 
+    @81057 = ~Quoi ? Pourquoi ?~ // GO 81062
+    @81058 = ~Une tombe dans une tombe ? C'est un peu redondant, vous ne trouvez pas ?~ // GO 81062
+    @81059 = ~Je ne pense pas que je vais faire ça.~ // GO 81062
+    @81060 = ~Je m'excuse, mais ma politique est très stricte à ce sujet : "pas plus d'une tombe par jour".~ // GO 81062
+    @81061 = ~Vous n'êtes pas celle qui donne les ordres ici, Hexxat. Où est le trésor ?~ // GO 81066
+
+@81062 = ~C'est le seul moyen de... de parvenir... au trésor.~ [OH81062] 
+    @81063 = ~Le trésor est là-dedans ?~ // GO 81066
+    @81064 = ~Si vous voulez tellement ce trésor, alors vous allez-y.~ // GO 81070
+    @81065 = ~Aucun trésor ne mérite autant de peine.~ // END [journal entry 84972: Hexxat's request]
+
+@84972 = ~La requête d'Hexxat
+
+Hexxat veut que j'entre dans la tombe. L'endroit est inquiétant, mais si je veux résoudre le mystère de ce qui la pousse à venir ici, je dois entrer.~
+
+@81066 = ~Le chemin qui y mène passe ici. Prudence.~ [OH81066] 
+    @81067 = ~Je ne comprends pas pourquoi vous ne pouvez pas venir avec moi.~ // GO 81070
+    @81068 = ~"Entrez dans cette tombe obscure et effrayante mais faites bien attention à vous." Ça me semble un peu contradictoire. Je devrais examiner cette tombe de plus près.~ // END [journal entry 84972: Hexxat's request]
+    @81059 = ~Je ne pense pas que je vais faire ça.~ // END [journal entry 84972: Hexxat's request]
+
+@81070 = ~Je ne peux pas. Vous devez y aller.~ [OH81070] 
+    @81071 = ~Très bien, s'il le faut. Je devrais examiner cette tombe de plus près.~ // END
+    @81072 = ~Bien. Mais votre trésor a intérêt à en valoir la peine.~ // END
+    @81073 = ~J'ai perdu suffisamment de temps avec ces absurdités. Adieu, Hexxat.~ // END
+
+@81259 = ~La tige est la clef. Il y a une fente près de l'entrée de la tombe, elle s'y insère. Ne perdez pas de temps.~ [OH81259] 
+    // END
+
+@81267 = ~L'Endormie... elle s'éveille ! Maîtresse, j'ai fais tout ce que vous m'aviez demandé... S'il vous plaît, laissez-moi vivre !~ [OH81267] 
+    // GO HEXXAT.DLG: 
+	@81268 = ~Pardonne moi, Clara... C'est le seul moyen.~ [OH81268]
+        // END
+
+@87489 = ~S'il vous plaît... ne me laissez pas. Il y a... un grand trésor. À la tombe de Dragomir.~ [OH87489] 
+    @87493 = ~Vous pouvez rester avec moi, mais vous devez oublier ces histoires de tombe.~ // GO 87490
+    @87494 = ~J'en suis convaincu mais je ne suis pas partant.~ ~J'en suis convaincue mais je ne suis pas partante.~ // GO 87490
+    @87495 = ~Je n'ai l'intérêt ni à visiter une tombe ni à être en votre compagnie. Du large.~ // END
+
+@87490 = ~Mais... vous devez. La tombe de Dragomir enferme un grand trésor.~ [OH87490] 
+    @87496 = ~Désolé. Ça serait sans moi.~ ~Désolée. Ça serait sans moi.~ // END
+    @87497 = ~Hé bien, vu comme ça... Je serai fou de rejeter votre proposition.~ ~Hé bien, vu comme ça... Je serai folle de rejeter votre proposition.~ // GO 87491
+    @87498 = ~Je suis celui qui commande, Hexxat. Pas toi.~ ~Je suis celle qui commande, Hexxat. Pas toi.~ // GO 87491
+
+@87491 = ~Nous allons... à la tombe... au tombeau de Dragomir, maintenant ?~ [OH87491] 
+    @87499 = ~Absolument.~ // GO 87492
+    @87500 = ~Si cela vous permettra de changer de refrain, alors oui, allons voir ce tombeau.~ // GO 87492
+    @87502 = ~Vous pouvez. Ça sera sans moi, et si vous avez l'intention de me harceler davantage à ce sujet, je ne veux plus rien avoir à faire avec vous.~ // GO 87492
+
+@87492 = ~Il y a un grand... grand trésor là-bas..~ [OH87492] 
+    // END
+
+@80945 = ~Excusez-moi. J'ai besoin... J'ai besoin d'aller à la tombe de Dragomir.~ [OH80945] 
+    @80946 = ~Très bien. Pouvez-vous m'y conduire ?~ // GO 80957
+    @80947 = ~Y'a-t-il quelque chose d'intéressant pour moi là-bas ?~ // GO 80949
+    @80948 = ~J'ai peur de ne pas avoir le temps pour ça en ce moment.~ // END
+
+@80949 = ~Il y a... un grand trésor... dans le tombeau de Dragomir. J'ai besoin d'y aller.~ [OH80949] 
+    @80950 = ~Oui, vous l'avez déjà mentionné. Que vais-je en retirer ? Vous avez à sauver quelqu'un ? Des détails, s'il vous plaît.~ // GO 80958
+    @80951 = ~Je vois. Bien, alors allons-y. Allons enquêter sur le tombeau de Dragomir.~ // GO 80957
+    @80952 = ~Je n'ai pas le temps pour cela.~ // END
+
+@80957 = ~Oui... au district du cimetière. La tombe est là-bas. Nous devons y aller maintenant.~ [OH80957] 
+    // END
+
+@80958 = ~Tous les trésors. Seront vôtres. Ils sont... sans valeur pour moi. Je cherche seulement à voir ce qu'il y a à l'intérieur.~ [OH80958] 
+    @80959 = ~Vendu ! Allons dans cette tombe de Dragomir.~ // GO 80957
+    @80960 = ~Pas intéressant. Au revoir.~ // END
+
+
+
+// Dragomir
+@81905 = ~Dragomir le Rouge~
+
+@81129 = ~Que vois-je ? Es-tu réel, <PRO_MANWOMAN>, ou mon esprit me joue-t-il des tours ?~ ~Que vois-je ? Es-tu réelle, <PRO_MANWOMAN>, ou mon esprit me joue-t-il des tours ?~
+    @81132 = ~Je suis <CHARNAME>. Je vous assure que je suis bien réel.~ ~Je suis <CHARNAME>. Je vous assure que je suis bien réelle.~ // GO 81148
+    // if CheckStatLT(Player1,14,CHR):
+        @81134 = ~Est-ce bien utile de demander ? Regardez-moi ! Ai-je l'air réel pour vous ?~ ~Est-ce bien utile de demander ? Regardez-moi ! Ai-je l'air réelle pour vous ?~ // GO 81168
+    // if CheckStatGT(Player1,13,CHR):
+        // @81134 = ~You have to ask? Look at me! Do I look real to you?~ // GO 81171
+    @81136 = ~Vous comprendrez rapidement à quel point je suis réel, monstre.~ ~Vous comprendrez rapidement à quel point je suis réelle, monstre.~ // GO 81139
+
+@81139 = ~Tu dis que Dragomir est un monstre ?~ 
+    @81143 = ~Sûrement pas. Vous avez probablement mal compris.~ // GO 81158
+    @81145 = ~Eh bien, ceci est votre tombe, ce qui signifie que vous êtes censé être mort mais non seulement vous êtes là à marcher mais aussi à beugler furieusement, donc oui, je crois que "monstre" est un terme adéquat.~ // GO 81168
+    @81146 = ~C'est ce que vous êtes.~ // GO 81168
+
+@81148 = ~Pourquoi es-tu venu dans mon tombeau, <CHARNAME> ?~ ~Pourquoi es-tu venue dans mon tombeau, <CHARNAME> ?~
+    // if !ohhfak in party:
+        @81150 = ~Je suis ici pour aider un ami.~ // GO 81220
+    // if ohhfak in party:
+        //@81150 = ~I'm here helping a friend.~ // GO 81215
+    @100255 = ~J'essaye de cumuler au minimum trois idées incroyablement mauvaises par jour. Celle-ci devrait pouvoir compter double.~ // GO 81168
+    @81162 = ~L'Endormie Doit s'Éveiller.~ // GO 81242
+    @100256 = ~On m'a dit qu'il y avait un grand trésor ici. Dîtes-moi où il est et tout se passera pour le mieux pour tout le monde.~ // GO 81247
+
+@81158 = ~Qui es-tu ? Pourquoi es-tu ici ?~ 
+    // if !ohhfak in party:
+        @81159 = ~Mon nom est <CHARNAME>. Je suis ici pour essayer d'aider un ami.~ // GO 81220
+    // if ohhfak in party:
+        //@81159 = ~My name is <CHARNAME>. I'm here to try and help a friend.~ // GO 81215
+    @81161 = ~Je suis <CHARNAME>. J'essaye de cumuler au minimum trois idées incroyablement mauvaises par jour. Celle-ci devrait pouvoir compter double.~ // GO 81168
+    @81166 = ~On m'appelle <CHARNAME>. On m'a dit qu'il y avait un grand trésor ici. Dîtes-moi où il est et tout se passera pour le mieux pour tout le monde.~ // GO 81247
+
+@81168 = ~Insolent <PRO_RACE> ! Rejoins moi dans la mort !~
+    // END
+
+@81171 = ~Tu sembles assez réel...~ ~Tu sembles assez réelle...~
+    // if CheckStatLT(Player1,13,CHR):
+        @81173 = ~N'est-ce pas ? Et pourtant...~ // GO 81186
+    // if CheckStatGT(Player1,12,CHR):
+        //@81173 = ~I would though, wouldn't I?~ // GO 81179
+    // if CheckStatLT(Player1,15,CHR):
+        @81174 = ~C'est exactement ce qu'il semble. Un esprit faible qui joue des tours à son propriétaire en lui présentant des hallucinations de piètre facture.~
+    // if CheckStatGT(Player1,14,CHR):
+        //@81174 = ~Exactly my point. It's a poor mind indeed that plays tricks on its owner by presenting hallucinations that don't appear to be real.~ // GO 81179
+    @81176 = ~Les apparences peuvent être trompeuses. Surtout lorsqu'elles le sont.~ // GO 81179
+    @81178 = ~Assez réel pour en finir avec vous.~ ~Assez réelle pour en finir avec vous.~ // GO 81168
+
+@81179 = ~Vrai... Ainsi tu prétends être une création de mon esprit ?~ 
+    @81181 = ~Qu'en pensez-vous ?~ // GO 81192
+    // if CheckStatLT(Player1,16,CHR):
+        @81183 = ~Je ne le dis pas. Mais cela fait sens, n'est-ce pas ?~ // GO 81213
+    // if CheckStatGT(Player1,15,CHR):
+        //@81183 = ~I'm not saying that. But it makes sense, doesn't it?~ // GO 81190
+    @81185 = ~Personne ne me crée. Je suis mon propre <PRO_MASTERMISTRESS>.~ ~Personne ne me crée. Je suis ma propre <PRO_MASTERMISTRESS>.~ // GO 81188
+
+@81186 = ~Ne te joue pas de moi !~ 
+    // GO 81168
+
+@81188 = ~Dans la vie, peut-être. Mais dans la mort, tu serviras Dragomir !~ 
+    // END
+
+@81190 = ~Hum...~ 
+    // GO 81192
+
+@81192 = ~Au cours des nombreuses années que j'ai passé dans ce maudit caveau, j'ai vu toutes sortes de choses, la plupart ont été l'invention de mon propre esprit.~
+    @81193 = ~Depuis combien de temps êtes-vous retenu ici ?~ // GO 81202
+    // if !ohhfak in party:
+        @81195 = ~On dirait que votre esprit vient de recommencer.~ // GO 81199
+    // if ohhfak in party:
+        //@81195 = ~Looks like your mind is at it again.~ // GO 81213
+    // if !ohhfak in party:
+        @81197 = ~Et c'est un esprit très inventif.~ // GO 81199
+    // if ohhfak in party:
+        //@81197 = ~And a most inventive mind it is.~ // GO 81213
+
+@81199 = ~Je ne perdrai pas davantage de temps avec toi, fantôme.~ 
+    // END
+
+@81202 = ~Depuis bien avant ta naissance, misérable <PRO_RACE>.~ 
+    @81204 = ~Ça n'a pas dû être facile pour vous.~ // GO 81210
+    @81205 = ~Vous voyez ? Jusqu'ici nous avions une discussion courtoise et d'un claquement de doigt, vous vous montrez impoli. Pourquoi donc ?~ // GO 81207
+    @81206 = ~Peut-être que je pourrais vous libérer... si votre offre est alléchante.~ // GO 81208
+
+@81207 = ~Mon corps est piégé dans ce maudit tombeau mais ma rage, elle, ne peut être contenue ! Subis ma fureur, <PRO_RACE> !~ 
+    // END
+
+@81208 = ~La seule chose que je t'offrirai c'est la mort !~ 
+    // END
+
+@81210 = ~Non, en effet. Je... Attends... Qu'est-ce donc que cette supercherie ? Tu penses me manipuler en feignant de la sympathie à mon égard ? Tes cris résonneront dans cet endroit pour les années à venir !~ 
+    // END
+
+@81213 = ~Je te croirai presque, <PRO_RACE>. Mais je sens Hexxat près de toi, et je ne peux me tromper. Rejoins moi dans la mort !~ 
+    // END
+
+@81215 = ~Hexxat ! Combien de fous vas-tu encore sacrifier avant de réaliser que tu ne t'échapperas jamais de cet endroit ?~ 
+    // GO OHHFAK.DLG: @81218 = ~Never is a long time, Dragomir.~ [OH81218]
+        // END
+
+@81220 = ~Qui est votre ami ?~ 
+    @81222 = ~Son nom est Hexxat.~ // GO 81230
+    @81224 = ~Il s'appelle Horatio Randomkettle. Le connaissez-vous ?~ // GO 81232
+    @81227 = ~Connaissez-vous Bhaal ?~ // GO 81248
+
+@81230 = ~Rassures-toi en apprenant que tu n'es pas le premier qu'elle conduit à une mort certaine !~ ~Rassures-toi en apprenant que tu n'es pas la première qu'elle conduit à une mort certaine !~
+    // END
+
+@81232 = ~Absolument pas.~ 
+    @81233 = ~Il m'envoie trouver le Gantelet de la Droiture Éternelle. Savez-vous où je peux le trouver ?~ // GO 81241
+    @81234 = ~Ce satané Randomkettle ! Très bien, je dois avouer qu'il a un sens de l'humour plutôt douteux et je suis pratiquement certain que m'envoyer ici est l'une de ses blagues. Alors si vous voulez bien m'excuser, je vais partir, mais pas d'inquiétude, je vous promet que je vais papoter avec cet homme.~ ~Ce satané Randomkettle ! Très bien, je dois avouer qu'il a un sens de l'humour plutôt douteux et je suis pratiquement certaine que m'envoyer ici est l'une de ses blagues. Alors si vous voulez bien m'excuser, je vais partir, mais pas d'inquiétude, je vous promet que je vais papoter avec cet homme.~
+    @81237 = ~C'est normal. Je viens de l'inventer uniquement dans le but de vous distraire.~ // GO 81168
+
+@81238 = ~Personne ne quitte cet endroit en vie. Meure !~ 
+    // END
+
+@81241 = ~Il n'y a aucun objet ici, <PRO_RACE>. Tu as été trompé, envoyé à la mort par ton ami Randomkettle. Meure !~ ~Il n'y a aucun objet ici, <PRO_RACE>. Tu as été trompée, envoyée à la mort par ton ami Randomkettle. Meure !~
+    // END
+
+@81242 = ~Tu es venu pour Hexxat. Maudite soit cette femme ! Comment fait-elle pour vous attirer ici continuellement ?~ ~Tu es venue pour Hexxat. Maudite soit cette femme ! Comment fait-elle pour vous attirer ici continuellement ?~
+    @81243 = ~Nous attirer ici ?~ // GO 81246
+    // if !InParty("OHHFAK"):
+        @81244 = ~Venu pour Hexxat ? Je l'ai déjà. Je veux dire... elle était avec moi. Nous étions ensemble... oh, tant pis.~ ~Venue pour Hexxat ? Je l'ai déjà. Je veux dire... elle était avec moi. Nous étions ensemble... oh, tant pis.~ // GO 81246
+    // if InParty("OHHFAK"):
+        @102558 = ~Venu pour Hexxat ? Elle est déjà avec moi.~ ~Venue pour Hexxat ? Elle est déjà avec moi.~ // GO 81246
+    @81245 = ~Vous dites qu'Hexxat est l'Endormie ?~ // GO 81246
+
+@81246 = ~Cela n'a pas d'importance... Comme pour tous les autres, la seule chose ici pour toi ici c'est ta fin !~ 
+    // END
+
+@81247 = ~La seule chose pour vous ici c'est la mort.~ 
+    // END
+
+@81248 = ~Je connais le Seigneur du Meurtre. Ou plutôt... Je l'ai connu. Du peu que j'ai appris du monde extérieur, je sais que les dieux ont de nouveau changé.~ 
+    // if !ohhfak in party & CheckStatLT(Player1,17,CHR):
+        @81249 = ~Je suis son <PRO_SONDAUGHTER>.~ ~Je suis sa <PRO_SONDAUGHTER>.~ // GO 81254
+    // if !ohhfak in party & CheckStatGT(Player1,16,CHR):
+        //@81249 = ~I am his <PRO_SONDAUGHTER>.~ // GO 81246
+    // if ohhfak in party:
+        //@81249 = ~I am his <PRO_SONDAUGHTER>.~ // GO 81213
+
+@81252 = ~Fais donc ce que tu as à faire, enfant de Bhaal. Je n'ai que peu de patience pour les visiteurs.~ 
+    // END
+
+@81253 = ~ASSEZ ! Je ne supporterai pas ta présence plus longtemps !~ 
+    // END
+
+@81254 = ~Personne ne souille le tombeau de Dragomir. Enfant de Bhaal ou non, je vais te découper !~ 
+    // END
+
+//@81253 = ~ENOUGH! I'll suffer your presence no longer!~ 
+    // END
+
